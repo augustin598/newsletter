@@ -1,0 +1,469 @@
+<mjml>
+    <mj-head>
+        <mj-style inline="inline">
+            .link-nostyle { color: inherit; text-decoration: none } .circle {border-radius: 50%; width: 200px; height: 200px;} 
+            p{font-weight:normal;color:#000000;letter-spacing:0pt;word-spacing:2pt;font-size:12px;text-align:center;font-family:lucida sans unicode,lucida
+            grande, sans-serif;line-height:1;margin:5px;padding:5px;}
+            .p-head{font-weight:normal; color:#000; letter-spacing:0pt;word-spacing:2pt;font-size:12px;text-align:justify;font-family:lucida sans unicode,lucida grande, sans-serif;line-height:16px;margin:5px;padding:5px;}
+            .p-footer{font-weight:normal; color:#fff; letter-spacing:0pt;word-spacing:2pt;font-size:12px;text-align:center;font-family:lucida sans unicode,lucida grande, sans-serif;line-height:16px;margin:5px;padding:5px;}
+            h3{font-weight:normal;color:#000000;letter-spacing:1pt;word-spacing:2pt;font-size:17px;text-align:center;font-family:arial black, sans-serif;line-height:1; padding:10px 15px; margin:5px}
+            h1{font-family: Ubuntu, Helvetica, Arial, sans-serif; line-height:1; font-size:21px;text-align:center; padding:10px 10px; margin:0px;}
+            .h1-left{font-family: Ubuntu, Helvetica, Arial, sans-serif; line-height:1; font-size:21px; text-align:left; padding:10px 10px; margin:0px;}
+          
+          /* === PRODUCT DESCRIPTION === */
+          .product{ font-weight: normal; color: #000000; letter-spacing: 0pt; word-spacing: 2pt; font-size: 12px; text-align: center; font-family: lucida sans unicode,lucida grande, sans-serif; line-height:
+             1; margin: 5px; padding: 5px; height: 67px; overflow: hidden;text-overflow: ellipsis;}
+          /* === PRODUCT DESCRIPTION === */
+         
+          /* === PRODUCT HEADING === */
+          h3{font-family: Ubuntu, Helvetica, Arial, sans-serif; line-height: 1; font-size: 16px; text-align: center; padding: 10px 0px; margin: 0px; color: #000; font-weight:500; height: 40px; overflow: hidden;} 
+          /* === PRODUCT HEADING === */
+          
+          /* === BACKGROUND BODY START === */
+           body  {   
+          background-image: url("https://www.glemis.ro/image/catalog/newsletter-2018/newsletter-1/f630ed82629b24f882a7b7d9a2456cfd--shaving-brush-haircut-styles.jpg");
+}
+          /* === BACKGROUND BODY End === */
+        </mj-style>
+    </mj-head>
+    <mj-body>
+        <mj-container background-color="#d6dde5">
+            <mj-section background-color="#fff" padding-bottom="0" padding-top="0">
+                <mj-column>
+                    <mj-text align="center" color="#2f323b" font-size="13" padding-left="25" padding-right="25" padding-bottom="5" padding-top="10">
+                        5 metode eficiente pentru ingrijirea tenului
+                    </mj-text>
+                    <mj-text align="center" color="#2f323b" font-size="13" padding-left="25" padding-right="25" padding-bottom="10" padding-top="5">
+                        Daca intampinati probleme in vizualizarea acestui mail, <a href="http://www.glemis.ro/index.php?route=ne/show&amp;uid={uid}&amp;utm_content=web_version" style="text-decoration: none; color: #000000;"><strong>vedeti varianta web dand click aici</strong></a>.
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <mj-navbar background-color="#ffffff">
+                <mj-column width="100%">
+                    <mj-image href="https://www.glemis.ro/" src="https://www.glemis.ro/image/catalog/newsletter-2018/logo-negru-floare.png" alt="Glemis" width="200" align="center" padding="10">
+                    </mj-image>
+                  <
+                </mj-column>
+                <mj-column width="100%">
+                    <mj-inline-links  base-url="https://www.glemis.ro" hamburger="hamburger" ico-color="#fa8739">
+                        <mj-link href="https://www.glemis.ro/creme-profesionale-antirid?utm_content=header_menu" color="#000000">Creme profesionale antirid
+</mj-link>
+                        <mj-link href="https://www.glemis.ro/articole?utm_content=header_menu" color="##ff1100">
+Kit-uri pentru ten</mj-link>
+                        <mj-link href="https://www.glemis.ro/index.php?route=product/special" color="#000000">Reduceri</mj-link>
+                    </mj-inline-links>
+                </mj-column>
+            </mj-navbar>
+
+            <mj-section padding-top="0" padding-bottom="0">
+                <mj-column>
+                    <mj-image href="http://glemis.ro?utm_content=banner" src="https://www.glemis.ro/image/catalog/newsletter-2018/newsletter-3/YouTube.jpg" alt="Glemis" align="center" border="none" width="600" padding-left="0" padding-right="0" padding-bottom="0" padding-top="0"></mj-image>
+                </mj-column>
+            </mj-section>
+
+            <!-- Produse Headear Start -->
+            <mj-section background-color="#fff" padding-top="5" padding-bottom="5">
+                <mj-column>
+                  <mj-divider border-color="#F45E43" width="100%" padding-top="0" padding-bottom="0"></mj-divider>
+                    <mj-text font-weight="bold" align="center" color="#000" font-size="15" padding-left="10" padding-right="10" padding-bottom="0" padding-top="0">
+                        <h1>Creme profesionale antirid</h1>
+                   </mj-text> 
+                  <mj-divider border-color="#F45E43" width="100%" padding-top="0" padding-bottom="0"></mj-divider>
+                </mj-column>
+            </mj-section>
+            <!-- Produse Headear End -->
+
+            <!-- Containter Produse Start 1 -->
+            <mj-section background-color="#fff" padding-top="10" padding-bottom="10" padding-left="5" padding-right="5">
+                <!-- Produs 1 start -->
+                <mj-column>
+                    <mj-image href="https://www.glemis.ro/crema-de-ochi-cu-caviar-caviar-3-eye-cream-elements-04-juliette-armand-30-ml?utm_content=product_defined" src="https://img.glemis.com/cache/catalog/product/juliette-armand/caviar-therapy/caviar-3-eye-cream-elements-04-juliette-armand-30-ml-228x228.jpg" title="Crema de ochi cu caviar - Caviar 3 Eye Cream - Elements 04 - Juliette Armand - 30 ml" align="center" padding-left="5" padding-right="5" padding-bottom="0" padding-top="0" width="200">
+                    </mj-image>
+
+                    <mj-text font-weight="bold" color="#000" font-size="15" padding-left="10" padding-right="10" padding-bottom="0" padding-top="0">
+                        <h3>Crema de ochi cu caviar - Caviar 3 Eye Cream</h3>
+                        <p class="product">Cremă puternică anti-age cu acțiune delicată. Compoziția sa avansată: caviar, acizi grasi Ω3 și Ω6 și Matrixyl 3000 reduce vizibil ridurile și oferă elasticitate zonei din jurul ochilor.</p>
+                        <p style="color: rgb(250, 135, 57);">181,60 lei</p>
+                    </mj-text>
+
+                    <mj-button background-color="#fa8739" color="#fff" font-size="13" align="center" padding="15px 30px" border-radius="3px" href="https://www.glemis.ro/crema-de-ochi-cu-caviar-caviar-3-eye-cream-elements-04-juliette-armand-30-ml?utm_content=product_buy" padding-bottom="10" padding-top="0">
+                        CUMPĂRĂ
+                    </mj-button>
+
+                </mj-column>
+                <!-- Produs 1 End -->
+
+                <!-- Produs 2 start -->
+                <mj-column>
+                    <mj-image href="https://www.glemis.ro/crema-antirid-hidratanta-cu-acid-glicolic-multi-effect-cream-bruno-vassari-50-ml?utm_content=product_defined" src="https://img.glemis.com/cache/catalog/product/bruno-vassari/aha/multi-effect-cream-bruno-vassari-50-ml-228x228.jpg" title="Crema antirid hidratanta cu acid glicolic - Multi-Effect Cream - Bruno Vassari - 50 ml" align="center" padding-left="5" padding-right="5" padding-bottom="0" padding-top="0" width="200">
+
+                    </mj-image>
+
+                    <mj-text font-weight="bold" align="center" color="#000" font-size="15" padding-left="10" padding-right="10" padding-bottom="0" padding-top="0">
+                        <h3>Crema antirid hidratanta cu acid glicolic - Multi-Effect Cream - Bruno Vassari - 50 ml</h3>
+                        <p class="product">Crema antirid care combina actiunea acizilor alfa hidroxilici cu cea a vitaminei E si cu cea a substantelor protectoare impotriva razelor solare. Indeparteaza celulele moarte, stimuleaza aparitia celulelor tinere, hidrateaza, da fermitate pielii. Extractul pretios de nuca de cola si vitamina E actioneaza impotriva oxidarii celulelor si imbunatateste refacerea tesuturilor. Contine filtru UV.</p>
+                        <p style="color: rgb(250, 135, 57);">148,50 lei</p>
+                    </mj-text>
+
+                    <mj-button background-color="#fa8739" color="#fff" font-size="13" align="center" padding="15px 30px" border-radius="3px" href="https://www.glemis.ro/crema-antirid-hidratanta-cu-acid-glicolic-multi-effect-cream-bruno-vassari-50-ml?utm_content=product_buy" padding-bottom="10" padding-top="0">
+                        CUMPĂRĂ
+                    </mj-button>
+
+                </mj-column>
+                <!-- Produs 2 End -->
+
+                <!-- Produs 3 start -->
+                <mj-column>
+                    <mj-image href="https://www.glemis.ro/crema-antirid-hidratanta-cu-acid-glicolic-aha-glycolic-cream-10-bruno-vassari?utm_content=product_defined" src="https://img.glemis.com/cache/catalog/product/bruno-vassari/aha/aha-glycolic-cream-10-bruno-vassari-228x228.jpeg" title="Crema Antirid Hidratanta Cu Acid Glicolic - Aha Glycolic Cream 10% Bruno Vassari" align="center" padding-left="5" padding-right="5" padding-bottom="0" padding-top="0" width="200">
+                    </mj-image>
+
+                    <mj-text font-weight="bold" align="center" color="#000" font-size="15" padding-left="10" padding-right="10" padding-bottom="0" padding-top="0">
+                        <h3>Crema Antirid Hidratanta Cu Acid Glicolic - Aha Glycolic Cream 10% Bruno Vassari</h3>
+                        <p class="product">Crema anti-rid Aha Glycolic Cream 10% Bruno Vassari combina actiunea acizilor alfa hidroxilici cu cea a vitaminei E si cu cea a substantelor protectoare impotriva razelor solare. Emolienta si bine texturata, aceasta indeparteaza celulele moarte, stimuleaza aparitia celulelor tinere, hidrateaza, da fermitate pielii. Extractul de nuca de cola si vitamina E actioneaza impotriva oxidarii celulelor, imbunatateste refacerea tesuturilor si pastreaza pielea in cele mai bune conditii.</p>
+                        <p style="color: rgb(250, 135, 57);">148,50 lei</p>
+                    </mj-text>
+
+                    <mj-button background-color="#fa8739" color="#fff" font-size="13" align="center" padding="15px 30px" border-radius="3px" href="https://www.glemis.ro/crema-antirid-hidratanta-cu-acid-glicolic-aha-glycolic-cream-10-bruno-vassari?utm_content=product_buy" padding-bottom="10" padding-top="0">
+                        CUMPĂRĂ
+                    </mj-button>
+
+                </mj-column>
+                <!-- Produs 3 End -->
+
+            </mj-section>
+            <!-- Containter Produse End 1 -->
+
+            <!-- Produse Headear Start -->
+            <mj-section background-color="#fff" padding-top="5" padding-bottom="5">
+                <mj-column>
+                    <mj-text font-weight="bold" align="center" color="#000" font-size="15" padding-left="10" padding-right="10" padding-bottom="0" padding-top="0">
+                        <h1>Fluide pentru ingrijirea tenului</h1>
+                    </mj-text>  
+                </mj-column>
+            </mj-section>
+            <!-- Produse Headear End -->
+
+            <!-- Containter Produse Start 2 -->
+            <mj-section background-color="#fff" padding-top="10" padding-bottom="10" padding-left="5" padding-right="5">
+                <!-- Produs 1 start -->
+                <mj-column>
+                    <mj-image href="https://www.glemis.ro/crema-de-zi-nutritiva-pentru-ten-sensibil-calming-day-lotion-bruno-vassari?utm_content=product_defined" src="https://img.glemis.com/cache/catalog/product/bruno-vassari/skin-comfort/calming-day-lotion-bruno-vassari-228x228.jpg" title="Crema de Zi Nutritiva Pentru Ten Sensibil Calming Day Lotion Bruno Vassari" align="center" padding-left="5" padding-right="5" padding-bottom="0" padding-top="0" width="200">
+
+                    </mj-image>
+
+                    <mj-text font-weight="bold" align="center" color="#000" font-size="15" padding-left="10" padding-right="10" padding-bottom="0" padding-top="0">
+                        <h3>Crema de Zi Nutritiva Pentru Ten Sensibil Calming Day Lotion Bruno Vassari</h3>
+                        <p class="product">Calming Day Lotion este  o crema nutritiva de zi  potrivita tenului sensibil .Crema are  o perfecta compozitie ajutand la  protejarea pielii sensibile si pentru prevenirea imbatranirii. Pielea devine mai rezistenta si mai putin sensibila datorita extractelor de alge marine, extractului de ceai verde, vitamina E si a acidului hyaluronic. Relaxeaza si hidrateaza pielea.</p>
+                        <p style="color: rgb(250, 135, 57);">137,70 lei</p>
+                    </mj-text>
+
+                    <mj-button background-color="#fa8739" color="#fff" font-size="13" align="center" padding="15px 30px" border-radius="3px" href="https://www.glemis.ro/crema-de-zi-nutritiva-pentru-ten-sensibil-calming-day-lotion-bruno-vassari?utm_content=product_buy" padding-bottom="10" padding-top="0">
+                        CUMPĂRĂ
+                    </mj-button>
+
+                </mj-column>
+                <!-- Produs 1 End -->
+
+                <!-- Produs 2 start -->
+                <mj-column>
+                    <mj-image href="https://www.glemis.ro/emulsie-hidratanta-anti-luciu-balance-fluid-bruno-vassari?utm_content=product_defined" src="https://img.glemis.com/cache/catalog/product/bruno-vassari/pure-solution/emulsie-hidratanta-anti-luciu-ballance-fluid-bruno-vassari-598-228x228.jpg" title="
+Emulsie Hidratanta Anti Luciu Balance Fluid Bruno Vassari" align="center" padding-left="5" padding-right="5" padding-bottom="0" padding-top="0" width="200">
+
+                    </mj-image>
+
+                    <mj-text font-weight="bold" align="center" color="#000" font-size="15" padding-left="10" padding-right="10" padding-bottom="0" padding-top="0">
+                        <h3>
+Emulsie Hidratanta Anti Luciu Balance Fluid Bruno Vassari</h3>
+                        <p class="product">Emulsie hidratanta ne-uleioasa ce elimina luciul produs de uleiul in exces, pastrand pielea moale si mata adresata atat tenului gras cat si tenului acneic. Contine acelasi complex de extract de iris, sare de zinc, vitamina A si acid salicilic ce pastreaza pielea lipsita de luciu si fara noi eruptii.</p>
+                        <p style="color: rgb(250, 135, 57);">137,70 lei</p>
+                    </mj-text>
+
+                    <mj-button background-color="#fa8739" color="#fff" font-size="13" align="center" padding="15px 30px" border-radius="3px" href="https://www.glemis.ro/emulsie-hidratanta-anti-luciu-balance-fluid-bruno-vassari?utm_content=product_buy" padding-bottom="10" padding-top="0">
+                        CUMPĂRĂ
+                    </mj-button>
+
+                </mj-column>
+                <!-- Produs 2 End -->
+
+                <!-- Produs 3 start -->
+                <mj-column>
+                    <mj-image href="https://www.glemis.ro/fluid-protector-esential-de-zi-essential-daily-defense-fluid-spf-15-exuviance-50ml?utm_content=product_defined" src="https://img.glemis.com/cache/catalog/product/exuviance/fluid-protector-esential-de-zi-essential-daily-defense-fluid-spf-15-exuviance-50ml-228x228.jpg" title="Fluid Protector Esential De Zi Essential Daily Defense Fluid SPF 15 Exuviance 50ml	" align="center" padding-left="5" padding-right="5" padding-bottom="0" padding-top="0" width="200">
+                    </mj-image>
+
+                    <mj-text font-weight="bold" align="center" color="#000" font-size="15" padding-left="10" padding-right="10" padding-bottom="0" padding-top="0">
+                        <h3>Fluid Protector Esential De Zi Essential Daily Defense Fluid SPF 15 Exuviance 50ml</h3>
+                        <p class="product">Cremă de zi cu o textură foarte fină, hidratantă şi cu efect antiîmbătrânire, a cărei formulă luminează tonul pielii, reduce vizibil apariţia ridurilor şi a liniilor fine, îmbunătăţeşte aspectul pielii. Conţine o combinaţie unică de acizi alfa şi acizi polihidroxilici (AHA şi PHA), pro-vitamina E, antioxidanţi şi plante vegetale, împreună cu un spectru larg de protecţie solară (SPF 15) împotriva distrugerilor mediului înconjurător.</p>
+                        <p style="color: rgb(250, 135, 57);">160,00 lei</p>
+                    </mj-text>
+
+                    <mj-button background-color="#fa8739" color="#fff" font-size="13" align="center" padding="15px 30px" border-radius="3px" href="https://www.glemis.ro/fluid-protector-esential-de-zi-essential-daily-defense-fluid-spf-15-exuviance-50ml?utm_content=product_buy" padding-bottom="10" padding-top="0">
+                        CUMPĂRĂ
+                    </mj-button>
+
+                </mj-column>
+                <!-- Produs 3 End -->
+
+            </mj-section>
+            <!-- Containter Produse End 2 -->
+              
+               <!-- Produse Headear Start -->
+            <mj-section background-color="#fff" padding-top="5" padding-bottom="5">
+                <mj-column>
+                    <mj-text font-weight="bold" align="center" color="#000" font-size="15" padding-left="10" padding-right="10" padding-bottom="0" padding-top="0">
+                        <h1>Kit-uri pentru ten</h1>
+                    </mj-text>  
+                </mj-column>
+            </mj-section>
+            <!-- Produse Headear End -->
+
+            <!-- Containter Produse Start 2 -->
+            <mj-section background-color="#fff" padding-top="10" padding-bottom="10" padding-left="5" padding-right="5">
+                <!-- Produs 1 start -->
+                <mj-column>
+                    <mj-image href="https://www.glemis.ro/kit-anti-acnee-pure-solution-bruno-vassari?utm_content=product_defined" src="https://img.glemis.com/cache/catalog/product/bruno-vassari/pure-solution/kit-anti-acne-pure-solution-bruno-vassari-228x228.png" title="Kit anti acnee - Pure Solution - Bruno Vassari - 3 produse cu 7% discount" align="center" padding-left="5" padding-right="5" padding-bottom="0" padding-top="0" width="200">
+
+                    </mj-image>
+
+                    <mj-text font-weight="bold" align="center" color="#000" font-size="15" padding-left="10" padding-right="10" padding-bottom="0" padding-top="0">
+                        <h3>Kit anti acnee - Pure Solution - Bruno Vassari</h3>
+                        <p class="product">Crema Tratament Anti Acnee Corrective Cream Bruno Vassari - 50 ml Gel Demachiant Pentru Ten Gras Sau Acneic Cleansing Gel Bruno Vassari - 150 ml Tonic Ten Acneic Ce Previne Punctele Negre Si Cosurile Akno Control Lotion Bruno Vassari - 250 ml</p>
+                        <p style="color: rgb(250, 135, 57);">269,14 lei</p>
+                    </mj-text>
+
+                    <mj-button background-color="#fa8739" color="#fff" font-size="13" align="center" padding="15px 30px" border-radius="3px" href="https://www.glemis.ro/kit-anti-acnee-pure-solution-bruno-vassari?utm_content=product_buy" padding-bottom="10" padding-top="0">
+                        CUMPĂRĂ
+                    </mj-button>
+
+                </mj-column>
+                <!-- Produs 1 End -->
+
+                <!-- Produs 2 start -->
+                <mj-column>
+                    <mj-image href="https://www.glemis.ro/set-intensiv-anti-rid-kianty-bruno-vassari?utm_content=product_defined" src="https://img.glemis.com/cache/catalog/product/bruno-vassari/kianty/intensive-anti-wrinkle-pack-kianty-bruno-vassari-228x228.png" title="Set intensiv anti rid - Kianty - Bruno Vassari - 4 produse cu 20% discount" align="center" padding-left="5" padding-right="5" padding-bottom="0" padding-top="0" width="200">
+
+                    </mj-image>
+
+                    <mj-text font-weight="bold" align="center" color="#000" font-size="15" padding-left="10" padding-right="10" padding-bottom="0" padding-top="0">
+                        <h3>Set intensiv anti rid - Kianty - Bruno Vassari</h3>
+                        <p class="product">Ser activ anti-ageing un veritabil tratament general pentru conturul ochilor ce contine cele mai eficiente ingrediente si ultimele descoperiri stiintifice pentru a preveni si ajuta conditia pielii din..</p>
+                        <p style="color: rgb(250, 135, 57);">695,52 lei</p>
+                    </mj-text>
+
+                    <mj-button background-color="#fa8739" color="#fff" font-size="13" align="center" padding="15px 30px" border-radius="3px" href="https://www.glemis.ro/set-intensiv-anti-rid-kianty-bruno-vassari?utm_content=product_buy" padding-bottom="10" padding-top="0">
+                        CUMPĂRĂ
+                    </mj-button>
+
+                </mj-column>
+                <!-- Produs 2 End -->
+
+                <!-- Produs 3 start -->
+                <mj-column>
+                    <mj-image href="https://www.glemis.ro/pate-duva-serum-vite-rugiada-di-vigna-cadou-kianty-experience-bruno-vassari?utm_content=product_defined" src="https://img.glemis.com/cache/catalog/product/bruno-vassari/kianty-experience/pate-duva-serum-vite-rugiada-di-vigna-gift-kianty-experience-bruno-vassari-228x228.png" title="" align="center" padding-left="5" padding-right="5" padding-bottom="0" padding-top="0" width="200">
+                    </mj-image>
+
+                    <mj-text font-weight="bold" align="center" color="#000" font-size="15" padding-left="10" padding-right="10" padding-bottom="0" padding-top="0">
+                        <h3>
+Pate Duva + Serum Vite + Rugiada di Vigna CADOU - Kianty Experience - Bruno Vassari - 3 produse cu 20.12% discount</h3>
+                        <p class="product">Ser intensiv cu Polifenotoxyl ce contine un concentrat de ingredienti activi impotriva imbatrinirii, ce actioneaza sinergic pentru a reduce si elimina ridurile. Efectele sint vizibile si de lunga dur..</p>
+                        <p style="color: rgb(250, 135, 57);">442,39 lei</p>
+                    </mj-text>
+
+                    <mj-button background-color="#fa8739" color="#fff" font-size="13" align="center" padding="15px 30px" border-radius="3px" href="https://www.glemis.ro/pate-duva-serum-vite-rugiada-di-vigna-cadou-kianty-experience-bruno-vassari?utm_content=product_buy" padding-bottom="10" padding-top="0">
+                        CUMPĂRĂ
+                    </mj-button>
+
+                </mj-column>
+                <!-- Produs 3 End -->
+
+            </mj-section>
+            <!-- Containter Produse End 2 -->
+              
+               <!-- Produse Headear Start -->
+            <mj-section background-color="#fff" padding-top="5" padding-bottom="5">
+                <mj-column>
+                    <mj-text font-weight="bold" align="center" color="#000" font-size="15" padding-left="10" padding-right="10" padding-bottom="0" padding-top="0">
+                        <h1>Lotiuni pentru ingrijirea tenului</h1>
+                    </mj-text>  
+                </mj-column>
+            </mj-section>
+            <!-- Produse Headear End -->
+
+            <!-- Containter Produse Start 2 -->
+            <mj-section background-color="#fff" padding-top="10" padding-bottom="10" padding-left="5" padding-right="5">
+                <!-- Produs 1 start -->
+                <mj-column>
+                    <mj-image href="https://www.glemis.ro/lotiune-calmanta-si-reechilibranta-rebalancing-liquid-refine-cellular-doctor-babor-babor-200-ml?utm_content=product_defined" src="https://img.glemis.com/cache/catalog/product/babor/doctor-babor-refine-cellular/rebalancing-liquid-refine-cellular-doctor-babor-babor-200-ml-228x228.jpg" title="
+Lotiune calmanta si reechilibranta - Rebalancing Liquid - Refine Cellular - Doctor Babor - Babor - 200 ml" align="center" padding-left="5" padding-right="5" padding-bottom="0" padding-top="0" width="200">
+
+                    </mj-image>
+
+                    <mj-text font-weight="bold" align="center" color="#000" font-size="15" padding-left="10" padding-right="10" padding-bottom="0" padding-top="0">
+                        <h3>
+Lotiune calmanta si reechilibranta - Rebalancing Liquid - Refine Cellular - Doctor Babor - Babor - 200 ml</h3>
+                        <p class="product">După curățarea sau exfolierea pielii, turnați puțin lichid pe un tampon de bumbac și aplicați pe față, gât și decolteu. Lăsați câteva minute să acționeze, apoi aplicați crema hidratantă obișnuită.</p>
+                        <p style="color: rgb(250, 135, 57);">191,00 lei</p>
+                    </mj-text>
+
+                    <mj-button background-color="#fa8739" color="#fff" font-size="13" align="center" padding="15px 30px" border-radius="3px" href="https://www.glemis.ro/lotiune-calmanta-si-reechilibranta-rebalancing-liquid-refine-cellular-doctor-babor-babor-200-ml?utm_content=product_buy" padding-bottom="10" padding-top="0">
+                        CUMPĂRĂ
+                    </mj-button>
+
+                </mj-column>
+                <!-- Produs 1 End -->
+
+                <!-- Produs 2 start -->
+                <mj-column>
+                    <mj-image href="https://www.glemis.ro/tonic-ten-acneic-ce-previne-punctele-negre-si-cosurile-akno-control-lotion-bruno-vassari?utm_content=product_defined" src="https://img.glemis.com/cache/catalog/product/bruno-vassari/pure-solution/tonic-ten-acneic-ce-previne-punctele-negre-si-cosurile-akno-control-lotion-228x228.jpg" title="Tonic Ten Acneic Ce Previne Punctele Negre Si Cosurile Akno Control Lotion Bruno Vassari" align="center" padding-left="5" padding-right="5" padding-bottom="0" padding-top="0" width="200">
+
+                    </mj-image>
+
+                    <mj-text font-weight="bold" align="center" color="#000" font-size="15" padding-left="10" padding-right="10" padding-bottom="0" padding-top="0">
+                        <h3>Tonic Ten Acneic Ce Previne Punctele Negre Si Cosurile Akno Control Lotion Bruno Vassari</h3>
+                        <p class="product">Ajuta la prevenirea punctelor negre si petelor. Indeparteaza uleiul si reduce luciul, lasand pielea curata si proaspata.
+Compus cu continut de extract de hamamelis, regulator sebum, si acid salicilic care inchide porii. Face luciul sa dispara de pe piele, lasand pielea curata si proaspata.
+Formula este suficient de delicata pentru uz zilnic, dar in caz de uscare a pielii reduceti la o aplicare pe zi.</p>
+                        <p style="color: rgb(250, 135, 57);">100,60 lei</p>
+                    </mj-text>
+
+                    <mj-button background-color="#fa8739" color="#fff" font-size="13" align="center" padding="15px 30px" border-radius="3px" href="https://www.glemis.ro/tonic-ten-acneic-ce-previne-punctele-negre-si-cosurile-akno-control-lotion-bruno-vassari?utm_content=product_buy" padding-bottom="10" padding-top="0">
+                        CUMPĂRĂ
+                    </mj-button>
+
+                </mj-column>
+                <!-- Produs 2 End -->
+
+                <!-- Produs 3 start -->
+                <mj-column>
+                    <mj-image href="https://www.glemis.ro/lotiune-tonica-pentru-ten-sensibil-refreshing-toner-bruno-vassari?utm_content=product_defined" src="https://img.glemis.com/cache/catalog/product/bruno-vassari/skin-comfort/refreshing-toner-bruno-vassari-228x228.jpg" title="Lotiune Tonica Pentru Ten Sensibil Refreshing Toner Bruno Vassari" align="center" padding-left="5" padding-right="5" padding-bottom="0" padding-top="0" width="200">
+                    </mj-image>
+
+                    <mj-text font-weight="bold" align="center" color="#000" font-size="15" padding-left="10" padding-right="10" padding-bottom="0" padding-top="0">
+                        <h3>Lotiune Tonica Pentru Ten Sensibil Refreshing Toner Bruno Vassari</h3>
+                        <p class="product">Lotiune tonica cu extracte vegetale care calmeaza, hidrateaza si relaxeaza pielea sensibila. Nu contine alcool si arome.</p>
+                        <p style="color: rgb(250, 135, 57);">88,20 lei</p>
+                    </mj-text>
+
+                    <mj-button background-color="#fa8739" color="#fff" font-size="13" align="center" padding="15px 30px" border-radius="3px" href="https://www.glemis.ro/lotiune-tonica-pentru-ten-sensibil-refreshing-toner-bruno-vassari?utm_content=product_buy" padding-bottom="10" padding-top="0">
+                        CUMPĂRĂ
+                    </mj-button>
+
+                </mj-column>
+                <!-- Produs 3 End -->
+
+            </mj-section>
+            <!-- Containter Produse End 2 -->
+              
+               <!-- Produse Headear Start -->
+            <mj-section background-color="#fff" padding-top="5" padding-bottom="5">
+                <mj-column>
+                    <mj-text font-weight="bold" align="center" color="#000" font-size="15" padding-left="10" padding-right="10" padding-bottom="0" padding-top="0">
+                        <h1>Tratamente pentru ten</h1>
+                    </mj-text>  
+                </mj-column>
+            </mj-section>
+            <!-- Produse Headear End -->
+
+            <!-- Containter Produse Start 2 -->
+            <mj-section background-color="#fff" padding-top="10" padding-bottom="10" padding-left="5" padding-right="5">
+                <!-- Produs 1 start -->
+                <mj-column>
+                    <mj-image href="https://www.glemis.ro/mini-trusa-pentru-revitalizare-vitaminizare-si-stralucire-refine-travel-kit-refine-cellular-babor?utm_content=product_defined" src="https://img.glemis.com/cache/catalog/product/babor/gift-sets/refine-travel-kit-refine-cellular-babor-228x228.jpg" title="Mini trusa pentru revitalizare, vitaminizare si stralucire - Refine Travel Kit - Refine Cellular - Babor" align="center" padding-left="5" padding-right="5" padding-bottom="0" padding-top="0" width="200">
+
+                    </mj-image>
+
+                    <mj-text font-weight="bold" align="center" color="#000" font-size="15" padding-left="10" padding-right="10" padding-bottom="0" padding-top="0">
+                        <h3>Mini trusa pentru revitalizare, vitaminizare si stralucire - Refine Travel Kit - Refine Cellular - Babor</h3>
+                        <p class="product">Fiolă bifazică, cu o textură special dezvoltată, ce combină puterea concentrată a unui ser activ cu proprietățile hidratante ale uleiurilor vegetale. Se absoarbe rapid, oferă efect instant de strălucire și îmbunătățește textura pielii.</p>
+                        <p style="color: rgb(250, 135, 57);">257,00 lei</p>
+                    </mj-text>
+
+                    <mj-button background-color="#fa8739" color="#fff" font-size="13" align="center" padding="15px 30px" border-radius="3px" href="https://www.glemis.ro/mini-trusa-pentru-revitalizare-vitaminizare-si-stralucire-refine-travel-kit-refine-cellular-babor?utm_content=product_buy" padding-bottom="10" padding-top="0">
+                        CUMPĂRĂ
+                    </mj-button>
+
+                </mj-column>
+                <!-- Produs 1 End -->
+
+                <!-- Produs 2 start -->
+                <mj-column>
+                    <mj-image href="https://www.glemis.ro/tratament-pentru-ten-uscat-essences-vitales-peaux-seches-mary-cohr-30-ml?utm_content=product_defined" src="https://img.glemis.com/cache/catalog/product/mary-cohr/specific-nourishment/essences-vitales-peaux-seches-mary-cohr-30-ml-228x228.png" title="Tratament pentru ten uscat - Essences Vitales - Peaux Sèches - Mary Cohr - 30 ml" align="center" padding-left="5" padding-right="5" padding-bottom="0" padding-top="0" width="200">
+
+                    </mj-image>
+
+                    <mj-text font-weight="bold" align="center" color="#000" font-size="15" padding-left="10" padding-right="10" padding-bottom="0" padding-top="0">
+                        <h3>Tratament pentru ten uscat - Essences Vitales - Peaux Sèches - Mary Cohr - 30 ml</h3>
+                        <p class="product">Acest tratament profund cu uleiuri esentiale 100% naturale, reactiveaza "funcțiile vitale și nutritive" ale pielii si stimuleaza activitatea celulara. Se restabilește netezirea și confortul la nivelul pielii, datorită "Complexului de Nutritie" Mary Cohr. Zi după zi, pielea devine din ce în ce mai supla si se simte mult mai confortabila.</p>
+                        <p style="color: rgb(250, 135, 57);">235,50 lei</p>
+                    </mj-text>
+
+                    <mj-button background-color="#fa8739" color="#fff" font-size="13" align="center" padding="15px 30px" border-radius="3px" href="https://www.glemis.ro/tratament-pentru-ten-uscat-essences-vitales-peaux-seches-mary-cohr-30-ml?utm_content=product_buy" padding-bottom="10" padding-top="0">
+                        CUMPĂRĂ
+                    </mj-button>
+
+                </mj-column>
+                <!-- Produs 2 End -->
+
+                <!-- Produs 3 start -->
+                <mj-column>
+                    <mj-image href="https://www.glemis.ro/mini-trusa-pentru-fermitate-si-lifting-lifting-travel-kit-collagen-booster-lifting-cellular-babor?utm_content=product_defined" src="https://img.glemis.com/cache/catalog/product/babor/gift-sets/lifting-travel-kit-collagen-booster-lifting-cellular-babor-228x228.jpg" title="
+Mini trusa pentru fermitate si lifting - Lifting Travel Kit - Collagen Booster - Lifting Cellular - Babor" align="center" padding-left="5" padding-right="5" padding-bottom="0" padding-top="0" width="200">
+                    </mj-image>
+
+                    <mj-text font-weight="bold" align="center" color="#000" font-size="15" padding-left="10" padding-right="10" padding-bottom="0" padding-top="0">
+                        <h3>Mini trusa pentru fermitate si lifting - Lifting Travel Kit - Collagen Booster - Lifting Cellular - Babor</h3>
+                        <p class="product">A fost dezvoltată special pentru a îmbunătăți țesutul pielii și reduce vizibil adâncimea ridurilor și a liniilor de expresie.</p>
+                        <p style="color: rgb(250, 135, 57);">322,80 lei</p>
+                    </mj-text>
+
+                    <mj-button background-color="#fa8739" color="#fff" font-size="13" align="center" padding="15px 30px" border-radius="3px" href="https://www.glemis.ro/mini-trusa-pentru-fermitate-si-lifting-lifting-travel-kit-collagen-booster-lifting-cellular-babor?utm_content=product_buy" padding-bottom="10" padding-top="0">
+                        CUMPĂRĂ
+                    </mj-button>
+
+                </mj-column>
+                <!-- Produs 3 End -->
+
+            </mj-section>
+            <!-- Containter Produse End 2 -->
+
+            <mj-section background-color="#fa8739" padding-bottom="0" padding-top="0">
+                <mj-column>
+                    <mj-text align="center" color="#fff" font-size="13" padding-left="25" padding-right="25" padding-bottom="10" padding-top="10">
+                        <a style="font-size:20;" href="https://www.glemis.ro/alfaparf-milano?utm_content=call_action" class="link-nostyle">CUMPĂRĂ</a>
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+
+            <mj-section background-color="#000" padding-bottom="0" padding-top="0">
+                <mj-column>
+                    <mj-text font-weight="bold" align="center" color="#fff" font-size="15" padding-left="10" padding-right="10" padding-bottom="0" padding-top="0">
+                        <p class="p-footer">
+                            CosiBella srl, CIF: RO30133602, Reg. Com: J33/321/2012.<br><br>
+                            Primiti&nbsp;acest mail deoarece adresa de mail {email} este inregistrata in baza de date a magazinului 
+                            <a class="link-nostyle" href="https://www.glemis.ro">glemis.ro</a> pentru clientul {lastname} {name}.&nbsp;Daca nu mai doriti mailuri promotionale / informative
+                            de la glemis.ro va puteti dezabona <a href="http://www.glemis.ro/index.php?route=ne/unsubscribe&amp;t=mail&amp;uid={uid}&amp;key={key}" style="text-decoration: none; color: #fff; font-weight: bold;">dand click aici.</a>
+                        </p>
+                    </mj-text>
+                </mj-column>   
+            </mj-section>
+
+            <mj-section background-color="#000" padding-bottom="0" padding-top="0">
+                <mj-column width="15%">
+                </mj-column>
+                <mj-column width="70%">
+                    <mj-text font-weight="bold" align="center" color="#fff" font-size="15" padding-left="10" padding-right="10" padding-bottom="0" padding-top="0">
+                        <p class="p-footer">
+                            <a class="link-nostyle" href="http://www.glemis.ro/termeni-si-conditii" style="text-decoration: none;" target="_blank">Termeni si Conditii</a>&nbsp;|&nbsp; 
+                            <a class="link-nostyle" href="http://www.glemis.ro/politica-de-confidentialitate" style="text-decoration: none;" target="_blank">Politica de confidentialitate</a>
+                        </p>
+                    </mj-text>
+                    <mj-social font-size="13" text-mode="false" facebook-href="https://www.facebook.com/GlemisRomania" twitter-href="https://twitter.com/GlemisRomania" google-href="https://plus.google.com/+GlemisSuceava" mode="horizontal" display="facebook twitter google"
+                               padding-left="25" padding-right="25" padding-bottom="5" padding-top="5">
+                    </mj-social>
+                </mj-column>
+                <mj-column width="15%">
+                </mj-column>
+            </mj-section>
+
+        </mj-container>
+    </mj-body>
+</mjml>

@@ -1,0 +1,121 @@
+<mjml>
+   <mj-head>
+  <mj-style inline="inline">
+    .link-nostyle { color: inherit; text-decoration: none } 
+  </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#F4F4F4">
+      <mj-section background-color="#fff" padding-bottom="0" padding-top="0">
+        <mj-column>
+          <mj-text align="center" color="#2f323b" font-size="13" padding-left="25" padding-right="25" padding-bottom="5" padding-top="10">
+            Am o mulțime de vești bune pentru tine! Ţi-am pregătit reduceri de până la 60%, la parfumuri, produse de îngrijire, make-up, creme de față și multe altele.
+          </mj-text>
+          <mj-text align="center" color="#2f323b" font-size="13" padding-left="25" padding-right="25" padding-bottom="10" padding-top="5">
+            Daca intampinati probleme in vizualizarea acestui mail, <a href="http://www.glemis.ro/index.php?route=ne/show&amp;uid={uid}&amp;utm_content=web_version" style="text-decoration: none; color: #000000;"><strong>vedeti varianta web dand click aici</strong></a>.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      
+      <mj-section background-color="#ffffff" background-repeat="repeat" padding-bottom="0px" padding-top="0px" padding="20px 0" text-align="center" vertical-align="top">
+        <mj-column>
+          <mj-image align="center" padding="10px 25px" src="https://www.glemis.ro/image/catalog/newsletter-2018/14100456_296931240683859_481878194610175797_n-1.jpg" target="_blank" width="214px"></mj-image>
+
+        </mj-column>
+      </mj-section>
+      
+      <mj-section background-repeat="repeat" padding-bottom="0px" padding-top="0px" padding="20px 0" text-align="center" vertical-align="top">
+        <mj-column>
+          <mj-image href="https://www.glemis.ro/index.php?route=product/special&amp?utm_content=call_action" align="center" padding-bottom="0px" padding-left="0px" padding-right="0px" padding-top="0px" padding="10px 25px" src="https://www.glemis.ro/image/catalog/newsletter-2018/newsletter-14/hom-header.jpg" target="_blank" width="600px"></mj-image>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#ffffff" background-repeat="repeat" background-size="auto" padding-bottom="0px" padding-top="30px" padding="20px 0" text-align="center" vertical-align="top">
+        <mj-column>
+          <mj-text align="left" color="#55575d" font-family="Arial, sans-serif" font-size="30px" line-height="22px" padding-bottom="10px" padding-top="10px" padding="10px 25px">
+            <p style="line-height: 30px; margin: 10px 0; text-align: center; color:#151e23; font-size:30p; font-family:Georgia,Helvetica,Arial,sans-serif">- Reduceri de până la 50% -</p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#ffffff" background-repeat="repeat" padding-bottom="0px" padding="20px 0" text-align="center" vertical-align="top">
+        <mj-column>
+          <mj-image href="https://www.glemis.ro/apa-de-parfum-pentru-femei-leau-de-parfum-in-love-tresor-lancome-50-ml" align="center" padding-bottom="20px" padding-left="30px" padding-right="30px" padding-top="0px" padding="10px 25px" src="https://www.glemis.ro/image/catalog/newsletter-2018/newsletter-14/prod1-1.jpg" target="_blank" width="1200px"></mj-image>
+        </mj-column>
+        <mj-column>
+          <mj-text align="left" color="#55575d" font-family="Arial, sans-serif" font-size="13px" line-height="22px" padding-bottom="0px" padding-left="40px" padding-right="40px" padding-top="0px" padding="10px 25px">
+            <p style="margin: 10px 0; color:#151e23; font-size:16px; font-family:Georgia,Helvetica,Arial,sans-serif"><b> L'eau De Parfum In Love - Tresor - Lancome</b></p>
+            <p style="line-height: 16px; margin: 10px 0;font-size:14px; color:#151e23; font-family:Georgia,Helvetica,Arial,sans-serif; color:#354552; text-align: justify;">Lancome Tresor in Love este un parfum floral, luminos, destinat femeilor și lansat în anul 2010. Conceput special pentru femeia elegantă, care iubește și trăiește un stil de viață modern, aroma sa este una ispititoare, revigorantă și elegantă. Recipientul este de asemenea unul elegant, fiind decorat la baza gâtului cu un trandafir negru. Notele de vârf ale parfumului sunt cele de pară, nectarină, bergamotă și piper, iar inima sa este formată din trandafir, iasomie, violete și piersică. Baza este consolidată de mosc și cedru.</p>
+            <a href="https://www.glemis.ro/apa-de-parfum-pentru-femei-leau-de-parfum-in-love-tresor-lancome-50-ml" style="line-height: 16px; margin: 10px 0; color:#354552; font-size:15px; font-family:Georgia,Helvetica,Arial,sans-serif"><u>Vezi Produsul</u> &gt;</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#ffffff" background-repeat="repeat" direction="rtl" padding-bottom="0px" padding-top="0px" padding="20px 0" text-align="center" vertical-align="top">
+        <mj-column>
+          <mj-image href="https://www.glemis.ro/apa-de-parfum-pentru-femei-eau-de-parfum-lelixir-manifesto-yves-saint-laurent-30-ml" align="center" padding-bottom="20px" padding-left="30px" padding-right="30px" padding-top="20px" padding="10px 25px" src="https://www.glemis.ro/image/catalog/newsletter-2018/newsletter-14/prod2.jpg" target="_blank" width="1200px"></mj-image>
+        </mj-column>
+        <mj-column>
+          <mj-text align="left" color="#55575d" font-family="Arial, sans-serif" font-size="13px" line-height="22px" padding-bottom="0px" padding-left="40px" padding-right="40px" padding-top="0px" padding="10px 25px">
+            <p style="margin: 10px 0; color:#151e23; font-size:16px; font-family:Georgia,Helvetica,Arial,sans-serif"><b>Manifesto - Yves Saint Laurent</b></p>
+            <p style="line-height: 16px; margin: 10px 0;font-size:14px; color:#151e23; font-family:Georgia,Helvetica,Arial,sans-serif; color:#354552; text-align: justify;">L'elixir - Manifesto - Yves Saint Laurent este o reinterpretare a parfumului Manifesto, apărut în anul 2012. L'elixir - Manifesto a fost conceput în 2013 fiind descris ca un parfum floral-oriental, ce păstrează direcția parfumului clasic, însă acesta vine cu o versiune mai intensă și pasională, datorită notelor citrice de vârf, cum ar fi mandarinele și bergamota. Inima parfumului este concepută cu arome florale, seducătoare de iasomie, heliotrop și tuberoză, iar la bază se găsesc tonurile de lemn de cașmir, combinate cu vanilia și ambra, ce îi dau parfumului o mireasmă senzuală, orientală.</p>
+             <a href="https://www.glemis.ro/apa-de-parfum-pentru-femei-eau-de-parfum-lelixir-manifesto-yves-saint-laurent-30-ml" style="line-height: 16px; margin: 10px 0; color:#354552; font-size:15px; font-family:Georgia,Helvetica,Arial,sans-serif"><u>Vezi Produsul</u> &gt;</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#ffffff" background-repeat="repeat" padding-bottom="10px" padding-top="0px" padding="20px 0" text-align="center" vertical-align="top">
+        <mj-column>
+          <mj-image href="https://www.glemis.ro/apa-de-parfum-pentru-femei-eau-de-parfum-candy-kiss-prada-80-ml" align="center" padding-bottom="20px" padding-left="30px" padding-right="30px" padding-top="20px" padding="10px 25px" src="https://www.glemis.ro/image/catalog/newsletter-2018/newsletter-14/prod3.jpg" target="_blank" width="1200px"></mj-image>
+        </mj-column>
+        <mj-column>
+          <mj-text align="left" color="#55575d" font-family="Arial, sans-serif" font-size="13px" line-height="22px" padding-bottom="0px" padding-left="40px" padding-right="40px" padding-top="0px" padding="10px 25px">
+            <p style="margin: 10px 0; color:#151e23; font-size:16px; font-family:Georgia,Helvetica,Arial,sans-serif"><b>Cake Title</b></p>
+            <p style="line-height: 16px; margin: 10px 0;font-size:14px; color:#151e23; font-family:Georgia,Helvetica,Arial,sans-serif; color:#354552; text-align: justify;">Prada, una dintre cele mai influente case de moda din lume, lanseaza in 2011 o colectie de parfumuri cu arome jucaus-gurmande, din care face parte si parfumul Candy Kiss, creat de Daniela (Roche) Andrier.
+Parfumul Candy Kiss Prada rasfata pielea cu saruturi inmiresmate ce creeaza dependenta si obsesie, prin reactivarea emotiilor, a amintirilor si a trairilor ferecate de timp. Omniprezentul mosc deschide notele de varf, dand viata florilor de portocal, misterioaselor petale de vanilie si suavului bumbac alb. Tot sofisticatul mosc este cel care incheie notele de baza ca intr-un ritual hipnotic ce indeamna la dependenta.
+</p>
+            <a href="https://www.glemis.ro/apa-de-parfum-pentru-femei-eau-de-parfum-candy-kiss-prada-80-ml" style="line-height: 16px; margin: 10px 0; color:#354552; font-size:15px; font-family:Georgia,Helvetica,Arial,sans-serif"><u>Vezi Produsul</u> &gt;</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#fff18c" padding-bottom="0" padding-top="0">
+        <mj-column>
+          <mj-text align="center" color="#2b3541" font-size="18" padding-left="25" padding-right="25" padding-bottom="10" padding-top="10">
+            <a style="font-size:20;" href="https://www.glemis.ro/index.php?route=product/special&amp?utm_content=call_action" class="link-nostyle">Discount 50% </a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#ffffff" background-repeat="repeat" padding-bottom="0px" padding-top="0px" padding="20px 0" text-align="center" vertical-align="top">
+        <mj-column>
+          <mj-image href="https://www.glemis.ro/index.php?route=product/special&amp?utm_content=call_action" align="center" padding-bottom="0px" padding-left="0px" padding-right="0px" padding-top="0px" padding="10px 25px" src="https://www.glemis.ro/image/catalog/newsletter-2018/newsletter-14/banner-footer.jpg" target="_blank" width="600px"></mj-image>
+        </mj-column>
+      </mj-section>
+                  <mj-section background-color="#000" padding-bottom="0" padding-top="0">
+                <mj-column>
+                    <mj-text font-weight="normal" align="center" color="#fff" font-size="13" padding-left="10" padding-right="10" padding-bottom="0" padding-top="0">
+                        <p class="p-footer">
+                            CosiBella srl, CIF: RO30133602, Reg. Com: J33/321/2012.<br><br>
+                            Primiti&nbsp;acest mail deoarece adresa de mail {email} este inregistrata in baza de date a magazinului 
+                            <a class="link-nostyle" href="https://www.glemis.ro">glemis.ro</a> pentru clientul {lastname} {name}.&nbsp;Daca nu mai doriti mailuri promotionale / informative
+                            de la glemis.ro va puteti dezabona <a href="http://www.glemis.ro/index.php?route=ne/unsubscribe&amp;t=mail&amp;uid={uid}&amp;key={key}" style="text-decoration: none; color: #fff; font-weight: bold;">dand click aici.</a>
+                        </p>
+                    </mj-text>
+                </mj-column>   
+            </mj-section>
+
+            <mj-section background-color="#000" padding-bottom="0" padding-top="0">
+                <mj-column width="15%">
+                </mj-column>
+                <mj-column width="70%">
+                    <mj-text font-weight="normal" align="center" color="#fff" font-size="13" padding-left="10" padding-right="10" padding-bottom="0" padding-top="0">
+                        <p class="p-footer">
+                            <a class="link-nostyle" href="http://www.glemis.ro/termeni-si-conditii" style="text-decoration: none;" target="_blank">Termeni si Conditii</a>&nbsp;|&nbsp; 
+                            <a class="link-nostyle" href="http://www.glemis.ro/politica-de-confidentialitate" style="text-decoration: none;" target="_blank">Politica de confidentialitate</a>
+                        </p>
+                    </mj-text>
+                    <mj-social font-size="13" text-mode="false" facebook-href="https://www.facebook.com/GlemisRomania" twitter-href="https://twitter.com/GlemisRomania" google-href="https://plus.google.com/+GlemisSuceava" mode="horizontal" display="facebook twitter google"
+                               padding-left="25" padding-right="25" padding-bottom="5" padding-top="5">
+                    </mj-social>
+                </mj-column>
+                <mj-column width="15%">
+                </mj-column>
+            </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>

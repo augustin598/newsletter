@@ -1,0 +1,447 @@
+<mjml>
+  <mj-head>
+    <mj-style inline="inline">
+      .link-nostyle { color: inherit; text-decoration: none } 
+      .circle {border-radius: 50%; width: 200px; height: 200px;} p{font-weight:normal;color:#000000;letter-spacing:0pt;word-spacing:2pt;font-size:12px;text-align:center;font-family:lucida sans unicode,lucida
+      grande, sans-serif;line-height:1;margin:5px;padding:5px;} 
+      .p-head{font-weight:normal; color:#000; letter-spacing:0pt;word-spacing:2pt;font-size:12px;text-align:justify;font-family:lucida sans unicode,lucida grande, sans-serif;line-height:16px;margin:5px;padding:5px;}
+      .p-footer{font-weight:normal; color:#fff; letter-spacing:0pt;word-spacing:2pt;font-size:12px;text-align:center;font-family:lucida sans unicode,lucida grande, sans-serif;line-height:16px;margin:5px;padding:5px;} 
+      
+
+      
+      h1{font-family: Ubuntu, Helvetica, Arial, sans-serif; line-height:1; font-size:21px;text-align:center; padding:10px 10px; margin:0px;} .h1-left{font-family: Ubuntu, Helvetica, Arial,sans-serif; line-height:1; font-size:21px; text-align:left; padding:10px 10px; margin:0px;}
+      
+      
+      /* === PRODUCT DESCRIPTION === */ 
+      
+      .product{ font-weight: normal; color: #000000; letter-spacing: 0pt; word-spacing: 2pt; font-size: 12px; text-align: center;
+      font-family: lucida sans unicode,lucida grande, sans-serif; line-height: 1; padding: 10px 5px 10px 5px; height: 99px; overflow: hidden;text-overflow: ellipsis; background-color:#fff; margin:0px 0px 0px 0px;} 
+     /* === PRODUCT DESCRIPTION End === */ 
+      
+      /* === PRODUCT HEADING === */ 
+      
+      h3{font-family: Ubuntu,Helvetica, Arial, sans-serif; line-height: 1; font-size: 16px; text-align: center;  margin: 0px; color: #000; font-weight:500; height: 40px; overflow: hidden; padding:10px 15px; margin:5px 0px 0px 0px ; background-color:#fff;}
+      
+      /* === PRODUCT HEADING === */ /* === BACKGROUND BODY START === */ 
+      
+      .price{ color: rgb(250, 135, 57); background-color:#fff; margin: 0px 0px 10px 0px; padding: 10px 5px 10px 5px; font-size: 16px; font-weight:bold;
+      
+      }
+      
+      body
+      { background-image: url("https://www.glemis.ro/image/catalog/newsletter-2018/newsletter-1/f630ed82629b24f882a7b7d9a2456cfd--shaving-brush-haircut-styles.jpg"); } /* === BACKGROUND BODY End === */
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#d6dde5">
+      <mj-section background-color="#fff" padding-bottom="0" padding-top="0">
+        <mj-column>
+          <mj-text align="center" color="#2f323b" font-size="13" padding-left="25" padding-right="25" padding-bottom="5" padding-top="10">
+            Cel mai complet si detaliat ghid despre parfumuri
+          </mj-text>
+          <mj-text align="center" color="#2f323b" font-size="13" padding-left="25" padding-right="25" padding-bottom="10" padding-top="5">
+            Daca intampinati probleme in vizualizarea acestui mail, <a href="http://www.glemis.ro/index.php?route=ne/show&amp;uid={uid}&amp;utm_content=web_version" style="text-decoration: none; color: #000000;"><strong>vedeti varianta web dand click aici</strong></a>.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-navbar background-color="#ffffff">
+        <mj-column width="100%">
+          <mj-image href="https://www.glemis.ro/" src="https://www.glemis.ro/image/catalog/newsletter-2018/logo-negru-floare.png" alt="Glemis" width="200" align="center" padding="10">
+          </mj-image>
+          < </mj-column>
+            <mj-column width="100%">
+              <mj-inline-links base-url="https://www.glemis.ro" hamburger="hamburger" ico-color="#fa8739">
+                <mj-link href="https://www.glemis.ro/parfumuri-pentru-femei?utm_content=header_menu" color="##ff1100">Parfumuri pentru EA</mj-link>
+                <mj-link href="https://www.glemis.ro/articole?utm_content=header_menu" color="##ff1100">Parfumuri pentru el</mj-link>
+              </mj-inline-links>
+            </mj-column>
+      </mj-navbar>
+
+      <mj-section padding-top="0" padding-bottom="0">
+        <mj-column>
+          <mj-image href="https://www.glemis.ro/parfumerie?utm_content=banner" src="https://www.glemis.ro/image/catalog/newsletter-2018/newsletter-10/Header-banner-10.png" alt="Glemis" align="center" border="none" width="600" padding-left="0" padding-right="0" padding-bottom="0"
+            padding-top="0"></mj-image>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff" padding-top="0" padding-bottom="0">
+        <mj-column>
+          <mj-text font-weight="bold" align="justify" color="#000" font-size="15" padding-left="0" padding-right="0" padding-bottom="0" padding-top="0">
+            <p class="p-head">Alegerea parfumului ideal nu este tocmai un lucru usor, nevoile difera in functie de individ, sezon, personalitate, etc. Astfel am realizat cel mai detaliat ghid despre tot ce trebuie sa stii despre parfumuri, analizand cei mai importanti
+              factori: concentratie si compozitii, tipul tau de piele, posibile reactii alergice, ingrediente, esenta, si nu in ultimul rand de pret.</p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Produse Headear Start -->
+      <mj-section background-color="#fff" padding-top="5" padding-bottom="5">
+        <mj-column>
+          <mj-text font-weight="bold" align="center" color="#000" font-size="15" padding-left="10" padding-right="10" padding-bottom="0" padding-top="0">
+            <h1>Concentratii si compozitii</h1>
+            <hr style="width:50%; height:2px;border:none;color:#000;background-color:#d5237c; margin-top:0px;">
+          </mj-text>
+          <mj-text font-weight="bold" align="justify" color="#000" font-size="15" padding-left="0" padding-right="0" padding-bottom="0" padding-top="0">
+            <p class="p-head">Acelasi parfum poate avea mai multe concentratii, diferentiindu-se&nbsp;prin procentul de compusi aromatici/uleiuri esentiale si evident, prin pret.</p>
+            <p class="p-head">&bull;&nbsp;Cel mai dens este<strong>&nbsp;parfumul pur</strong>, ce contine 22% compusi aromatici. Spre deosebire de femei, exista foarte putine parfumuri pure pentru barbati, si acelea sunt destul de scumpe.&nbsp;Motivul este ca o concentratie
+              asa de mare este evitata de barbati pentru ca are ca si consecinta un miros mult prea puternic. De fapt, asta e una dintre principalele diferente intre parfumurile de femei si cele de barbati, cele de femei sunt mai puternice, facute sa
+              iasa mai mult in evidenta.</p>
+            <p class="p-head">&bull; Urmatoarea clasata este<strong>&nbsp;apa de parfum</strong>&nbsp;<strong>(eau de parfum)</strong>. E mai slaba decat parfumul, continand 15-22% compusi aromatici.<br />&bull; Urmeaza&nbsp;<strong>apa de toaleta (eau de toilette)</strong>.
+              Este mai slaba decat precedentele doua, lucru reflectat in concentratia de compusi aromatici.<br />&bull; Urmeaza&nbsp;<strong>apa de colonie (eau de cologne)</strong>. Este destul de slaba &ndash; are 4% compusi aromatici. Mirosul dureaza
+              de obicei doar cateva ore.<br />&bull; Ultima clasata este<strong>&nbsp;apa rece (eau fra&icirc;che)</strong>. Este cea mai slaba, avand 1-3% compusi aromatici.</p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#fff" padding-top="0" padding-bottom="0">
+        <mj-column>
+          <mj-image src="https://www.glemis.ro/image/catalog/newsletter-2018/newsletter-10/concentratii-si-compozitii-parfumuri.png" alt="Glemis" align="center" border="none" width="600" padding-left="0" padding-right="0" padding-bottom="0" padding-top="0"></mj-image>
+          <mj-text font-weight="bold" align="justify" color="#000" font-size="15" padding-left="0" padding-right="0" padding-bottom="0" padding-top="0">
+            <p class="p-head">De multe ori, producatorii de parfumuri folosesc proportii diferite pentru a lansa concentratii variate ale aceluiasi parfum. Motivul pentru care sunt comercializate sub acelasi nume este acela ca folosesc aceleasi esente de baza.</p>
+            <p class="p-head">Ideea de baza cand vine vorba de concentratii este ca, cu cat concentrația este mai mare cu atat mirosul tine mai mult. In schimb si pretul este mai mare.</p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-top="0" padding-bottom="0">
+        <mj-column>
+          <mj-image href="https://www.glemis.ro/parfumuri-pentru-femei" src="https://www.glemis.ro/image/catalog/newsletter-2018/newsletter-10/descopera1.png" alt="Glemis" align="center" border="none" width="600" padding-left="0" padding-right="0" padding-bottom="0" padding-top="0"></mj-image>
+        </mj-column>
+      </mj-section>
+      <!-- Produse Headear End -->
+
+      <!-- Containter Produse Start 1 -->
+      <mj-section background-color="#5acab1" padding-top="10" padding-bottom="10" padding-left="5" padding-right="5">
+        <!-- Produs 1 start -->
+               <mj-column>
+          <mj-image href="https://www.glemis.ro/apa-de-parfum-pentru-femei-le-parfum-ange-ou-demon-le-parfum-son-accord-illicite-givenchy-40-ml?utm_content=product_defined" src="https://img.glemis.com/cache/catalog/product/givenchy/ange-ou-demon/le-parfum-ange-ou-demon-le-parfum-son-accord-illicite-givenchy-40-ml-228x228.png" title="Apa de parfum pentru femei - Le Parfum - Ange Ou Demon - Le Parfum & Son Accord Illicite - Givenchy - 40 ml " align="center" padding-left="5" padding-right="5" padding-bottom="0" padding-top="0" width="200">
+
+          </mj-image>
+
+          <mj-text font-weight="bold" align="center" color="#000" font-size="15" padding-left="5" padding-right="5" padding-bottom="0" padding-top="0">
+            <h3>ALe Parfum - Ange Ou Demon - Le Parfum & Son Accord Illicite - Givenchy - 40 ml </h3>
+            <p class="product">Este un parfum inovator, care face parte din colecția Givenchy Ange ou Demon. Acesta a fost lansat în martie 2015 și conține miresme elegante și oriental-lemnoase de iasomie, mosc, patchouli și chihlimbar. Accord Illicite te va ajuta să lași în urma ta o mireasmă îmbătătoare, care îți va învălui trupul în diferite arome. Mireasma de vanilie, patchouli și mosc a parfumului se aplică direct pe piele în picături și în special în zonele în care se simte pulsul.
+</p>
+            <p class="price">207,50 lei</p>
+          </mj-text>
+
+          <mj-button background-color="#fa8739" color="#fff" font-size="13" align="center" padding="15px 30px" border-radius="3px" href="https://www.glemis.ro/apa-de-parfum-pentru-femei-le-parfum-ange-ou-demon-le-parfum-son-accord-illicite-givenchy-40-ml?utm_content=product_buy" padding-bottom="10" padding-top="0">
+            CUMPĂRĂ
+          </mj-button>
+
+        </mj-column>
+        <!-- Produs 1 End -->
+
+        <!-- Produs 2 start -->
+                      <mj-column>
+          <mj-image href="https://www.glemis.ro/apa-de-parfum-pentru-femei-eau-de-parfum-legere-lextase-caresse-de-roses-nina-ricci-30-ml?utm_content=product_defined" src="https://img.glemis.com/cache/catalog/product/nina-ricci/lextase/eau-de-parfum-legere-lextase-caresse-de-roses-nina-ricci-30-ml-228x228.jpg" title="Apa de parfum pentru femei - Eau De parfum Legere - L'Extase - Caresse De Roses - Nina Ricci - 30 ml " align="center" padding-left="5" padding-right="5" padding-bottom="0" padding-top="0" width="200">
+
+          </mj-image>
+
+          <mj-text font-weight="bold" align="center" color="#000" font-size="15" padding-left="5" padding-right="5" padding-bottom="0" padding-top="0">
+            <h3>Eau De parfum Legere - L'Extase - Caresse De Roses - Nina Ricci - 30 ml </h3>
+            <p class="product">Este o aromă delicată și senzuală inspirată de ideea unui trup gol, acoperit doar cu un voal parfumat. Parfumul este îmbogățit cu un buchet floral de trandafiri bulgărești și turcești, violete și bujor și cu un dram de mosc, ce exprimă senzualitate, feminitate și pasiune.</p>
+            <p class="price">119,50 lei</p>
+          </mj-text>
+
+          <mj-button background-color="#fa8739" color="#fff" font-size="13" align="center" padding="15px 30px" border-radius="3px" href="https://www.glemis.ro/apa-de-parfum-pentru-femei-eau-de-parfum-legere-lextase-caresse-de-roses-nina-ricci-30-ml?utm_content=product_buy" padding-bottom="10" padding-top="0">
+            CUMPĂRĂ
+          </mj-button>
+
+        </mj-column>
+        <!-- Produs 2 End -->
+
+        <!-- Produs 3 start -->
+                       <mj-column>
+          <mj-image href="https://www.glemis.ro/apa-de-parfum-pentru-femei-eau-de-parfum-dahlia-divin-givenchy-50-ml?utm_content=product_defined" src="https://img.glemis.com/cache/catalog/product/givenchy/dahlia-divine/eau-de-parfum-dahlia-divin-givenchy-50-ml-228x228.jpg" title="Apa de parfum pentru femei - Eau De Parfum - Dahlia Divin - Givenchy - 50 ml " align="center" padding-left="5" padding-right="5" padding-bottom="0" padding-top="0" width="200">
+
+          </mj-image>
+
+          <mj-text font-weight="bold" align="center" color="#000" font-size="15" padding-left="5" padding-right="5" padding-bottom="0" padding-top="0">
+            <h3>Apa de parfum pentru femei - Eau De Parfum - Dahlia Divin - Givenchy - 50 ml </h3>
+            <p class="product">Acest parfum exclusivist ne deschide simtul olfactiv cu acordurile delicioase ale corcoduselor suculente si jucause, ca mai apoi sa ne incante cu notele de mijloc, plimbandu-ne prin gradina sa interioara ce abunda de flori albe pure si iasomie delicata de sambac, iar daca pentru o secunda doar, am crede ca visul divin ar putea sa se sfarseasca, acordurile infinit aromate de patccouli, lemn de santal si vetiver ne aminesc ca mireasma divina e facuta sa dureze.</p>
+            <p class="price">207,50 lei</p>
+          </mj-text>
+
+          <mj-button background-color="#fa8739" color="#fff" font-size="13" align="center" padding="15px 30px" border-radius="3px" href="https://www.glemis.ro/apa-de-parfum-pentru-femei-eau-de-parfum-dahlia-divin-givenchy-50-ml?utm_content=product_buy" padding-bottom="10" padding-top="0">
+            CUMPĂRĂ
+          </mj-button>
+
+        </mj-column>
+        <!-- Produs 3 End -->
+
+      </mj-section>
+      <!-- Containter Produse End 1 -->
+        
+        <!-- Containter Produse Start 1 -->
+      <mj-section background-color="#5acab1" padding-top="10" padding-bottom="10" padding-left="5" padding-right="5">
+        <!-- Produs 1 start -->
+                       <mj-column>
+          <mj-image href="https://www.glemis.ro/apa-de-parfum-pentru-femei-eau-de-parfum-ange-ou-demon-le-secret-givenchy-30-ml?utm_content=product_defined" src="https://img.glemis.com/cache/catalog/product/givenchy/ange-ou-demon/eau-de-parfum-ange-ou-demon-le-secret-givenchy-30-ml-228x228.jpg" title="Apa de parfum pentru femei - Eau De Parfum - Ange Ou Demon - Le Secret - Givenchy - 30 ml" align="center" padding-left="5" padding-right="5" padding-bottom="0" padding-top="0" width="200">
+
+          </mj-image>
+
+          <mj-text font-weight="bold" align="center" color="#000" font-size="15" padding-left="5" padding-right="5" padding-bottom="0" padding-top="0">
+            <h3>Apa de parfum pentru femei - Eau De Parfum - Ange Ou Demon - Le Secret - Givenchy - 30 ml </h3>
+            <p class="product">Parfumul pentru femei Givenchy Ange ou Démon Le Secret ascunde cele mai sofisticate si ispititoare arome si te va surprinde de la prima utilizare cu prospetimea sa florala. Ange ou Demon Le Secret a fost creat pentru a scoate in evidenta senzualitatea femeii care il poarta. Acesta te va intoxica inca de la primele note cu o compozitia unica alcatuita din lamaie italiana de iarna, merisoare si ceai verde. Esentele de mijloc invadeaza simturile cu ajutorul mixului magnific de flori albe, iasomie, bujori si lotus. Notele de baza desavarsesc mirosul divin al parfumului prin notele puternice de lemn si patchouli.</p>
+            <p class="price">148,00 lei</p>
+          </mj-text>
+
+          <mj-button background-color="#fa8739" color="#fff" font-size="13" align="center" padding="15px 30px" border-radius="3px" href="https://www.glemis.ro/apa-de-parfum-pentru-femei-eau-de-parfum-ange-ou-demon-le-secret-givenchy-30-ml?utm_content=product_buy" padding-bottom="10" padding-top="0">
+            CUMPĂRĂ
+          </mj-button>
+
+        </mj-column>
+        <!-- Produs 1 End -->
+
+        <!-- Produs 2 start -->
+                       <mj-column>
+          <mj-image href="https://www.glemis.ro/set-apa-de-parfum-lotiune-de-corp-pentru-femei-escape-calvin-klein-100-ml-200-ml?utm_content=product_defined" src="https://img.glemis.com/cache/catalog/product/escape-set-calvin-klein-100-ml-200-ml-228x228.jpg" title="Set apa de parfum + lotiune de corp pentru femei - Escape - Calvin Klein - 100 ml + 200 ml " align="center" padding-left="5" padding-right="5" padding-bottom="0" padding-top="0" width="200">
+
+          </mj-image>
+
+          <mj-text font-weight="bold" align="center" color="#000" font-size="15" padding-left="5" padding-right="5" padding-bottom="0" padding-top="0">
+            <h3>Set apa de parfum + lotiune de corp pentru femei - Escape - Calvin Klein - 100 ml + 200 ml </h3>
+            <p class="product">Notele de vârf se vor simți încă de la prima pulverizare, astfel că, tonurile de gălbenele și mușețel, alături de măr, mușchi, caise, mandarine, pepene galben, coriandru, coacăze negre sau Ylang-Ylang îi conferă prospețime și delicatețe parfumului. În inima lui, se vor simți tonurile de garoafe, lăcrămioare, cuișoare, piersici, trandafiri sau iasomie, toate acestea fiind adunate sub forma unui buchet floral care îți ademenește simțurile. Notele de bază ale parfumului sunt cele lemnoase: cedrul, vanilia, lemnul de santal, moscul, chihlimbarul, mușchiul de stejar sau vetiverul.</p>
+            <p class="price">152,50 lei</p>
+          </mj-text>
+
+          <mj-button background-color="#fa8739" color="#fff" font-size="13" align="center" padding="15px 30px" border-radius="3px" href="https://www.glemis.ro/set-apa-de-parfum-lotiune-de-corp-pentru-femei-escape-calvin-klein-100-ml-200-ml?utm_content=product_buy" padding-bottom="10" padding-top="0">
+            CUMPĂRĂ
+          </mj-button>
+
+        </mj-column>
+        <!-- Produs 2 End -->
+
+        <!-- Produs 3 start -->
+                       <mj-column>
+          <mj-image href="https://www.glemis.ro/apa-de-parfum-pentru-femei-eau-de-parfum-manifesto-yves-saint-laurent-90-ml?utm_content=product_defined" src="https://img.glemis.com/cache/catalog/product/yves-saint-laurent/manifesto/eau-de-parfum-manifesto-yves-saint-laurent-90-ml-228x228.jpg" title="Apa de parfum pentru femei - Eau De Parfum - Manifesto - Yves Saint Laurent " align="center" padding-left="5" padding-right="5" padding-bottom="0" padding-top="0" width="200">
+
+          </mj-image>
+
+          <mj-text font-weight="bold" align="center" color="#000" font-size="15" padding-left="5" padding-right="5" padding-bottom="0" padding-top="0">
+            <h3>Apa de parfum pentru femei - Eau De Parfum - Manifesto - Yves Saint Laurent</h3>
+            <p class="product">Această esență cuceritoare se adresează femeilor rafinate și elegante, ce au un spirit spontan, curajos și liber. Manifesto este un parfum ce abundă de pasiune și emoție și care se deschide cu note subtile verzi, amplificate de bergamotă și coacăze negre. În inima parfumului se găsesc tonurile florale de lăcrămioare și iasomie, iar fundalul are la bază arome de boabe de tonka, vanilie, lemn de santal și cedru.</p>
+            <p class="price">293,40 lei</p>
+          </mj-text>
+
+          <mj-button background-color="#fa8739" color="#fff" font-size="13" align="center" padding="15px 30px" border-radius="3px" href="https://www.glemis.ro/apa-de-parfum-pentru-femei-eau-de-parfum-manifesto-yves-saint-laurent-90-ml?utm_content=product_buy" padding-bottom="10" padding-top="0">
+            CUMPĂRĂ
+          </mj-button>
+
+        </mj-column>
+        <!-- Produs 3 End -->
+
+      </mj-section>
+      <!-- Containter Produse End 1 -->
+              <mj-section background-color="#d5237c" padding-bottom="0" padding-top="0">
+        <mj-column>
+          <mj-text align="center" color="#fff" font-size="13" padding-left="25" padding-right="25" padding-bottom="10" padding-top="10">
+            <a style="font-size:20;" href="https://www.glemis.ro/parfumuri-pentru-femei?utm_content=call_action" class="link-nostyle">Parfumuri pentru femei</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Produse Headear Start -->
+      <mj-section background-color="#fff" padding-top="5" padding-bottom="5">
+        <mj-column>
+          <mj-text font-weight="bold" align="center" color="#000" font-size="15" padding-left="10" padding-right="10" padding-bottom="0" padding-top="0">
+            <h1>Esente</h1>
+            <hr style="width:20%; height:2px;border:none;color:#000;background-color:#d5237c; margin-top:0px;">
+          </mj-text>
+          <mj-text font-weight="bold" align="justify" color="#000" font-size="15" padding-left="0" padding-right="0" padding-bottom="0" padding-top="0">
+            <p class="p-head">&bull;&nbsp;<strong>Feriga</strong>. Parfumuri ce contin, in diferite proportii, lavanda, muschi de stejar si cumarin.<br />&bull;&nbsp;<strong>Florale</strong>. Acestea sunt dominate de esenta uneia sau mai multor flori, sunt purtate in special
+              de catre femei.<br />&bull;&nbsp;<strong>Orientale.</strong>&nbsp;Sunt esente exotice, senzuale. Exemplu:&nbsp;<a href="https://www.glemis.ro/giorgio-armani-armani-code">Armani Code pentru barbati</a>&nbsp;sau&nbsp;212 VIP de Carolina Herrera
+              pentru femei.<br />&bull;&nbsp;<strong>Citrice</strong>. Dupa cum le spune si numele, au un puternic miros citric. Primele ape de colonie scoase pe piata au avut acest miros citric, deoarece, datorita tehnologiei limitate, erau usor de extras.
+              Exemple de parfumuri citrice:&nbsp;Alien Thierry Mugler&nbsp;pentru femei sau&nbsp;<a href="https://www.glemis.ro/bvlgari-man">Bvlgari man</a> pentru barbati.<br />&bull;&nbsp;<strong>Fresh.</strong>&nbsp;E o esenta mai noua. Contine esente oceanice combinate cu citrice pentru a
+              da senzatia de prospetime. Ca si exemplu, parfumul floral acvatic&nbsp;<a href="https://www.glemis.ro/giorgio-armani-acqua-di-gio">Aqua di Gioia Giorgio Arman</a>i&nbsp;pentru femei.<br />&bull;&nbsp;<strong>Lemnoase</strong>. Aceasta esenta emana masculinitate. Fie iti place, fie nu. Data viitoare cand
+              intri intr-un magazin de parfumuri, cere sa mirosi unul &ndash; si vei intelege. Vezi inconfundabilul&nbsp;Wood&nbsp;Dsquared&sup2;&nbsp;.<br />&bull;&nbsp;<strong>Condimentate</strong>. Combina esente de vanilie cu esente florale sau lemnoase.<br
+              />&bull;&nbsp;<strong>Cyphre.</strong>&nbsp;Contin amestecuri de muschi de stejar, pachouli si bergamonte.<br />&bull;&nbsp;<strong>Aldehidice</strong>. Contin o substanta chimica numita aldehida, dandu-le o nota &ldquo;picanta&rdquo;.<br
+              />&bull;&nbsp;<strong>Piele</strong>. Acest tip de parfum contine un amestec de esente de tutun si miere care se aseamana cu mirosul de piele. Nu zice nu pana nu testezi unul!</p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- Produse Headear End -->
+              
+              <mj-section padding-top="0" padding-bottom="0">
+        <mj-column>
+          <mj-image href="https://www.glemis.ro/seturi-pentru-el?utm_content=banner" src="https://www.glemis.ro/image/catalog/newsletter-2018/newsletter-10/parfrumuri-pentru-el.png" alt="Glemis" align="center" border="none" width="600" padding-left="0" padding-right="0" padding-bottom="0"
+            padding-top="0"></mj-image>
+        </mj-column>
+      </mj-section>
+
+      <!-- Containter Produse Start 2 -->
+      <mj-section background-url="https://www.glemis.ro/image/catalog/newsletter-2018/newsletter-10/vector_jeans_backgrounds_art_528905.jpg" padding-top="10" padding-bottom="10" padding-left="5" padding-right="5">
+        <!-- Produs 1 start -->
+        <mj-column>
+          <mj-image href="https://www.glemis.ro/apa-de-parfum-intensa-pentru-barbati-lintense-la-nuit-de-lhomme-yves-saint-laurent-60-ml?utm_content=product_defined" src="https://img.glemis.com/cache/catalog/product/yves-saint-laurent/la-nuit-de-lhomme/lintense-la-nuit-de-lhomme-yves-saint-laurent-60-ml-228x228.jpg" title="Apa de parfum intensa pentru barbati - L'Intense - La Nuit De L'Homme - Yves Saint Laurent - 60 ml " align="center" padding-left="5" padding-right="5" padding-bottom="0" padding-top="0" width="200">
+
+          </mj-image>
+
+          <mj-text font-weight="bold" align="center" color="#000" font-size="15" padding-left="5" padding-right="5" padding-bottom="0" padding-top="0">
+            <h3>AL'Intense - La Nuit De L'Homme - Yves Saint Laurent</h3>
+            <p class="product">Este un parfum nou de bărbați, lansat în anul 2015. Compoziția parfumului este una intensă și orientală, ce reflectă curajul, puterea și carisma seducătoare a bărbatului modern. Ingredientele cheie ale acestui parfum sunt stânjeneii, violetele, salvia sau boabele de tonka, ce îi dau parfumului o notă de prospețime și eleganță. </p>
+            <p class="price">171,40 lei</p>
+          </mj-text>
+
+          <mj-button background-color="#fa8739" color="#fff" font-size="13" align="center" padding="15px 30px" border-radius="3px" href="https://www.glemis.ro/apa-de-parfum-intensa-pentru-barbati-lintense-la-nuit-de-lhomme-yves-saint-laurent-60-ml?utm_content=product_buy" padding-bottom="10" padding-top="0">
+            CUMPĂRĂ
+          </mj-button>
+
+        </mj-column>
+        <!-- Produs 1 End -->
+
+        <!-- Produs 2 start -->
+               <mj-column>
+          <mj-image href="https://www.glemis.ro/apa-de-parfum-pentru-barbati-eau-de-parfum-man-black-orient-bvlgari-60-ml?utm_content=product_defined" src="https://img.glemis.com/cache/catalog/product/bvlgari/man/eau-de-parfum-man-black-orient-bvlgari-60-ml-228x228.jpg" align="center" padding-left="5" padding-right="5" padding-bottom="0" padding-top="0" title="Apa de parfum pentru barbati - Eau De Parfum - Man Black Orient - Bvlgari - 60 ml " width="200">
+
+          </mj-image>
+
+          <mj-text font-weight="bold" align="center" color="#000" font-size="15" padding-left="5" padding-right="5" padding-bottom="0" padding-top="0">
+            <h3>Eau De Parfum - Man Black Orient - Bvlgari </h3>
+            <p class="product">Este un parfum de factura orientala, luxuriant, creat spre a fi purtat indeosebi in sezonul de toamna. Man Black Orient  poarta semnatura faimosului parfumier Alberto Morillas. Sofisticat și misterios, Man Black Orient Bvlgari se deschide cu acorduri picante, datorită notelor bogate de rom, acorduri caracteristice acestei colectii, alaturi de cardamom piperat. In inima acestui parfum enigmatic se regasesc note florale opulente ce includ tuberoza  și trandafir Taif oriental. Tot acest buchet grandios este asezat pe o baza masculină intensivă de agar și piele.</p>
+            <p class="price">167,70 lei</p>
+          </mj-text>
+
+          <mj-button background-color="#fa8739" color="#fff" font-size="13" align="center" padding="15px 30px" border-radius="3px" href="https://www.glemis.ro/apa-de-parfum-pentru-barbati-eau-de-parfum-man-black-orient-bvlgari-60-ml?utm_content=product_buy" padding-bottom="10" padding-top="0">
+            CUMPĂRĂ
+          </mj-button>
+
+        </mj-column>
+        <!-- Produs 2 End -->
+
+        <!-- Produs 3 start -->
+               <mj-column>
+          <mj-image href="https://www.glemis.ro/apa-de-toaleta-pentru-barbati-eau-daromes-pour-homme-armani-100-ml?utm_content=product_defined" src="https://img.glemis.com/cache/catalog/product/giorgio-armani/pour-homme/eau-daromes-pour-homme-armani-100-ml-228x228.jpg" align="center" padding-left="5" padding-right="5" padding-bottom="0" padding-top="0" title="Apa de toaleta pentru barbati - Eau D'aromes Pour Homme - Armani - 100 ml" width="200">
+
+          </mj-image>
+
+          <mj-text font-weight="bold" align="center" color="#000" font-size="15" padding-left="5" padding-right="5" padding-bottom="0" padding-top="0">
+            <h3>AEau D'aromes Pour Homme - Armani - 100 ml </h3>
+            <p class="product">Celebreaza aroma revitalizanta a fructelor citrice, scaldata într-o baza calda si picanta. Eau D’Aromes este un parfum al trairilor profunde, o combinatie perfecta a contrastelor dintre proaspat si picant, puternic si lejer. </p>
+            <p class="price">213,60 lei</p>
+          </mj-text>
+
+          <mj-button background-color="#fa8739" color="#fff" font-size="13" align="center" padding="15px 30px" border-radius="3px" href="https://www.glemis.ro/apa-de-toaleta-pentru-barbati-eau-daromes-pour-homme-armani-100-ml?utm_content=product_buy" padding-bottom="10" padding-top="0">
+            CUMPĂRĂ
+          </mj-button>
+
+        </mj-column>
+        <!-- Produs 3 End -->
+
+      </mj-section>
+      <!-- Containter Produse End 2 -->
+        
+                      <mj-section padding-top="0" padding-bottom="0">
+        <mj-column>
+          <mj-image href="https://www.glemis.ro/set-apa-de-parfum-barbati-gel-de-dus-aftershave-intenso-dolce-gabbana-125-ml-50-ml-100-ml?utm_content=product_defined?utm_content=banner_dolce" src="https://www.glemis.ro/image/catalog/newsletter-2018/newsletter-10/DOLCE_GABBANA_Intenso_Lxh_730x380px_011-730x280.jpg" alt="Glemis" align="center" border="none" width="600" padding-left="0" padding-right="0" padding-bottom="0"
+            padding-top="0"></mj-image>
+        </mj-column>
+      </mj-section>
+
+        
+        <!-- Containter Produse Start 1 -->
+      <mj-section background-url="https://www.glemis.ro/image/catalog/newsletter-2018/newsletter-10/vector_jeans_backgrounds_art_528905.jpg" padding-top="10" padding-bottom="10" padding-left="5" padding-right="5">
+        <!-- Produs 1 start -->
+                   <mj-column>
+          <mj-image href="https://www.glemis.ro/apa-de-toaleta-pentru-barbati-eau-de-toilette-amber-pour-homme-prada-100-ml?utm_content=product_defined" src="https://img.glemis.com/cache/catalog/product/prada/amber-pour-homme/eau-de-toilette-amber-pour-homme-prada-100-ml-228x228.jpg" title="Apa de toaleta pentru barbati - Eau De Toilette - Amber Pour Homme - Prada - 100 ml" align="center" padding-left="5" padding-right="5" padding-bottom="0" padding-top="0" width="200">
+
+          </mj-image>
+
+          <mj-text font-weight="bold" align="center" color="#000" font-size="15" padding-left="5" padding-right="5" padding-bottom="0" padding-top="0">
+            <h3>Apa de toaleta pentru barbati - Eau De Toilette - Amber Pour Homme - Prada  </h3>
+            <p class="product">Este un parfum proaspat, revigorant cu note fructat-lemnoase. Acesta este primul parfum Prada, lansat dupa cel feminin, o compozitie orientala, ce are la baza pretiosul lemn de santal. Amber Pour Homm a fost conceput special pentru barbatii puternici si increzatori in fortele proprii, care au nevoie sa se simta confortabil si proaspeti in orice moment si in orice situatie.</p>
+            <p class="price">204,50 lei</p>
+          </mj-text>
+
+          <mj-button background-color="#fa8739" color="#fff" font-size="13" align="center" padding="15px 30px" border-radius="3px" href="https://www.glemis.ro/apa-de-toaleta-pentru-barbati-eau-de-toilette-amber-pour-homme-prada-100-ml?utm_content=product_buy" padding-bottom="10" padding-top="0">
+            CUMPĂRĂ
+          </mj-button>
+
+        </mj-column>
+        <!-- Produs 1 End -->
+        
+
+        <!-- Produs 2 start -->
+               <mj-column>
+          <mj-image href="https://www.glemis.ro/apa-de-toaleta-pentru-barbati-eau-de-nuit-pour-homme-armani-100-ml?utm_content=product_defined" src="https://img.glemis.com/cache/catalog/product/giorgio-armani/pour-homme/eau-de-nuit-pour-homme-armani-100-ml-228x228.jpg" title="Apa de toaleta pentru barbati - Eau De Nuit Pour Homme - Armani - 100 ml " align="center" padding-left="5" padding-right="5" padding-bottom="0" padding-top="0" width="200">
+
+          </mj-image>
+
+          <mj-text font-weight="bold" align="center" color="#000" font-size="15" padding-left="5" padding-right="5" padding-bottom="0" padding-top="0">
+            <h3>Eau De Nuit Pour Homme - Armani - 100 ml </h3>
+            <p class="product">Asemenea numelui, este un parfum solemn, întunecat si puternic, ce combina note opulente de condimente, citrice, cedru alaturi de delicatul iris. Acordurile de mijloc sunt insa mai calde si mai senzuale decat debutul. Acesta se deschide cu tonuri de bergamot si piper roz, in timp ce notele picante de cardamom si nucsoara formeaza inima parfumului, alaturi de gingasele flori de iris si heliotrop. Baza specataculoasa a parfumului Eau de Nuit - Armani este data de amestecul ideal format din cedru, boabe de Tonka si mult prea pretiosul chihlimbar.</p>
+            <p class="price">213,60 lei</p>
+          </mj-text>
+
+          <mj-button background-color="#fa8739" color="#fff" font-size="13" align="center" padding="15px 30px" border-radius="3px" href="https://www.glemis.ro/apa-de-toaleta-pentru-barbati-eau-de-nuit-pour-homme-armani-100-ml?utm_content=product_buy" padding-bottom="10" padding-top="0">
+            CUMPĂRĂ
+          </mj-button>
+
+        </mj-column>
+        </mj-column>
+        <!-- Produs 2 End -->
+
+        <!-- Produs 3 start -->
+               <mj-column>
+          <mj-image href="https://www.glemis.ro/set-apa-de-parfum-barbati-gel-de-dus-aftershave-intenso-dolce-gabbana-125-ml-50-ml-100-ml?utm_content=product_defined" src="https://www.glemis.ro/image/catalog/newsletter-2018/newsletter-10/s-l300.jpg" title="Set apa de parfum barbati + gel de dus + aftershave - Intenso - Dolce & Gabbana - 125 ml + 50 ml + 100 ml" align="center" padding-left="5" padding-right="5" padding-bottom="0" padding-top="0" width="200">
+
+          </mj-image>
+
+          <mj-text font-weight="bold" align="center" color="#000" font-size="15" padding-left="5" padding-right="5" padding-bottom="0" padding-top="0">
+            <h3>Intenso - Dolce & Gabbana - 125 ml + 50 ml + 100 ml </h3>
+            <p class="product">Parfumul Dolce & Gabbana Intenso este caracterizat ca fiind un parfum lemnos-aromatic pentru bărbați, datorită notelor sale apoase și de levănțică, combinate într-un mod armonios cu busuiocul, gălbenelele și lavanda, ce îi accentuează calitatea unei creații unice. Tonurile subtile de salvie și tabac îl fac irezistibil. Notele de bază lemnoase sunt: moscul, lemnul de santal, chihlimbarul ...</p>
+            <p class="price">269,00 lei</p>
+          </mj-text>
+
+          <mj-button background-color="#fa8739" color="#fff" font-size="13" align="center" padding="15px 30px" border-radius="3px" href="https://www.glemis.ro/set-apa-de-parfum-barbati-gel-de-dus-aftershave-intenso-dolce-gabbana-125-ml-50-ml-100-ml?utm_content=product_buy" padding-bottom="10" padding-top="0">
+            CUMPĂRĂ
+          </mj-button>
+
+        </mj-column>
+        <!-- Produs 3 End -->
+
+      </mj-section>
+      <!-- Containter Produse End 1 -->
+
+      <mj-section background-color="#fa8739" padding-bottom="0" padding-top="0">
+        <mj-column>
+          <mj-text align="center" color="#fff" font-size="13" padding-left="25" padding-right="25" padding-bottom="10" padding-top="10">
+            <a style="font-size:20;" href="https://www.glemis.ro/seturi-pentru-el?utm_content=call_action" class="link-nostyle">CUMPĂRĂ Parfumuri pentru barbati!</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#000" padding-bottom="0" padding-top="0">
+        <mj-column>
+          <mj-text font-weight="bold" align="center" color="#fff" font-size="15" padding-left="10" padding-right="10" padding-bottom="0" padding-top="0">
+            <p class="p-footer">
+              CosiBella srl, CIF: RO30133602, Reg. Com: J33/321/2012.<br><br> Primiti&nbsp;acest mail deoarece adresa de mail {email} este inregistrata in baza de date a magazinului
+              <a class="link-nostyle" href="https://www.glemis.ro">glemis.ro</a> pentru clientul {lastname} {name}.&nbsp;Daca nu mai doriti mailuri promotionale / informative de la glemis.ro va puteti dezabona <a href="http://www.glemis.ro/index.php?route=ne/unsubscribe&amp;t=mail&amp;uid={uid}&amp;key={key}"
+                style="text-decoration: none; color: #fff; font-weight: bold;">dand click aici.</a>
+            </p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#000" padding-bottom="0" padding-top="0">
+        <mj-column width="15%">
+        </mj-column>
+        <mj-column width="70%">
+          <mj-text font-weight="bold" align="center" color="#fff" font-size="15" padding-left="10" padding-right="10" padding-bottom="0" padding-top="0">
+            <p class="p-footer">
+              <a class="link-nostyle" href="http://www.glemis.ro/termeni-si-conditii" style="text-decoration: none;" target="_blank">Termeni si Conditii</a>&nbsp;|&nbsp;
+              <a class="link-nostyle" href="http://www.glemis.ro/politica-de-confidentialitate" style="text-decoration: none;" target="_blank">Politica de confidentialitate</a>
+            </p>
+          </mj-text>
+          <mj-social font-size="13" text-mode="false" facebook-href="https://www.facebook.com/GlemisRomania" twitter-href="https://twitter.com/GlemisRomania" google-href="https://plus.google.com/+GlemisSuceava" mode="horizontal" display="facebook twitter google"
+            padding-left="25" padding-right="25" padding-bottom="5" padding-top="5">
+          </mj-social>
+        </mj-column>
+        <mj-column width="15%">
+        </mj-column>
+      </mj-section>
+
+    </mj-container>
+  </mj-body>
+</mjml>

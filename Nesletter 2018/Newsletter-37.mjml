@@ -1,0 +1,345 @@
+<mjml>
+  <mj-head>
+    <mj-style inline="inline">
+      .link-nostyle { color: inherit; text-decoration: none } .circle {border-radius: 50%; width: 200px; height: 200px;} p{font-weight:normal;color:#000000;letter-spacing:0pt;word-spacing:2pt;font-size:12px;text-align:center;font-family:lucida sans unicode,lucida
+      grande, sans-serif;line-height:1;margin:5px;padding:5px;} .p-head{font-weight:normal; color:#000; letter-spacing:0pt;word-spacing:2pt;font-size:12px;text-align:justify;font-family:lucida sans unicode,lucida grande, sans-serif;line-height:16px;margin:5px;padding:5px;}
+      .p-footer{font-weight:normal; color:#fff; letter-spacing:0pt;word-spacing:2pt;font-size:12px;text-align:center;font-family:lucida sans unicode,lucida grande, sans-serif;line-height:16px;margin:5px;padding:5px;} h3{font-weight:normal;color:#000000;letter-spacing:1pt;word-spacing:2pt;font-size:17px;text-align:center;font-family:arial
+      black, sans-serif;line-height:1; padding:10px 15px; margin:5px} h1{font-family: Ubuntu, Helvetica, Arial, sans-serif; line-height:1; font-size:21px;text-align:center; padding:10px 10px; margin:0px;} .h1-left{font-family: Ubuntu, Helvetica, Arial,
+      sans-serif; line-height:1; font-size:21px; text-align:left; padding:10px 10px; margin:0px;} /* === PRODUCT DESCRIPTION === */ .product{ font-weight: normal; color: #000000; letter-spacing: 0pt; word-spacing: 2pt; font-size: 12px; text-align: center;
+      font-family: lucida sans unicode,lucida grande, sans-serif; line-height: 1; margin: 5px; padding: 5px; height: 67px; overflow: hidden;text-overflow: ellipsis;} /* === PRODUCT DESCRIPTION === */ /* === PRODUCT HEADING === */ h3{font-family: Ubuntu,
+      Helvetica, Arial, sans-serif; line-height: 1; font-size: 16px; text-align: center; padding: 10px 0px; margin: 0px; color: #000; font-weight:500; height: 40px; overflow: hidden;} /* === PRODUCT HEADING === */ /* === BACKGROUND BODY START === */ body
+      { background-image: url("https://www.glemis.ro/image/catalog/newsletter-2018/newsletter-1/f630ed82629b24f882a7b7d9a2456cfd--shaving-brush-haircut-styles.jpg"); } /* === BACKGROUND BODY End === */
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#d6dde5">
+      <mj-section background-color="#fff" padding-bottom="0" padding-top="0">
+        <mj-column>
+          <mj-text align="center" color="#2f323b" font-size="13" padding-left="25" padding-right="25" padding-bottom="5" padding-top="10">
+            Profită şi tu de reduceri : -10% -20% -30% -40% - 50%
+          </mj-text>
+          <mj-text align="center" color="#2f323b" font-size="13" padding-left="25" padding-right="25" padding-bottom="10" padding-top="5">
+            Daca intampinati probleme in vizualizarea acestui mail, <a href="http://www.glemis.ro/index.php?route=ne/show&amp;uid={uid}&amp;utm_content=web_version" style="text-decoration: none; color: #000000;"><strong>vedeti varianta web dand click aici</strong></a>.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-navbar background-color="#ffffff">
+        <mj-column width="100%">
+          <mj-image href="https://www.glemis.ro/" src="https://www.glemis.ro/image/catalog/newsletter-2018/logo-negru-floare.png" alt="Glemis" width="200" align="center" padding="10">
+          </mj-image>
+          < </mj-column>
+            <mj-column width="100%">
+              <mj-inline-links base-url="https://www.glemis.ro" hamburger="hamburger" ico-color="#fa8739">
+                <mj-link href="https://www.glemis.ro/index.php?route=product/special&sort=percent&order=ASC&limit=24&page=7&amp?utm_content=header_menu" color="#000000" font-size="20">Reduceri 20%</mj-link>
+                <mj-link href="https://www.glemis.ro/index.php?route=product/special&sort=percent&order=ASC&limit=24&page=6&amp?utm_content=header_menu" color="#e81936" font-size="20"><b>Reduceri 50%</b></mj-link>
+            </mj-column>
+      </mj-navbar>
+
+      <mj-section padding-top="0" padding-bottom="0">
+        <mj-column>
+          <mj-image href="http://glemis.ro?utm_content=banner" src="https://www.glemis.ro/image/catalog/newsletter-2018/newsletter-16/header-top.jpg" alt="Glemis" align="center" border="none" width="600" padding-left="0" padding-right="0" padding-bottom="0" padding-top="0"></mj-image>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff" padding-top="0" padding-bottom="5">
+        <mj-column>
+          <mj-image href="https://www.glemis.ro/parfumuri-pentru-femei?utm_content=product_defined" src="https://www.glemis.ro/image/catalog/newsletter-2018/newsletter-16/parfumuri-pentru-ea.jpg" title="" align="center" padding-left="0" padding-right="0" padding-bottom="0"
+            padding-top="0" width="200">
+
+          </mj-image>
+        </mj-column>
+        <mj-column>
+          <mj-image href="https://www.glemis.ro/parfumuri-pentru-barbati?utm_content=product_defined" src="https://www.glemis.ro/image/catalog/newsletter-2018/newsletter-16/parfumuri-pentru-el.jpg" title="" align="center" padding-left="0" padding-right="0" padding-bottom="0"
+            padding-top="0" width="200">
+
+          </mj-image>
+        </mj-column>
+        <mj-column>
+          <mj-image href="https://www.glemis.ro/index.php?route=product/special&sort=percent&order=ASC&limit=24&page=6&amp?utm_content=product_defined" src="https://www.glemis.ro/image/catalog/newsletter-2018/newsletter-16/reducere2.jpg" title="" align="center"
+            padding-left="0" padding-right="0" padding-bottom="0" padding-top="0" width="200">
+
+          </mj-image>
+        </mj-column>
+      </mj-section>
+
+      <!-- Produse Headear Start -->
+      <mj-section background-color="#fff" padding-top="0" padding-bottom="0">
+        <mj-column>
+          <mj-image href="http://glemis.ro?utm_content=banner" src="https://www.glemis.ro/image/catalog/newsletter-2018/newsletter-16/nioxin.jpg" alt="Glemis" align="center" border="none" width="600" padding-left="0" padding-right="0" padding-bottom="0" padding-top="0"></mj-image>
+          <mj-text font-weight="bold" align="justify" color="#000" font-size="15" padding-left="10" padding-right="10" padding-bottom="0" padding-top="0">
+            <p class="p-head">Nioxin utilizează tehnologii avansate pentru a-i oferi părului un aspect plăcut și dens, întărind astfel firele de păr. Pentru un păr cât mai fortificat, este necesar să se parcurgă trei etape de îngrijire a părului: Nioxin Cleanser (șampon),
+              Nioxin Scalp Therapy (balsam) și Nioxin Scalp Treatment (tratament pentru scalp care ajută părul după fiecare spălare). Pe lângă aceste trei etape, Nioxin vine și cu o serie de măști împotriva mătreții sau dermatitei.</p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- Produse Headear End -->
+
+      <!-- Containter Produse Start 1 -->
+      <mj-section background-color="#fff" padding-top="10" padding-bottom="10" padding-left="5" padding-right="5">
+        <!-- Produs 1 start -->
+        <mj-column>
+          <mj-image href="https://www.glemis.ro/nioxin-hair-system-1?utm_content=product_defined" src="https://img.glemis.com/cache/catalog/product/nioxin/hair-system-1/hair-system-kit-for-fine-hair-sys-1-nioxin-228x228.jpg" title="" align="center" padding-left="5"
+            padding-right="5" padding-bottom="0" padding-top="0" width="200">
+          </mj-image>
+
+          <mj-text font-weight="bold" color="#000" font-size="15" padding-left="10" padding-right="10" padding-bottom="0" padding-top="0">
+            <h3>Hair System 1</h3>
+          </mj-text>
+
+          <mj-button background-color="#00c853" color="#fff" font-size="13" align="center" padding="15px 30px" border-radius="3px" href="https://www.glemis.ro/nioxin-hair-system-1?utm_content=product_buy" padding-bottom="10" padding-top="0">
+            CUMPĂRĂ
+          </mj-button>
+
+        </mj-column>
+        <!-- Produs 1 End -->
+
+        <!-- Produs 2 start -->
+        <mj-column>
+          <mj-image href="https://www.glemis.ro/nioxin-hair-system-2?utm_content=product_defined" src="https://img.glemis.com/cache/catalog/product/nioxin/hair-system-2/hair-system-kit-for-fine-hair-sys-2-nioxin-228x228.jpg" title="" align="center" padding-left="5"
+            padding-right="5" padding-bottom="0" padding-top="0" width="200">
+
+          </mj-image>
+
+          <mj-text font-weight="bold" align="center" color="#000" font-size="15" padding-left="10" padding-right="10" padding-bottom="0" padding-top="0">
+            <h3>Hair System 2</h3>
+          </mj-text>
+
+          <mj-button background-color="#00c853" color="#fff" font-size="13" align="center" padding="15px 30px" border-radius="3px" href="https://www.glemis.ro/nioxin-hair-system-2?utm_content=product_buy" padding-bottom="10" padding-top="0">
+            CUMPĂRĂ
+          </mj-button>
+
+        </mj-column>
+        <!-- Produs 2 End -->
+
+        <!-- Produs 3 start -->
+        <mj-column>
+          <mj-image href="https://www.glemis.ro/nioxin-hair-system-3?utm_content=product_defined" src="https://img.glemis.com/cache/catalog/product/nioxin/hair-system-3/hair-system-kit-for-fine-hair-sys-3-nioxin-228x228.jpg" title="" align="center" padding-left="5"
+            padding-right="5" padding-bottom="0" padding-top="0" width="200">
+          </mj-image>
+
+          <mj-text font-weight="bold" align="center" color="#000" font-size="15" padding-left="10" padding-right="10" padding-bottom="0" padding-top="0">
+            <h3>Hair System 3</h3>
+          </mj-text>
+
+          <mj-button background-color="#00c853" color="#fff" font-size="13" align="center" padding="15px 30px" border-radius="3px" href="https://www.glemis.ro/nioxin-hair-system-3?utm_content=product_buy" padding-bottom="10" padding-top="0">
+            CUMPĂRĂ
+          </mj-button>
+
+        </mj-column>
+        <!-- Produs 3 End -->
+
+      </mj-section>
+      <!-- Containter Produse End 1 -->
+
+      <!-- Containter Produse Start 1 -->
+      <mj-section background-color="#fff" padding-top="10" padding-bottom="10" padding-left="5" padding-right="5">
+        <!-- Produs 1 start -->
+        <mj-column>
+          <mj-image href="https://www.glemis.ro/nioxin-hair-system-4?utm_content=product_defined" src="https://img.glemis.com/cache/catalog/product/nioxin/hair-system-4/hair-system-kit-for-fine-hair-sys-4-nioxin-228x228.jpg" title="" align="center" padding-left="5"
+            padding-right="5" padding-bottom="0" padding-top="0" width="200">
+          </mj-image>
+
+          <mj-text font-weight="bold" color="#000" font-size="15" padding-left="10" padding-right="10" padding-bottom="0" padding-top="0">
+            <h3>Hair System 4</h3>
+          </mj-text>
+
+          <mj-button background-color="#00c853" color="#fff" font-size="13" align="center" padding="15px 30px" border-radius="3px" href="https://www.glemis.ro/nioxin-hair-system-4?utm_content=product_buy" padding-bottom="10" padding-top="0">
+            CUMPĂRĂ
+          </mj-button>
+
+        </mj-column>
+        <!-- Produs 1 End -->
+
+        <!-- Produs 2 start -->
+        <mj-column>
+          <mj-image href="https://www.glemis.ro/nioxin-hair-system-5?utm_content=product_defined" src="https://img.glemis.com/cache/catalog/product/nioxin/hair-system-5/hair-system-kit-for-medium-to-coarse-hair-sys-5-nioxin-228x228.jpg" title="" align="center"
+            padding-left="5" padding-right="5" padding-bottom="0" padding-top="0" width="200">
+
+          </mj-image>
+
+          <mj-text font-weight="bold" align="center" color="#000" font-size="15" padding-left="10" padding-right="10" padding-bottom="0" padding-top="0">
+            <h3>Hair System 5</h3>
+          </mj-text>
+
+          <mj-button background-color="#00c853" color="#fff" font-size="13" align="center" padding="15px 30px" border-radius="3px" href="https://www.glemis.ro/nioxin-hair-system-5?utm_content=product_buy" padding-bottom="10" padding-top="0">
+            CUMPĂRĂ
+          </mj-button>
+
+        </mj-column>
+        <!-- Produs 2 End -->
+
+        <!-- Produs 3 start -->
+        <mj-column>
+          <mj-image href="https://www.glemis.ro/nioxin-hair-system-6?utm_content=product_defined" src="https://img.glemis.com/cache/catalog/product/nioxin/hair-system-6/hair-system-kit-for-medium-to-coarse-hair-sys-6-nioxin-228x228.jpg" title="" align="center"
+            padding-left="5" padding-right="5" padding-bottom="0" padding-top="0" width="200">
+          </mj-image>
+
+          <mj-text font-weight="bold" align="center" color="#000" font-size="15" padding-left="10" padding-right="10" padding-bottom="0" padding-top="0">
+            <h3>Hair System 6</h3>
+          </mj-text>
+
+          <mj-button background-color="#00c853" color="#fff" font-size="13" align="center" padding="15px 30px" border-radius="3px" href="https://www.glemis.ro/nioxin-hair-system-6?utm_content=product_buy" padding-bottom="10" padding-top="0">
+            CUMPĂRĂ
+          </mj-button>
+
+        </mj-column>
+        <!-- Produs 3 End -->
+
+      </mj-section>
+      <!-- Containter Produse End 1 -->
+
+
+      <!-- Produse Headear Start -->
+      <mj-section padding-top="0" padding-bottom="0">
+        <mj-column>
+          <mj-image href="http://glemis.ro?utm_content=banner" src="https://www.glemis.ro/image/catalog/newsletter-2018/newsletter-16/moroccan.jpg" alt="Glemis" align="center" border="none" width="600" padding-left="0" padding-right="0" padding-bottom="0" padding-top="0"></mj-image>
+        </mj-column>
+      </mj-section>
+      <!-- Produse Headear End -->
+
+      <mj-section background-color="#fff" padding-top="10" padding-bottom="0">
+        <mj-column>
+          <mj-image href="https://www.glemis.ro/moroccanoil-repair-line?utm_content=banner" src="https://www.glemis.ro/image/catalog/newsletter-2018/newsletter-16/reparare2.jpg" alt="Glemis" align="center" border="none" width="600" padding-left="0" padding-right="0"
+            padding-bottom="0" padding-top="0"></mj-image>
+          <mj-text font-weight="bold" align="justify" color="#000" font-size="15" padding-left="10" padding-right="10" padding-bottom="0" padding-top="0">
+            <p class="p-head">PENTRU PĂRUL NORMAL PÂNĂ LA DETERIORAT, ACESTE PRODUSE SUNT INFUZATE CU PROTEINE ȘI INGREDIENTE HRĂNITOARE, PENTRU UN PĂR MAI SĂNĂTOS ȘI MAI PUTERNIC</p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#00c853" padding-bottom="0" padding-top="0">
+        <mj-column>
+          <mj-text align="center" color="#fff" font-size="13" padding-left="25" padding-right="25" padding-bottom="10" padding-top="10">
+            <a style="font-size:20;" href="https://www.glemis.ro/moroccanoil-repair-line?utm_content=call_action" class="link-nostyle">CUMPĂRĂ REPAIR LINE</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff" padding-top="10" padding-bottom="0">
+        <mj-column>
+          <mj-image href="https://www.glemis.ro/moroccanoil-volume-line?utm_content=banner" src="https://www.glemis.ro/image/catalog/newsletter-2018/newsletter-16/volum.jpg" alt="Glemis" align="center" border="none" width="600" padding-left="0" padding-right="0"
+            padding-bottom="0" padding-top="0"></mj-image>
+          <mj-text font-weight="bold" align="justify" color="#000" font-size="15" padding-left="10" padding-right="10" padding-bottom="0" padding-top="0">
+            <p class="p-head">AMPLIFICAȚI FORMA ȘI VOLUMUL PĂRULUI NORMAL PÂNĂ LA FIN, FOLOSIND ACESTE PRODUSE PENTRU VOLUM, CARE NU ÎNCARCĂ PĂRUL.</p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#00c853" padding-bottom="0" padding-top="0">
+        <mj-column>
+          <mj-text align="center" color="#fff" font-size="13" padding-left="25" padding-right="25" padding-bottom="10" padding-top="10">
+            <a style="font-size:20;" href="https://www.glemis.ro/moroccanoil-volume-line?utm_content=call_action" class="link-nostyle">CUMPĂRĂ VOLUME LINE</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff" padding-top="10" padding-bottom="0">
+        <mj-column>
+          <mj-image href="https://www.glemis.ro/moroccanoil-hydration?utm_content=banner" src="https://www.glemis.ro/image/catalog/newsletter-2018/newsletter-16/hidratare.jpg" alt="Glemis" align="center" border="none" width="600" padding-left="0" padding-right="0"
+            padding-bottom="0" padding-top="0"></mj-image>
+          <mj-text font-weight="bold" align="justify" color="#000" font-size="15" padding-left="10" padding-right="10" padding-bottom="0" padding-top="0">
+            <p class="p-head">PENTRU PĂR NORMAL PÂNĂ LA USCAT, NUTRIENȚI REVITALIZANȚI AVANSAȚI HIDRATEAZĂ PĂRUL ÎN PROFUNZIME, PĂSTRÂNDU-I, ÎN ACELAȘI TIMP, ECHILIBRUL SĂU NATURAL DE UMIDITATE.</p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#00c853" padding-bottom="0" padding-top="0">
+        <mj-column>
+          <mj-text align="center" color="#fff" font-size="13" padding-left="25" padding-right="25" padding-bottom="10" padding-top="10">
+            <a style="font-size:20;" href="https://www.glemis.ro/moroccanoil-hydration?utm_content=call_action" class="link-nostyle">CUMPĂRĂ HYDRATION LINE</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff" padding-top="10" padding-bottom="0">
+        <mj-column>
+          <mj-image href="https://www.glemis.ro/moroccanoil-smoothing?utm_content=banner" src="https://www.glemis.ro/image/catalog/newsletter-2018/newsletter-16/netezire.jpg" alt="Glemis" align="center" border="none" width="600" padding-left="0" padding-right="0"
+            padding-bottom="0" padding-top="0"></mj-image>
+          <mj-text font-weight="bold" align="justify" color="#000" font-size="15" padding-left="10" padding-right="10" padding-bottom="0" padding-top="0">
+            <p class="p-head">ÎMBLÂNZIȚI PĂRUL ZBÂRLIT, ÎNCREȚIT, CU PRODUSELE NOASTRE PENTRU NETEZIRE. BUCURAȚI-VĂ DE O COAFARE MAI MALEABILĂ, OBȚINÂND UN PĂR MOALE, NETED ȘI HRĂNIT.</p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#00c853" padding-bottom="0" padding-top="0">
+        <mj-column>
+          <mj-text align="center" color="#fff" font-size="13" padding-left="25" padding-right="25" padding-bottom="10" padding-top="10">
+            <a style="font-size:20;" href="https://www.glemis.ro/moroccanoil-smoothing?utm_content=call_action" class="link-nostyle">CUMPĂRĂ SMOOTHING LINE</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff" padding-top="10" padding-bottom="0">
+        <mj-column>
+          <mj-image href="https://www.glemis.ro/moroccanoil-curl-line?utm_content=banner" src="https://www.glemis.ro/image/catalog/newsletter-2018/newsletter-16/bucle.jpg" alt="Glemis" align="center" border="none" width="600" padding-left="0" padding-right="0"
+            padding-bottom="0" padding-top="0"></mj-image>
+          <mj-text font-weight="bold" align="justify" color="#000" font-size="15" padding-left="10" padding-right="10" padding-bottom="0" padding-top="0">
+            <p class="p-head">PENTRU TOATE TIPURILE DE PĂR ONDULAT, DE LA DELICAT PÂNĂ LA STRÂNS SPIRALAT, BUCLELE SUNT BINE DEFINITE, CONDIȚIONATE ȘI FĂRĂ ÎNCREȚIRE</p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#00c853" padding-bottom="0" padding-top="0">
+        <mj-column>
+          <mj-text align="center" color="#fff" font-size="13" padding-left="25" padding-right="25" padding-bottom="10" padding-top="10">
+            <a style="font-size:20;" href="https://www.glemis.ro/moroccanoil-curl-line?utm_content=call_action" class="link-nostyle">CUMPĂRĂ CURL LINE</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff" padding-top="10" padding-bottom="0">
+        <mj-column>
+          <mj-image href="https://www.glemis.ro/moroccanoil-clarifying-line?utm_content=banner" src="https://www.glemis.ro/image/catalog/newsletter-2018/newsletter-16/ECHILIBRUL-SCALPULUI.jpg" alt="Glemis" align="center" border="none" width="600" padding-left="0"
+            padding-right="0" padding-bottom="0" padding-top="0"></mj-image>
+          <mj-text font-weight="bold" align="justify" color="#000" font-size="15" padding-left="10" padding-right="10" padding-bottom="0" padding-top="0">
+            <p class="p-head">PĂRUL FRUMOS CU CORP ŞI VITALITATE ÎNCEPE DE LA SCALP. CALMEAZĂ PIELEA ŞI ECHILIBREAZĂ PRODUCŢIA DE SEBUM CU ULEI DE ARGAN ŞI ULEIURI ESENŢIALE</p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#00c853" padding-bottom="0" padding-top="0">
+        <mj-column>
+          <mj-text align="center" color="#fff" font-size="13" padding-left="25" padding-right="25" padding-bottom="10" padding-top="10">
+            <a style="font-size:20;" href="https://www.glemis.ro/moroccanoil-clarifying-line?utm_content=call_action" class="link-nostyle">CUMPĂRĂ CLARIFYING LINE</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-top="0" padding-bottom="0">
+        <mj-column>
+          <mj-image href="https://www.glemis.ro/index.php?route=product/special&sort=percent&order=ASC&limit=24&page=6&amp?utm_content=product_defined" src="https://www.glemis.ro/image/catalog/newsletter-2018/newsletter-16/reducere3.jpg" alt="Glemis" align="center"
+            border="none" width="600" padding-left="0" padding-right="0" padding-bottom="0" padding-top="0"></mj-image>
+        </mj-column>
+      </mj-section>
+
+
+
+      <mj-section background-color="#f1405a" padding-bottom="0" padding-top="0">
+        <mj-column>
+          <mj-text font-weight="bold" align="center" color="#fff" font-size="15" padding-left="10" padding-right="10" padding-bottom="0" padding-top="0">
+            <p class="p-footer">
+              CosiBella srl, CIF: RO30133602, Reg. Com: J33/321/2012.<br><br> Primiti&nbsp;acest mail deoarece adresa de mail {email} este inregistrata in baza de date a magazinului
+              <a class="link-nostyle" href="https://www.glemis.ro">glemis.ro</a> pentru clientul {lastname} {name}.&nbsp;Daca nu mai doriti mailuri promotionale / informative de la glemis.ro va puteti dezabona <a href="http://www.glemis.ro/index.php?route=ne/unsubscribe&amp;t=mail&amp;uid={uid}&amp;key={key}"
+                style="text-decoration: none; color: #fff; font-weight: bold;">dand click aici.</a>
+            </p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+
+
+      <mj-section background-color="#f1405a" padding-bottom="0" padding-top="0">
+        <mj-column width="15%">
+        </mj-column>
+        <mj-column width="70%">
+          <mj-text font-weight="bold" align="center" color="#fff" font-size="15" padding-left="10" padding-right="10" padding-bottom="0" padding-top="0">
+            <p class="p-footer">
+              <a class="link-nostyle" href="http://www.glemis.ro/termeni-si-conditii" style="text-decoration: none;" target="_blank">Termeni si Conditii</a>&nbsp;|&nbsp;
+              <a class="link-nostyle" href="http://www.glemis.ro/politica-de-confidentialitate" style="text-decoration: none;" target="_blank">Politica de confidentialitate</a>
+            </p>
+          </mj-text>
+          <mj-social font-size="13" text-mode="false" facebook-href="https://www.facebook.com/GlemisRomania" twitter-href="https://twitter.com/GlemisRomania" google-href="https://plus.google.com/+GlemisSuceava" mode="horizontal" display="facebook twitter google"
+            padding-left="25" padding-right="25" padding-bottom="5" padding-top="5">
+          </mj-social>
+        </mj-column>
+        <mj-column width="15%">
+        </mj-column>
+      </mj-section>
+
+    </mj-container>
+  </mj-body>
+</mjml>

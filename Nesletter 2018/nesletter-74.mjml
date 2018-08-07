@@ -1,0 +1,219 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="Ubuntu" />
+      <mj-text padding-top="5px" padding-left="10px" padding-right="10px" />
+      <mj-class name="blue" color="blue" />
+      <mj-class name="big" font-size="20px" />
+      <mj-class name="p-intro" font-size="20px" color "#fff" />
+      <mj-class name="title" align="center" color="#2f323b" font-size="13px" padding-left="25px" padding-right="25px" padding-bottom="5px" padding-top="10px" line-height="15px;" />
+      <mj-class name="title-info" align="center" color="#2f323b" font-size="13px" padding-left="25px" padding-right="25" padding-bottom="10px" padding-top="0px" line-height="18px;" />
+      <mj-class name="" />
+      <mj-class name="logo" width="150" align="center" padding="0px 0px 10px 0px" src="https://www.glemis.hu/image/catalog/newsletter-2018/logo-negru-floare.png" />
+      <mj-all font-family="Ubuntu" />
+      <mj-class name="product-image" width="300px" height="150px" align="middle" padding="1" vertical align="middle" />
+      <mj-class name="slider" align="center" border="none" width="600" padding="0px 0px" />
+
+      <!-- Buttons Start -->
+      <mj-class name="orange-button" align="center" border="2px solid #fff" background-color="#fa8739" color="#fff" border-radius="24px" font-size="13px" padding="5px 0px" />
+
+      <mj-class name="red-button" align="center" border="2px solid #fff" background-color="#BB9D55" color="#fff" border-radius="24px" font-size="13px" padding="5px 0px" />
+
+      <mj-class name="green-button" align="center" border="2px solid #fff" background-color="#9B1D1E" color="#fff" border-radius="24px" font-size="13px" padding="5px 0px" />
+
+      <mj-class name="green-botton-ar" padding="5px 0px" align="center" border="2px solid #fff" background-color="#00c853" color="#fff" border-radius="24px" font-size="13px"  />
+
+      <mj-class name="green-botton-ar-b" padding="5px 0px" align="center" border="2px solid #00c853" background-color="#fff" color="#000" border-radius="24px" font-size="13px"  />
+      <!-- Buttons End -->
+
+      <!-- Footer Start -->
+      <mj-class name="footer" font-weight="normal" color="#fff" font-size="13px" align="center" line-height="22px;" padding="5px" margin="5px" letter-spacing="0pt" word-spacing="2pt" font-family="lucida sans unicode,lucida grande, sans-serif" />
+      <!-- Footer end -->
+
+    </mj-attributes>
+
+     <mj-style inline="inline">
+    .link-nostyle { color: inherit; text-decoration: none }
+    .circle {border-radius: 50%; width: 200px; height: 200px;}
+       .p-head{font-weight:normal; color:#000; letter-spacing:0pt;word-spacing:2pt;font-size:15px;text-align:justify;font-family:lucida sans unicode,lucida grande, sans-serif;line-height:19px;margin:5px;padding:5px;}
+
+    h2 {display: block;
+      font-size: 1.5em;
+  		margin: 10px 0px;
+      font-weight: bold;
+      height: 55px;
+      padding: 10px 0px;
+      overflow: hidden;
+    }
+
+    .product {
+      font-weight: normal;
+      color: #000000;
+      letter-spacing: 0pt;
+      word-spacing: 2pt;
+      font-size: 12px;
+      text-align: center;
+      font-family: lucida sans unicode, lucida grande, sans-serif;
+      line-height: 1;
+      margin: 5px;
+      padding: 5px;
+      height: 50px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+   .discount{
+       display: inline-block;
+       background-color: red;
+       width:100%;
+       font-size: 13px;
+       padding:5px 0px;
+       margin: 0px auto;
+       box-sizing: border-box;
+       color: #fff;
+       text-transform: uppercase;
+       }
+
+       body {
+        background-image: url("https://www.glemis.ro/image/catalog/newsletter-2018/newsletter-74/green.jpg");
+     }
+       </mj-style>
+  </mj-head>
+  <mj-body>
+    <!-- Title & Title Info -->
+    <mj-section padding="0px 0px" background-color="#ffffff">
+      <mj-column>
+        <mj-text mj-class="title">
+          Indrumari pentru curatarea corecta a tenului
+        </mj-text>
+        <mj-text mj-class="title-info">
+          Daca intampinati probleme in vizualizarea acestui mail,
+          <a href="http://www.glemis.ro/index.php?route=ne/show&amp;uid={uid}&amp;utm_content=web_version" style="text-decoration: none; color: #000000;"><strong>vedeti varianta web dand click aici</strong>
+       </a>.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Title & Title Info -->
+
+
+    <!-- Logo -->
+    <mj-section background-color="#ffff" padding="5px 0px">
+      <mj-column>
+        <mj-image mj-class="logo" href="https://www.glemis.ro/" alt="Glemis"></mj-image>
+      </mj-column>
+    </mj-section>
+    <!-- logo End -->
+
+<!-- Slide Start  -->
+    <mj-section padding-top="0px" padding-bottom="0" background-color="#fff">
+      <mj-column>
+        <mj-text align="center" padding="0px 0px">
+        <h1 style="color:#000; font-size:20px; font-weight:500; padding:0px 5px; margin-top:0px;">3 pasi pentru spalarea tenului</h1>
+        </mj-text>
+        <mj-image mj-class="slider" href="?utm_content=banner" src="https://www.glemis.ro/image/catalog/newsletter-2018/newsletter-74/curatare-ten.jpg" alt="Glemis"></mj-image>
+        <mj-text>
+          <p style="color:#000;" class="p-head">
+<b>1.</b> Tenul este clatit cu apa din abundenta. In palmele umede se pune produsul de curatare, dupa care se maseaza tenul cu varful degetelor. Spuma de curatare poate fi folosita si pentru curatarea decolteului si gatului. </p>
+<p style="color:#000;" class="p-head">
+<b>2.</b> Clatiti cu apa din abundenta. Acordati de 3 ori mai mult timp clatirii, comparativ cu curatarea tenului. Cel mai important este sa indepartati in totalitate sapunul astfel incat sa nu ramana nici o urma de substanta toxica, care va poate afecta fata.</p>
+<p style="color:#000;" class="p-head">
+<b>3.</b> Cu un prosop moala se sterge pielea cu miscari lente, frecarea energica afecteaza suprafata pielii!</p>
+        </mj-text>
+        <mj-button align="center" border="2px solid #e85034" background-color="#fff" color="#e85034" font-size="20px" font-weight="400" href="https://www.glemis.ro/curatare-si-exfoliere" font-family="Ubuntu, Helvetica, Arial, sans-serif, Helvetica, Arial, sans-serif" padding-bottom="15px"
+  padding-top="0px">Produsele pentru curatarea tenului</mj-button>
+</mj-column>
+      </mj-column>
+    </mj-section>
+
+
+
+  <!-- Slide End  -->
+
+    <mj-section padding-top="0px" padding-bottom="0" background-color="#00c853">
+      <mj-column>
+        <mj-text align="center" color="#fff" padding="0px 0px" line-height="23px">
+        <h1 style="font-size:25px; font-weight:500; padding:5px 5px;">Curatarea in functie de tipul de ten</h1>
+        </mj-text>
+        <mj-image mj-class="slider" href="?utm_content=banner" src="https://www.glemis.ro/image/catalog/newsletter-2018/newsletter-74/skincaremonth_banner-zci8q.jpg" alt="Glemis"></mj-image>
+        <mj-text>
+          <p style="color:#000; line-height:20px; background-color:#fff; padding:10px 10px;" class="p-head">
+Indiferent de ce tip ce ten aveti, curatarea tenului seara, inainte de culcare, este un procedeu obligatori. Acest lucru este chiar mai important decat spalatul de dimineata, deoarece ziua poluantii si alte impuritati din aer se aseaza la suprafata pielii, iar daca nu sunt indepartati acestia pot conduce la aparitia diferitor afectiuni ale pielii.
+<br><br>
+Majoritatea persoanelor se spala cu apa si sapun datorita efectului revigorant al acestei combinatii. In realitate, sapunul are un efect alcalin si conduce la uscarea tenului prin eliminarea uleiurilor naturale. Mai mult acesta poate perturba echilibrul alcalin - normal - acid al pielii.
+ </p>
+ <p style="color:#000; line-height:20px; background-color:#fff; padding:10px 10px;" class="p-head">
+<b>1. Tenul acneic</b> - persoanele cu ten acneic pot stopa productia de sebum prin spalarea cu produse de curatare puternice. Cu toate acestea, curatarea nu va conduce la tratarea acestei afectiuni, ba mai mult decat atat, afectiunea se poate inrautati. Majoritatea doctorilor recomanda persoanelor cu acnee sa isi curate pielea cu un produs partial hidratant, de doua ori pe zi: dimineata si seara. Mare atentie trebuie acordata curatarii zonei se sub maxilar, pe linia parului.
+<br><br>
+De asemenea, se recomanda si utilizarea discurilor demachiante si a <a href="https://www.glemis.ro/lapte-demachiant-cu-acid-hialuronic-pentru-hidratare-intensa-aqua-genomics-cleansing-bruno-vassari-250-ml">laptelui demachiant</a>, insa dupa curatare pielea trebuie clatita cu apa din abundenta.
+<br><br>
+Produsele astringente sunt recomandate doar in cazul in care tenul este extrem de gras.
+ </p>
+ <p style="color:#000; line-height:20px; background-color:#fff; padding:10px 10px;" class="p-head">
+ <b>2. Ten normal - uscat</b>
+Se foloseste un gel de curatare hidratant sau o crema, care contine emolienti pentru ca dupa curatare pielea sa ramana fina si hidratata. Dupa utilizarea produsului de curatare pielea se sterge cu un disc demachiant.</p>
+
+<p style="color:#000; line-height:20px; background-color:#fff; padding:10px 10px;" class="p-head">
+<b>3. Ten normal - gras</b>
+Pentru un ten mixt, normal sper gras, se foloseste lapte demachiant. Curatati pielea cu ajutorul discurilor cosmetice sau pur si simplu cu lapte demachiant si apa. Indiferent de metoda de curatare aplicata este important ca la final sa spalati pielea cu apa din abundenta.
+<br><br>
+Daca prezentati si ale afectiuni ale pielii, cum ar fi cosuri, pete, puncte negre este indicat sa utilizati produse dermatocosmetice si la recomandarea medicului dermatolog sa urmati un tratament medicamentos.
+</p>
+        </mj-text>
+        <mj-button align="center" border="2px solid #fff" background-color="#00c853" color="#fff" font-size="20px" href="https://www.glemis.ro/ingrijire-ten" font-family="Ubuntu, Helvetica, Arial, sans-serif, Helvetica, Arial, sans-serif" padding-bottom="15px"
+  padding-top="0px">Descopera produs pentru ingrijirea tenului</mj-button>
+      <mj-divider border-color="#fff" border-style="solid" border-width="1px" padding-left="100px" padding-right="100px" padding-bottom="5px" padding-top="5"></mj-divider>
+      </mj-column>
+    </mj-section>
+
+  <!-- Email content End -->
+
+  <!-- footer Start -->
+    <mj-section background-color="#00c853" padding-bottom="0px" padding-top="0px">
+      <mj-column>
+        <mj-text mj-class="footer">
+          <br>
+          <b>
+          CosiBella srl, CIF: RO30133602, Reg. Com: J33/321/2012.</b><br><br> Primiti&nbsp;acest mail deoarece adresa de mail {email} este inregistrata in baza de date a magazinului
+          <a class="link-nostyle" href="https://www.glemis.ro">glemis.ro</a> pentru clientul {lastname} {name}.&nbsp;Daca nu mai doriti mailuri promotionale / informative de la glemis.ro va puteti dezabona <a href="http://www.glemis.ro/index.php?route=ne/unsubscribe&amp;t=mail&amp;uid={uid}&amp;key={key}"
+            style="text-decoration: none; color: #fff; font-weight: bold;">dand click aici.</a>
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#00c853" padding-bottom="0px" padding-top="0px">
+      <mj-column width="15%">
+      </mj-column>
+      <mj-column width="70%">
+            <mj-divider border-color="#fff" border-style="solid" border-width="1px" padding-left="100px" padding-right="100px" padding-bottom="5px" padding-top="5"></mj-divider>
+        <mj-text font-weight="normal" align="center" color="#fff" font-size="15px" padding-left="10px" padding-right="10px" padding-bottom="0px" padding-top="0px">
+          <p class="p-footer">
+            <a class="link-nostyle" href="http://www.glemis.ro/termeni-si-conditii" style="text-decoration: none; color:#fff;" target="_blank">Termeni si Conditii</a>&nbsp;|
+            <a class="link-nostyle" href="http://www.glemis.ro/politica-de-confidentialitate" style="text-decoration: none; color:#fff;" target="_blank">Politica de confidentialitate</a>
+          </p>
+        </mj-text>
+      </mj-column>
+      <mj-column width="15%">
+      </mj-column>
+    </mj-section>
+    <!-- Footer Start -->
+    <mj-section background-color="#00c853" padding="0px 0px">
+      <mj-column>
+        <mj-social font-size="15px" icon-size="30px" mode="horizontal">
+          <mj-social-element name="facebook" href="https://www.facebook.com/GlemisRomania" background-color="#4d4d4d">
+          </mj-social-element>
+          <mj-social-element name="google" href="https://plus.google.com/+GlemisSuceava" background-color="#4d4d4d">
+          </mj-social-element>
+          <mj-social-element name="twitter" href="https://twitter.com/GlemisRomania" background-color="#4d4d4d">
+          </mj-social-element>
+          <mj-social-element name="instagram" href="https://www.instagram.com/glemisromania/" background-color="#4d4d4d">
+          </mj-social-element>
+          <mj-social-element name="pinterest" href="https://www.pinterest.com/GlemisRomania" background-color="#4d4d4d">
+          </mj-social-element>
+          <mj-social-element name="google" href="https://plus.google.com/+GlemisSuceava" background-color="#4d4d4d">
+          </mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+    <!-- footer End -->
+  </mj-body>
+</mjml>

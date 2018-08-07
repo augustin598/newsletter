@@ -1,0 +1,347 @@
+<mjml>
+    <mj-head>
+        <mj-style inline="inline">
+            .link-nostyle { color: inherit; text-decoration: none } .circle {border-radius: 50%; width: 200px; height: 200px;} 
+            p{font-weight:normal;color:#000000;letter-spacing:0pt;word-spacing:2pt;font-size:12px;text-align:center;font-family:lucida sans unicode,lucida
+            grande, sans-serif;line-height:1;margin:5px;padding:5px;}
+            .p-head{font-weight:normal; color:#000; letter-spacing:0pt;word-spacing:2pt;font-size:12px;text-align:justify;font-family:lucida sans unicode,lucida grande, sans-serif;line-height:16px;margin:5px;padding:5px;}
+            .p-footer{font-weight:normal; color:#fff; letter-spacing:0pt;word-spacing:2pt;font-size:12px;text-align:center;font-family:lucida sans unicode,lucida grande, sans-serif;line-height:16px;margin:5px;padding:5px;}
+            h3{font-weight:normal;color:#000000;letter-spacing:1pt;word-spacing:2pt;font-size:17px;text-align:center;font-family:arial black, sans-serif;line-height:1; padding:10px 15px; margin:5px}
+            h1{font-family: Ubuntu, Helvetica, Arial, sans-serif; line-height:1; font-size:21px;text-align:center; padding:10px 10px; margin:0px;}
+            .h1-left{font-family: Ubuntu, Helvetica, Arial, sans-serif; line-height:1; font-size:21px; text-align:left; padding:10px 10px; margin:0px;}
+          
+          /* === PRODUCT DESCRIPTION === */
+          .product{ font-weight: normal; color: #000000; letter-spacing: 0pt; word-spacing: 2pt; font-size: 12px; text-align: center; font-family: lucida sans unicode,lucida grande, sans-serif; line-height:
+             1; margin: 5px; padding: 5px; height: 67px; overflow: hidden;text-overflow: ellipsis;}
+          /* === PRODUCT DESCRIPTION === */
+         
+          /* === PRODUCT HEADING === */
+          h3{font-family: Ubuntu, Helvetica, Arial, sans-serif; line-height: 1; font-size: 16px; text-align: center; padding: 10px 0px; margin: 0px; color: #000; font-weight:500; height: 40px; overflow: hidden;} 
+          /* === PRODUCT HEADING === */
+          
+          /* === BACKGROUND BODY START === */
+           body  {   
+          background-image: url("https://www.glemis.ro/image/catalog/newsletter-2018/newsletter-6/abstract-geometric-pattern-background_1319-242.jpg");
+}
+          /* === BACKGROUND BODY End === */
+        </mj-style>
+    </mj-head>
+    <mj-body>
+        <mj-container>
+            <mj-section background-color="#fff" padding-bottom="0" padding-top="0">
+                <mj-column>
+                    <mj-text align="center" color="#2f323b" font-size="13" padding-left="25" padding-right="25" padding-bottom="5" padding-top="10">
+                        Tu știi cum să ai grijă de părul vopsit?
+                    </mj-text>
+                    <mj-text align="center" color="#2f323b" font-size="13" padding-left="25" padding-right="25" padding-bottom="10" padding-top="5">
+                        Daca intampinati probleme in vizualizarea acestui mail, <a href="http://www.glemis.ro/index.php?route=ne/show&amp;uid={uid}&amp;utm_content=web_version" style="text-decoration: none; color: #000000;"><strong>vedeti varianta web dand click aici</strong></a>.
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <mj-navbar background-color="#ffffff">
+                <mj-column width="100%">
+                    <mj-image href="https://www.glemis.ro/" src="https://www.glemis.ro/image/catalog/newsletter-2018/logo-negru-floare.png" alt="Glemis" width="200" align="center" padding="10">
+                    </mj-image>
+                  <
+                </mj-column>
+                <mj-column width="100%">
+                    <mj-inline-links  base-url="https://www.glemis.ro" hamburger="hamburger" ico-color="#fa8739">
+                        <mj-link href="https://www.glemis.ro/wella-professionals-koleston-perfect?utm_content=koleston_perfect">Koleston Perfect</mj-link>
+                        <mj-link href="https://www.glemis.ro/vitalitys-vopsea-permanenta-art-absolute?utm_content=art_absolute">Art Absolute</mj-link>
+                        <mj-link href="https://www.glemis.ro/loreal-professionnel-majirel?utm_content=marijel" color="#000000">Majirel</mj-link>
+                    </mj-inline-links>
+                </mj-column>
+            </mj-navbar>
+
+            <mj-section padding-top="0" padding-bottom="0">
+                <mj-column>
+                    <mj-image href="http://glemis.ro?utm_content=banner" src="https://www.glemis.ro/image/catalog/newsletter-2018/newsletter-6/blog-list-img-01.jpg" alt="Glemis" align="center" border="none" width="600" padding-left="0" padding-right="0" padding-bottom="0" padding-top="0"></mj-image>
+                </mj-column>
+            </mj-section>
+
+
+            <mj-section background-color="#000">
+                <mj-column width="20%"></mj-column>
+                <mj-column width="60%">
+                    <mj-button css-class="color:red;" background-color="#fa8739" color="#fff" font-size="18" align="center" padding="10px 10px" border-radius="3px" href="https://www.glemis.ro/top-4-vopsele-de-par-profesionale?utm_content=articol" padding-bottom="0" padding-top="0">
+                        Top 4 Vopsele Profesinale
+                    </mj-button>
+                </mj-column>
+                <mj-column width="20%"></mj-column>
+            </mj-section>
+
+            <!-- Produse Headear Start -->
+            <mj-section background-color="#fff" padding-top="5" padding-bottom="5">
+                <mj-column>
+                    <mj-text font-weight="bold" align="center" color="#000" font-size="15" padding-left="10" padding-right="10" padding-bottom="0" padding-top="0">
+                    </mj-text>  
+                  <mj-text font-weight="bold" align="justify" color="#000" font-size="15" padding-left="0" padding-right="0" padding-bottom="0" padding-top="0">
+                         <p class="p-head">În cazul în care alegi să te vopseşti singură, nu va fi atât de greu dacă îţi vei achiziţiona produsele profesionale de calitate.<br><br>Vopselele profesionale sunt calitativ superioare celor din comerț, diferențele fiind vizibile de la prima aplicare.</p>
+                     <hr style="width:100%; height:2px;border:none;color:#000;background-color:#000;">
+                    </mj-text> 
+                </mj-column>
+            </mj-section>
+            <!-- Produse Headear End -->
+
+            <!-- Containter Produse Start 1 -->
+            <mj-section background-color="#fff" padding-top="10" padding-bottom="10" padding-left="5" padding-right="5">
+                <!-- Produs 1 start -->
+                <mj-column>
+                    <mj-image href="https://www.glemis.ro/vopsea-de-par-profesionala-neoxidativa-gb9-elumen-goldwell-200-ml?utm_content=product_defined" src="https://img.glemis.com/cache/catalog/product/goldwell/elumen/gb-9-228x228.jpg" title="Vopsea de par profesionala neoxidativa - GB@9 - Elumen - Goldwell - 200 ml" align="center" padding-left="5" padding-right="5" padding-bottom="0" padding-top="0" width="200">
+                    </mj-image>
+
+                    <mj-text font-weight="bold" color="#000" font-size="15" padding-left="10" padding-right="10" padding-bottom="0" padding-top="0">
+                        <h3>Vopsea de par profesionala neoxidativa - GB@9 - Elumen - Goldwell - 200 ml</h3>
+                        <p class="product">Goldwell Elumen este vopseaua care iluminează părul intens din interior pentru a oferi rezultate intense și impecabile profesioniștilor in culoare:</p>
+                        <p style="color: rgb(250, 135, 57);">104,90 lei</p>
+                    </mj-text>
+
+                    <mj-button background-color="#fa8739" color="#fff" font-size="13" align="center" padding="15px 30px" border-radius="3px" href="https://www.glemis.ro/vopsea-de-par-profesionala-neoxidativa-gb9-elumen-goldwell-200-ml?utm_content=product_buy" padding-bottom="10" padding-top="0">
+                        CUMPĂRĂ
+                    </mj-button>
+
+                </mj-column>
+                <!-- Produs 1 End -->
+
+                <!-- Produs 2 start -->
+                <mj-column>
+                    <mj-image href="https://www.glemis.ro/vopsea-de-par-profesionala-pentru-luciu-intens-7nwb-permanent-color-cream-lumishine-joico-74-ml?utm_content=product_defined" src="https://img.glemis.com/cache/catalog/product/joico/lumishine-color/7nwb-permanent-color-cream-lumishine-joico-74-ml-228x228.jpg" title="Vopsea de par profesionala pentru luciu intens - 7NWB - Permanent Color Cream - Lumishine - Joico - 74 ml" align="center" padding-left="5" padding-right="5" padding-bottom="0" padding-top="0" width="200">
+
+                    </mj-image>
+
+                    <mj-text font-weight="bold" align="center" color="#000" font-size="15" padding-left="10" padding-right="10" padding-bottom="0" padding-top="0">
+                        <h3>Permanent Color Cream - Lumishine - Joico - 7NWB</h3>
+                        <p class="product">Noua vopsea Joico LumiShine Repair+ transformă și reface părul din interior spre exterior, acționând fără a rupe fibra capilară, datorită complexului ArgiPlex Technology. Această tehnologie inovatoare reface nivelul de Arginină din păr, care se pierde în urma procesului de vopsire. </p>
+                        <p style="color: rgb(250, 135, 57);">49,30 lei</p>
+                    </mj-text>
+
+                    <mj-button background-color="#fa8739" color="#fff" font-size="13" align="center" padding="15px 30px" border-radius="3px" href="https://www.glemis.ro/vopsea-de-par-profesionala-pentru-luciu-intens-7nwb-permanent-color-cream-lumishine-joico-74-ml?utm_content=product_buy" padding-bottom="10" padding-top="0">
+                        CUMPĂRĂ
+                    </mj-button>
+
+                </mj-column>
+                <!-- Produs 2 End -->
+
+                <!-- Produs 3 start -->
+                <mj-column>
+                    <mj-image href="https://www.glemis.ro/vitalitys-6-9-caramel-art-absolute-vopsea-de-par-profesionala-100-ml?utm_content=product_defined" src="https://img.glemis.com/cache/catalog/product/vitalitys/art-absolute-permanent-paint/vitalitys-6-9-caramel-art-absolute-vopsea-de-par-profesionala-100-ml-228x228.jpg" title="
+Vitality's - 6.9 Caramel - Art Absolute - Vopsea De Par Profesionala 100 ml" align="center" padding-left="5" padding-right="5" padding-bottom="0" padding-top="0" width="200">
+                    </mj-image>
+
+                    <mj-text font-weight="bold" align="center" color="#000" font-size="15" padding-left="10" padding-right="10" padding-bottom="0" padding-top="0">
+                        <h3>
+Vitality's - 6.9 Caramel - Art Absolute </h3>
+                        <p class="product">Vitality's - 6.9 Caramel - Art Absolute - Vopsea De Par Profesionala 100 ml</p>
+                        <p style="color: rgb(250, 135, 57);">40,00 lei</p>
+                    </mj-text>
+
+                    <mj-button background-color="#fa8739" color="#fff" font-size="13" align="center" padding="15px 30px" border-radius="3px" href="https://www.glemis.ro/vitalitys-6-9-caramel-art-absolute-vopsea-de-par-profesionala-100-ml?utm_content=product_buy" padding-bottom="10" padding-top="0">
+                        CUMPĂRĂ
+                    </mj-button>
+
+                </mj-column>
+                <!-- Produs 3 End -->
+
+            </mj-section>
+            <!-- Containter Produse End 1 -->
+
+            <!-- Produse Headear Start -->
+            <mj-section background-color="#fff" padding-top="5" padding-bottom="5">
+                <mj-column>
+                    <mj-text font-weight="bold" align="center" color="#000" font-size="15" padding-left="10" padding-right="10" padding-bottom="0" padding-top="0">
+                        <h1>Șampoane pentru părul vopsit</h1>
+                    </mj-text>
+                   <mj-text font-weight="bold" align="justify" color="#000" font-size="15" padding-left="0" padding-right="0" padding-bottom="0" padding-top="0">
+                        <p class="p-head">Părul vopsit are nevoie de îngrijire suplimentară, de aceea este indicat să folosești șampoane special concepute în acest sens. Cel mai indicat în acest caz este șamponul fără sulfați pentru că acesta nu conține atât de multe substanțe chimice dăunătoare care să afecteze părul sau culoarea părului.</p>
+                        <hr style="width:100%; height:2px;border:none;color:#000;background-color:#000;">
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <!-- Produse Headear End -->
+						  <mj-section background-color="#000" padding-top="10" padding-bottom="10" padding-left="5" padding-right="5">
+             <mj-column width="50%">
+               <mj-image href="https://www.glemis.ro/loreal-professionnel" src="https://www.glemis.ro/image/catalog/newsletter-2018/newsletter-6/1-17-300x300.jpg" title="" align="center" padding-left="5" padding-right="5" padding-bottom="0" padding-top="0" width="300">
+                    </mj-image>
+             </mj-column>
+                     <mj-column width="50%">
+               <mj-image href="https://www.glemis.ro/vitalitys-vopsea-permanenta-art-absolute" src="https://www.glemis.ro/image/catalog/newsletter-2018/newsletter-6/cum-iti-faci-ombre6-300x300.jpg" title="" align="center" padding-left="5" padding-right="5" padding-bottom="0" padding-top="0" width="300">
+                    </mj-image>
+             </mj-column>
+              </mj-section>
+            <!-- Containter Produse Start 2 -->
+            <mj-section background-color="#000" padding-top="0" padding-bottom="10" padding-left="5" padding-right="5">
+                <!-- Produs 1 start -->
+                <mj-column background-color="#fff">
+                    <mj-image href="https://www.glemis.ro/set-sampon-balsam-pentru-par-vopsit-color-endure-duo-joico-2-x-500-ml?utm_content=product_defined" src="https://img.glemis.com/cache/catalog/product/joico/sets-duo/color-endure-duo-joico-2-x-500-ml-228x228.jpg" title="Set şampon + balsam pentru păr vopsit - Color Endure Duo - Joico - 2 x 500 ml" align="center" padding-left="5" padding-right="5" padding-bottom="0" padding-top="5" width="200">
+
+                    </mj-image>
+
+                    <mj-text font-weight="bold" align="center" color="#000" font-size="15" padding-left="10" padding-right="10" padding-bottom="0" padding-top="0">
+                        <h3>Set şampon + balsam pentru păr vopsit Joico</h3>
+                        <p class="product">Fie că e uscat, degradat, tratat chimic, fin şi lipsit de viaţă, gros şi neascultător sau pur şi simplu are nevoie de o extra îngrijire pentru a-l face mai sănătos, mai strălucitor, radiind a frumuseţe, produsele profesionale Joico oferă soluţii specifice fiecărei nevoi pentru a satisface toate cerinţele părului Dumneavoastră şi pentru a mulţumi cele mai înalte exigenţe.</p>
+                        <p style="color: rgb(250, 135, 57);">143,30 lei</p>
+                    </mj-text>
+
+                    <mj-button background-color="#fa8739" color="#fff" font-size="13" align="center" padding="15px 30px" border-radius="3px" href="https://www.glemis.ro/set-sampon-balsam-pentru-par-vopsit-color-endure-duo-joico-2-x-500-ml?utm_content=product_buy" padding-bottom="10" padding-top="0">
+                        CUMPĂRĂ
+                    </mj-button>
+
+                </mj-column>
+                <!-- Produs 1 End -->
+
+                <!-- Produs 2 start -->
+                <mj-column background-color="#fff">
+                    <mj-image href="https://www.glemis.ro/sampon-pentru-parul-vopsit-cu-elumen-shampoo-elumen-goldwell-250-ml?utm_content=product_defined" src="https://img.glemis.com/cache/catalog/product/goldwell/elumen-care/sampon-pentru-parul-vopsit-cu-elumen-shampoo-elumen-goldwell-250-ml-228x228.jpg" title="Sampon pentru parul vopsit cu Elumen - Shampoo - Elumen - Goldwell - 250 ml" align="center" padding-left="5" padding-right="5" padding-bottom="0" padding-top="5" width="200">
+
+                    </mj-image>
+
+                    <mj-text font-weight="bold" align="center" color="#000" font-size="15" padding-left="10" padding-right="10" padding-bottom="0" padding-top="0">
+                        <h3>Sampon pentru parul vopsit cu Elumen - Shampoo - Elumen - Goldwell - 250 ml</h3>
+                        <p class="product">Sampon de inaltă performanță special conceput pentru părul vopsit cu Elumen. Reduce semnificativ scurgerea vopselei de pe firul de păr in timpul procesului de spălare. Menține strălucirea specială Elumen și mărește intensitatea culorii. Potrivit pentru toate tipurile de păr.</p>
+                        <p style="color: rgb(250, 135, 57);">56,10 lei</p>
+                    </mj-text>
+
+                    <mj-button background-color="#fa8739" color="#fff" font-size="13" align="center" padding="15px 30px" border-radius="3px" href="https://www.glemis.ro/sampon-pentru-parul-vopsit-cu-elumen-shampoo-elumen-goldwell-250-ml?utm_content=product_buy" padding-bottom="10" padding-top="0">
+                        CUMPĂRĂ
+                    </mj-button>
+
+                </mj-column>
+                <!-- Produs 2 End -->
+
+                <!-- Produs 3 start -->
+                <mj-column background-color="#fff">
+                    <mj-image href="https://www.glemis.ro/sampon-pentru-protectia-culorii-parului-vopsit-colored-hair-shampoo-precious-nature-alfaparf-milano-250-ml?utm_content=product_defined" src="https://img.glemis.com/cache/catalog/product/alfaparf-milano/precious-nature-colored-hair/colored-hair-shampoo-precious-nature-alfaparf-milano-250-ml-228x228.jpg" title="Sampon pentru protectia culorii parului vopsit - Colored Hair Shampoo - Precious Nature - Alfaparf Milano - 250 ml" align="center" padding-left="5" padding-right="5" padding-bottom="0" padding-top="5" width="200">
+                    </mj-image>
+
+                    <mj-text font-weight="bold" align="center" color="#000" font-size="15" padding-left="10" padding-right="10" padding-bottom="0" padding-top="0">
+                        <h3>Sampon pentru protectia culorii parului vopsit - Colored Hair Shampoo - Precious Nature - Alfaparf Milano - 250 ml</h3>
+                        <p class="product">Curăţă delicat părul vopsit şi menţine intensitatea şi strălucirea extraordinară a culorii.</p>
+                        <p style="color: rgb(250, 135, 57);">43,20 lei</p>
+                    </mj-text>
+
+                    <mj-button background-color="#fa8739" color="#fff" font-size="13" align="center" padding="15px 30px" border-radius="3px" href="https://www.glemis.ro/sampon-pentru-protectia-culorii-parului-vopsit-colored-hair-shampoo-precious-nature-alfaparf-milano-250-ml?utm_content=product_buy" padding-bottom="10" padding-top="0">
+                        CUMPĂRĂ
+                    </mj-button>
+
+                </mj-column>
+                <!-- Produs 3 End -->
+
+            </mj-section>
+            <!-- Containter Produse End 2 -->
+                  
+                         <!-- Produse Headear Start -->
+            <mj-section background-color="#fff" padding-top="5" padding-bottom="5">
+                <mj-column>
+                    <mj-text font-weight="bold" align="center" color="#000" font-size="15" padding-left="10" padding-right="10" padding-bottom="0" padding-top="0">
+                        <h1>Produse pentru protejarea culorii</h1>
+                    </mj-text>
+                   <mj-text font-weight="bold" align="justify" color="#000" font-size="15" padding-left="0" padding-right="0" padding-bottom="0" padding-top="0">
+                        <p class="p-head">Dacă îţi doreşti că părul să rămână strălucitor pentru mai multă vreme, îți recomandăm câteva produse special concepute pentru a păstra culoarea și strălucirea părului vopsit:</p>
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <!-- Produse Headear End -->
+
+            <!-- Containter Produse Start 2 -->
+            <mj-section background-color="#000" padding-top="10" padding-bottom="10" padding-left="5" padding-right="5">
+                <!-- Produs 1 start -->
+                <mj-column background-color="#fff">
+                    <mj-image href="https://www.glemis.ro/tratament-pentru-par-vopsit-luster-lock-repair-treatment-k-pak-color-therapy-joico-140-ml?utm_content=product_defined" src="https://img.glemis.com/cache/catalog/product/joico/k-pak-color-therapy/luster-lock-repair-treatment-k-pak-color-therapy-joico-140-ml-228x228.jpg" title="Tratament pentru păr vopsit - Luster Lock - Repair Treatment - K-PAK Color Therapy - Joico - 140 ml" align="center" padding-left="5" padding-right="5" padding-bottom="0" padding-top="0" width="200">
+
+                    </mj-image>
+
+                    <mj-text font-weight="bold" align="center" color="#000" font-size="15" padding-left="10" padding-right="10" padding-bottom="0" padding-top="0">
+                        <h3>Tratament pentru păr vopsit - Luster Lock - Repair Treatment - K-PAK Color Therapy - Joico - 140 ml</h3>
+                        <p class="product">Instant Shine & Repair Treatment,de la Joico, este special creat pentru părul vopsit, oferind reparare instantă fibrei capilare, cu acţiune instantă din interior spre exterior. Părul devine mai puternic, rezistent, mătăsos şi plăcut la atingere.</p>
+                        <p style="color: rgb(250, 135, 57);">108,00 lei</p>
+                    </mj-text>
+
+                    <mj-button background-color="#fa8739" color="#fff" font-size="13" align="center" padding="15px 30px" border-radius="3px" href="https://www.glemis.ro/tratament-pentru-par-vopsit-luster-lock-repair-treatment-k-pak-color-therapy-joico-140-ml?utm_content=product_buy" padding-bottom="10" padding-top="0">
+                        CUMPĂRĂ
+                    </mj-button>
+
+                </mj-column>
+                <!-- Produs 1 End -->
+
+                <!-- Produs 2 start -->
+                <mj-column background-color="#fff">
+                    <mj-image href="https://www.glemis.ro/crema-cu-caviar-pentru-sigilarea-culorii-sealing-cream-with-caviar-caviar-supreme-kaypro-200-ml?utm_content=product_defined" src="https://img.glemis.com/cache/catalog/product/kay-pro/caviar-supreme/crema-cu-caviar-pentru-sigilarea-culorii-sealing-cream-with-caviar-caviar-supreme-kaypro-200-ml-228x228.jpg" title="Crema cu caviar pentru sigilarea culorii - Sealing Cream With Caviar - Caviar Supreme - KAYPRO - 200 ml" align="center" padding-left="5" padding-right="5" padding-bottom="0" padding-top="0" width="200">
+
+                    </mj-image>
+
+                    <mj-text font-weight="bold" align="center" color="#000" font-size="15" padding-left="10" padding-right="10" padding-bottom="0" padding-top="0">
+                        <h3>Crema cu caviar pentru sigilarea culorii - Sealing Cream With Caviar - Caviar Supreme - KAYPRO - 200 ml</h3>
+                        <p class="product">Crema cu caviar pentru sigilarea culorii. Completeaza culoarea, sigiland micropigmentii de culoare in interiorul firului de par. Creste durata de viata a culorii, oferindu-i intensitate si stralucire. Tratament de sigilare a culorii.</p>
+                        <p style="color: rgb(250, 135, 57);">73,80 lei</p>
+                    </mj-text>
+
+                    <mj-button background-color="#fa8739" color="#fff" font-size="13" align="center" padding="15px 30px" border-radius="3px" href="https://www.glemis.ro/crema-cu-caviar-pentru-sigilarea-culorii-sealing-cream-with-caviar-caviar-supreme-kaypro-200-ml?utm_content=product_buy" padding-bottom="10" padding-top="0">
+                        CUMPĂRĂ
+                    </mj-button>
+
+                </mj-column>
+                <!-- Produs 2 End -->
+
+                <!-- Produs 3 start -->
+                <mj-column background-color="#fff">
+                    <mj-image href="https://www.glemis.ro/serum-tip-spray-pentru-intensificarea-culorii-serum-spray-color-extra-rich-goldwell-150-ml?utm_content=product_defined" src="https://img.glemis.com/cache/catalog/product/goldwell/color-extra-rich/serum-tip-spray-pentru-intensificarea-culorii-serum-spray-color-extra-rich-goldwell-150-ml-228x228.png" title="Serum tip spray pentru intensificarea culorii - Serum Spray - Color Extra Rich - Goldwell - 150 ml" align="center" padding-left="5" padding-right="5" padding-bottom="0" padding-top="0" width="200">
+                    </mj-image>
+
+                    <mj-text font-weight="bold" align="center" color="#000" font-size="15" padding-left="10" padding-right="10" padding-bottom="0" padding-top="0">
+                        <h3>Serum tip spray pentru intensificarea culorii - Serum Spray - Color Extra Rich - Goldwell - 150 ml</h3>
+                        <p class="product">Spray bogat fara clatire pentru menținerea culorii si stralucire. Dezvoltat cu Formula Stop Decolorare și Complex Color Chroma. Este bogat în ulei de sâmburi de zmeură pentru reducerea decolorării.</p>
+                        <p style="color: rgb(250, 135, 57);">59,30 lei</p>
+                    </mj-text>
+
+                    <mj-button background-color="#fa8739" color="#fff" font-size="13" align="center" padding="15px 30px" border-radius="3px" href="https://www.glemis.ro/serum-tip-spray-pentru-intensificarea-culorii-serum-spray-color-extra-rich-goldwell-150-ml?utm_content=product_buy" padding-bottom="10" padding-top="0">
+                        CUMPĂRĂ
+                    </mj-button>
+
+                </mj-column>
+                <!-- Produs 3 End -->
+
+            </mj-section>
+            <!-- Containter Produse End 2 -->     
+
+            <mj-section background-color="#fa8739" padding-bottom="0" padding-top="0">
+                <mj-column>
+                    <mj-text align="center" color="#fff" font-size="13" padding-left="25" padding-right="25" padding-bottom="10" padding-top="10">
+                        <a style="font-size:20;" href="https://www.glemis.ro/alfaparf-milano?utm_content=call_action" class="link-nostyle">CUMPĂRĂ</a>
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+
+            <mj-section background-color="#000" padding-bottom="0" padding-top="0">
+                <mj-column>
+                    <mj-text font-weight="bold" align="center" color="#fff" font-size="15" padding-left="10" padding-right="10" padding-bottom="0" padding-top="0">
+                        <p class="p-footer">
+                            CosiBella srl, CIF: RO30133602, Reg. Com: J33/321/2012.<br><br>
+                            Primiti&nbsp;acest mail deoarece adresa de mail {email} este inregistrata in baza de date a magazinului 
+                            <a class="link-nostyle" href="https://www.glemis.ro">glemis.ro</a> pentru clientul {lastname} {name}.&nbsp;Daca nu mai doriti mailuri promotionale / informative
+                            de la glemis.ro va puteti dezabona <a href="http://www.glemis.ro/index.php?route=ne/unsubscribe&amp;t=mail&amp;uid={uid}&amp;key={key}" style="text-decoration: none; color: #fff; font-weight: bold;">dand click aici.</a>
+                        </p>
+                    </mj-text>
+                </mj-column>   
+            </mj-section>
+
+            <mj-section background-color="#000" padding-bottom="0" padding-top="0">
+                <mj-column width="15%">
+                </mj-column>
+                <mj-column width="70%">
+                    <mj-text font-weight="bold" align="center" color="#fff" font-size="15" padding-left="10" padding-right="10" padding-bottom="0" padding-top="0">
+                        <p class="p-footer">
+                            <a class="link-nostyle" href="http://www.glemis.ro/termeni-si-conditii" style="text-decoration: none;" target="_blank">Termeni si Conditii</a>&nbsp;|&nbsp; 
+                            <a class="link-nostyle" href="http://www.glemis.ro/politica-de-confidentialitate" style="text-decoration: none;" target="_blank">Politica de confidentialitate</a>
+                        </p>
+                    </mj-text>
+                    <mj-social font-size="13" text-mode="false" facebook-href="https://www.facebook.com/GlemisRomania" twitter-href="https://twitter.com/GlemisRomania" google-href="https://plus.google.com/+GlemisSuceava" mode="horizontal" display="facebook twitter google"
+                               padding-left="25" padding-right="25" padding-bottom="5" padding-top="5">
+                    </mj-social>
+                </mj-column>
+                <mj-column width="15%">
+                </mj-column>
+            </mj-section>
+
+        </mj-container>
+    </mj-body>
+</mjml>
