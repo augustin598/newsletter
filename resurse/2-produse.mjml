@@ -1,0 +1,107 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="Ubuntu" />
+      <mj-text padding-top="10px" padding-left="10px" padding-right="10px" />
+      <mj-class name="blue" color="blue" />
+      <mj-class name="big" font-size="20px" />
+      <mj-class name="p-intro" font-size="20px" color "#fff" />
+      <mj-class name="title" align="center" color="#2f323b" font-size="13px" padding-left="25px" padding-right="25px" padding-bottom="5px" padding-top="10px" line-height="15px;" />
+      <mj-class name="title-info" align="center" color="#2f323b" font-size="13px" padding-left="25px" padding-right="25" padding-bottom="10px" padding-top="0px" line-height="18px;" />
+      <mj-class name="" />
+      <mj-class name="logo" width="150" align="center" padding="0px 0px 20px 0px" src="https://www.glemis.hu/image/catalog/newsletter-2018/logo-negru-floare.png" />
+      <mj-class name="product-image" width="300px" height="150px" align="middle" padding="1" vertical align="middle" />
+      <mj-class name="slider" align="center" border="none" width="600" padding="0px 0px" />
+
+      <!-- Buttons Start -->
+      <mj-class name="orange-button" align="center" border="2px solid #fff" background-color="#fa8739" color="#fff" border-radius="24px" font-size="13px" padding="10px 0 35px 0" />
+
+      <mj-class name="red-button" align="center" border="2px solid #fff" background-color="#df0130" color="#fff" border-radius="24px" font-size="13px" padding="10px 0 35px 0" />
+
+      <mj-class name="green-button" align="center" border="2px solid #fff" background-color="#00c853" color="#fff" border-radius="24px" font-size="13px" padding="10px 0 35px 0" />
+      <!-- Buttons End -->
+
+      <!-- Footer Start -->
+      <mj-class name="footer" font-weight="normal" color="#fff" font-size="13px" align="center" line-height="22px;" padding="5px" margin="5px" letter-spacing="0pt" word-spacing="2pt" font-family="lucida sans unicode,lucida grande, sans-serif" />
+      <!-- Footer end -->
+
+    </mj-attributes>
+
+     <mj-style inline="inline">
+    .link-nostyle { color: inherit; text-decoration: none }
+    .circle {border-radius: 50%; width: 200px; height: 200px;}
+    h3{font-weight:normal;color:#000000;letter-spacing:1pt;word-spacing:2pt;font-size:17px;text-align:center;font-family:arial black, sans-serif;line-height:1; padding:10px 15px; margin:5px}
+    </mj-style>
+  </mj-head>
+  <mj-body>
+
+    <mj-section padding-top="0" padding-bottom="5">
+      <mj-group vertical-align="middle">
+        <mj-column>
+          <mj-image src="https://placeimg.com/300/250/tech" width="300px" height="300px" align="middle" padding="1" />
+          <mj-text align="center" padding-top="10" padding-left="10" padding-right="10">
+            <h3>Product Heading</h3>
+            <p>Write less code, save time and code more efficiently with MJML’s semantic syntax.</p>
+            <p style="font-family: Ubuntu; font-size: 14px; text-align:center; font-weight: bolder; line-height: 14px; letter-spacing: 2px; color: #f00;">Red Discount</p>
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-image src="https://placeimg.com/300/250/tech" width="300px" height="300px" align="middle" padding="1" />
+          <mj-text align="center" padding-top="10" padding-left="10" padding-right="10">
+            <h3>Product Heading</h3>
+            <p>MJML is responsive by design on most-popular email clients, even Outlook.</p>
+            <p style="font-family: Ubuntu; font-size: 14px; text-align:center; font-weight: bolder; line-height: 14px; letter-spacing: 2px; color: #f00;">Red Discount</p>
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+
+    <mj-section padding-top="0" padding-bottom="5">
+      <mj-group vertical-align="middle">
+        <mj-column>
+          <mj-image src="https://placeimg.com/300/250/tech" width="300px" height="300px" align="middle" padding="1" />
+          <mj-text align="center" padding-top="10" padding-left="10" padding-right="10">
+            <h3>Product Heading</h3>
+            <p>Write less code, save time and code more efficiently with MJML’s semantic syntax.</p>
+          </mj-text>
+              <mj-button align="center" border="2px solid #fff" background-color="#00c853" color="#fff" border-radius="24px" font-size="13px" href="?utm_content=product_buy" font-family="Ubuntu, Helvetica, Arial, sans-serif, Helvetica, Arial, sans-serif" padding-bottom="5px"
+          padding-top="5" padding-left="0" padding-right="0">Citește mai mult</mj-button>
+        </mj-column>
+        <mj-column>
+          <mj-image src="https://placeimg.com/300/250/tech" width="300px" height="300px" align="middle" padding="1" />
+          <mj-text align="center" padding-top="10" padding-left="10" padding-right="10">
+            <h3>Product Heading</h3>
+            <p>MJML is responsive by design on most-popular email clients, even Outlook.</p>
+          </mj-text>
+                    <mj-button align="center" border="2px solid #fff" background-color="#00c853" color="#fff" border-radius="24px" font-size="13px" href="?utm_content=product_buy" font-family="Ubuntu, Helvetica, Arial, sans-serif, Helvetica, Arial, sans-serif" padding-bottom="5px"
+          padding-top="5" padding-left="0" padding-right="0">Citește mai mult</mj-button>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+
+    <mj-section padding-top="0" padding-bottom="5">
+      <mj-group vertical-align="middle">
+        <mj-column>
+          <mj-image src="https://placeimg.com/300/250/te" width="300px" height="300px" align="middle" padding="1" />
+          <mj-text align="center" padding-top="10" padding-left="10" padding-right="10">
+            <h3>Product Heading</h3>
+            <p>Write less code, save time and code more efficiently with MJML’s semantic syntax.</p>
+          </mj-text>
+              <mj-button align="center" border="2px solid #00c853" background-color="#fff" color="#000" border-radius="24px" font-size="13px" href="?utm_content=product_buy" font-family="Ubuntu, Helvetica, Arial, sans-serif, Helvetica, Arial, sans-serif" padding-bottom="5px"
+          padding-top="5" padding-left="0" padding-right="0">Citește mai mult</mj-button>
+        </mj-column>
+        <mj-column>
+          <mj-image src="https://placeimg.com/300/250/te" width="300px" height="300px" align="middle" padding="1" />
+          <mj-text align="center" padding-top="10" padding-left="10" padding-right="10">
+            <h3>Product Heading</h3>
+            <p>MJML is responsive by design on most-popular email clients, even Outlook.</p>
+          </mj-text>
+                     <mj-button align="center" border="2px solid #00c853" background-color="#fff" color="#000" border-radius="24px" font-size="13px" href="?utm_content=product_buy" font-family="Ubuntu, Helvetica, Arial, sans-serif, Helvetica, Arial, sans-serif" padding-bottom="5px"
+          padding-top="5" padding-left="0" padding-right="0">Citește mai mult</mj-button>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+</mj-body>
