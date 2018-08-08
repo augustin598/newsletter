@@ -105,9 +105,9 @@
       <mj-column>
         <mj-navbar base-url="https://glemis.ro" hamburger="hamburger" ico-color="#ffffff">
           <mj-navbar-link href="/joico" color="#ffffff">Joico</mj-navbar-link>
-          <mj-navbar-link href="/try-it-live" color="#ffffff">Try it live</mj-navbar-link>
-          <mj-navbar-link href="/templates" color="#ffffff">Templates</mj-navbar-link>
-          <mj-navbar-link href="/components" color="#ffffff">Components</mj-navbar-link>
+          <mj-navbar-link href="/alfaparf-milano" color="#ffffff">Alfaparf</mj-navbar-link>
+          <mj-navbar-link href="/moroccanoil" color="#ffffff">Moroccanoil</mj-navbar-link>
+          <mj-navbar-link href="/index.php?route=product/special" font-weight="600" color="#ffffff">Oferte Speciale</mj-navbar-link>
         </mj-navbar>
       </mj-column>
     </mj-section>
@@ -118,7 +118,7 @@
 <!-- Slide Start  -->
     <mj-section padding-top="0px" padding-bottom="0" background-color="#fff">
       <mj-column>
-        <mj-image mj-class="slider" href="?utm_content=banner" src="https://www.glemis.ro/image/catalog/newsletter-2018/newsletter-77/header-1.jpg" alt="Glemis"></mj-image>
+        <mj-image mj-class="slider" href="https://www.glemis.ro?utm_content=banner" src="https://www.glemis.ro/image/catalog/newsletter-2018/newsletter-77/header-1.jpg" alt="Glemis"></mj-image>
       </mj-column>
     </mj-section>
 
@@ -126,7 +126,7 @@
 
 <mj-section padding-top="0px" padding-bottom="0" background-color="#00c853">
     <mj-column>
-      <mj-button align="center" background-color="#00c853" color="#fff" font-size="23px" href="https://www.glemis.ro/ingrijire-par" font-family="Ubuntu, Helvetica, Arial, sans-serif, Helvetica, Arial, sans-serif" padding-bottom="5px"
+      <mj-button align="center" background-color="#00c853" color="#fff" font-size="23px" href="https://www.glemis.ro/index.php?route=product/special" font-family="Ubuntu, Helvetica, Arial, sans-serif, Helvetica, Arial, sans-serif" padding-bottom="5px"
 padding-top="5px">Vezi aici mai multe promoții!</mj-button>
     </mj-column>
   </mj-section>
@@ -173,21 +173,21 @@ padding-top="5px">Vezi aici mai multe promoții!</mj-button>
         <mj-text align="center">
           <h3>Afla ce culoare de par te avantajeaza &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</h3>
         </mj-text>
-        <mj-button mj-class="red-button" href="https://www.glemis.ro/afla-ce-culoare-de-par-te-avantajeaza?utm_content=product_buy">Citește mai mult</mj-button>
+        <mj-button mj-class="red-button" href="https://www.glemis.ro/afla-ce-culoare-de-par-te-avantajeaza">Citește mai mult</mj-button>
       </mj-column>
       <mj-column>
         <mj-image src="https://www.glemis.ro/image/cache/catalog/article/discoloration-without-deterioration-yes-it-can-1000x560.jpg" width="300px" align="middle" padding="1" />
         <mj-text align="center">
           <h3>Decolorare fără deteriorare? Da, se poate!</h3>
         </mj-text>
-        <mj-button mj-class="red-button" href="https://www.glemis.ro/decolorare-fara-deteriorare-da-se-poate?utm_content=product_buy">Citește mai mult</mj-button>
+        <mj-button mj-class="red-button" href="https://www.glemis.ro/decolorare-fara-deteriorare-da-se-poate">Citește mai mult</mj-button>
     </mj-group>
   </mj-section>
   <!-- Article or Product 2 Start  -->
 
   <mj-section padding-top="0px" padding-bottom="0" background-color="#00c853">
       <mj-column>
-        <mj-button align="center" background-color="#00c853" color="#fff" font-size="23px" href="https://www.glemis.ro/ingrijire-par" font-family="Ubuntu, Helvetica, Arial, sans-serif, Helvetica, Arial, sans-serif" padding-bottom="5px"
+        <mj-button align="center" background-color="#00c853" color="#fff" font-size="23px" href="https://www.glemis.ro/index.php?route=product/special" font-family="Ubuntu, Helvetica, Arial, sans-serif, Helvetica, Arial, sans-serif" padding-bottom="5px"
   padding-top="5px">Vezi aici mai multe promoții!</mj-button>
       </mj-column>
     </mj-section>
@@ -234,7 +234,7 @@ padding-top="5px">Vezi aici mai multe promoții!</mj-button>
   <mj-section border-bottom="2px solid #fff" background-color="#ef6451" padding-bottom="0" padding-top="0">
     <mj-column>
         <mj-text align="center" color="#fff" padding-left="25px" padding-right="25px" padding-bottom="10" padding-top="10">
-            <a style="font-size:25px;" href="?utm_content=call_action" class="link-nostyle">🔥 Vezi aici mai multe promoții!</a>
+            <a style="font-size:25px;" href="https://www.glemis.ro/index.php?route=product/special" class="link-nostyle">🔥 Vezi aici mai multe promoții!</a>
         </mj-text>
     </mj-column>
   </mj-section>
