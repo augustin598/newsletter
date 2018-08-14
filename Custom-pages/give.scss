@@ -1,0 +1,102 @@
+
+.steps {
+    background-color: #2276BB;
+    padding: 20px 10px;
+}
+
+.step h2 {
+  color: #fff;
+}
+
+.ig-b- {
+  display: inline-block;
+}
+
+.ig-b- img {
+  visibility: hidden;
+}
+
+.ig-b-:hover {
+  background-position: 0 -60px;
+}
+
+.ig-b-:active {
+  background-position: 0 -120px;
+}
+
+.ig-b-v-24 {
+  width: 137px;
+  height: 24px;
+  background: url(https://badges.instagram.com/static/thirdparty/images/badges/ig-badge-view-sprite-24.png/284161441bde.png) no-repeat 0 0;
+}
+
+.label-white{
+  color: #fff;
+}
+
+.label-white a{
+  color: #fff;
+}
+
+
+#color1 a{
+  color: #fff;
+}
+
+#color1 span {
+  color: #fff;
+}
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+#giveaway {
+    background-color: #252839;
+    padding: 30px 10px;
+    color: #fff;
+}
+
+#giveaway h1{
+  font-size: 28px;
+  color: #fff;
+}
+.ultimi-participanti {
+    font-size: 20px;
+}
+.shadow{
+  -webkit-box-shadow: 0px 3px 20px 2px rgba(0,0,0,0.41);
+  -moz-box-shadow: 0px 3px 20px 2px rgba(0,0,0,0.41);
+  box-shadow: 0px 3px 20px 2px rgba(0,0,0,0.41);
+}
+#col-back1.col-md-4 {
+        background-color: #2276BB;
+    }
+
+label[for="input-captcha-giveaway"] {
+text-align: center !important;
+width: 100%;
+padding-bottom: 5px;
+}
+
+#input-captcha-giveaway{
+  width: 100%;
+}
+
+.particip{
+  padding:10px 0px 10px 0px;
+  font-size: 23px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2 / 1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {
+  .ig-b-v-24 {
+    background-image: url(//badges.instagram.com/static/images/ig-badge-view-sprite-24@2x.png);
+    background-size: 160px 178px;
+  }
+}
