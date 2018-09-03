@@ -1,0 +1,496 @@
+<style>
+  /* carousel */
+
+  #quote-carousel {
+    padding: 0 0 30px 0px;
+    margin-top: 30px;
+    text-align: justify;
+  }
+
+  /* Control buttons  */
+
+  #quote-carousel .carousel-control {
+    background: none;
+    color: #222;
+    font-size: 2.3em;
+    text-shadow: none;
+    margin-top: 30px;
+  }
+
+  /* Previous button  */
+
+  #quote-carousel .carousel-control.left {
+    left: -12px;
+  }
+
+  /* Next button  */
+
+  #quote-carousel .carousel-control.right {
+    right: -12px !important;
+  }
+
+  /* Changes the position of the indicators */
+
+  #quote-carousel .carousel-indicators {
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-bottom: 20px;
+    margin-right: -19px;
+  }
+
+  /* Changes the color of the indicators */
+
+  #quote-carousel .carousel-indicators li {
+    background: #c0c0c0;
+  }
+
+  #quote-carousel .carousel-indicators .active {
+    background: #333333;
+  }
+
+  #quote-carousel img {
+    width: 250px;
+    height: 100px
+  }
+
+  /* End carousel */
+
+  .item blockquote {
+    border-left: none;
+    margin: 0;
+  }
+
+  .item blockquote img {
+    margin-bottom: 10px;
+  }
+
+  .item blockquote p:before {
+    content: "\f10d";
+    font-family: Fontawesome;
+    float: left;
+    margin-right: 10px;
+    padding-right: 10px;
+  }
+
+  /**
+  MEDIA QUERIES
+*/
+
+  /* Small devices (tablets, 768px and up) */
+
+  @media (min-width: 768px) {
+    #quote-carousel {
+      margin-bottom: 0;
+      padding: 0 40px 30px 40px;
+    }
+  }
+
+  /* Small devices (tablets, up to 768px) */
+
+  @media (max-width: 768px) {
+    /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
+    #quote-carousel .carousel-indicators {
+      bottom: -10px !important;
+    }
+    #quote-carousel .carousel-indicators li {
+      display: inline-block;
+      margin: 0px 5px;
+      width: 15px;
+      height: 15px;
+    }
+    #quote-carousel .carousel-indicators li.active {
+      margin: 0px 5px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+
+  #align {
+    text-align: justify;
+  }
+
+  .shadow {
+    -webkit-box-shadow: 0px 3px 20px 2px rgba(0, 0, 0, 0.41);
+    -moz-box-shadow: 0px 3px 20px 2px rgba(0, 0, 0, 0.41);
+    box-shadow: 0px 3px 20px 2px rgba(0, 0, 0, 0.41);
+  }
+
+  .m-bottom-30 {
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+
+  ul.b {
+    padding-left: 20px;
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+
+  ul.b li::before {
+    content: "\f00c";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    /*--adjust as necessary--*/
+    color: #64ba49;
+    font-size: 18px;
+    padding-right: 0.5em;
+    top: 10px;
+    left: 0;
+  }
+
+  ul.c {
+    padding-left: 1px;
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 37px;
+  }
+
+  ul.c li::before {
+    content: "\f00c";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    /*--adjust as necessary--*/
+    color: #64ba49;
+    font-size: 18px;
+    padding-right: 0.5em;
+    top: 10px;
+    left: 0;
+  }
+
+  .a-ul {
+    padding-left: 20px;
+    font-weight: 600;
+    font-size: 15px;
+    padding-top: 10px;
+  }
+
+  .beneficii {
+    padding: 20px 0px;
+  }
+
+  #back-white {
+    background-color: #fff;
+    /* padding: 20px; */
+    display: block;
+  }
+
+  #back-white .card-title1 {
+    font-size: 38px !important;
+    font-weight: 700;
+    line-height: 115%;
+    margin: .3em 0;
+    text-align: center;
+    color: #64ba49;
+  }
+
+  #back-white>p {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    font-weight: 400;
+    padding: 20px 20px;
+    border: 1px solid #3F4C6B;
+  }
+
+  #back-white .card-title2 {
+    font-size: 26px !important;
+    font-weight: 700;
+    line-height: 50px;
+    color: #3F4C6B;
+  }
+
+  #back-white .card-title3 {
+    font-size: 32px !important;
+    font-weight: 700;
+    text-align: left;
+    line-height: 38px;
+    color: #3F4C6B;
+    margin: 20px 0px;
+  }
+
+  #custom1>.fa {
+    font-size: 95px;
+    padding: 20px 10px;
+    display: block;
+    text-align: center;
+    color: #64ba49;
+    margin: 14px 0px;
+  }
+
+  #custom1>p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+
+  #green-title>div>h2 {
+    font-size: 38px !important;
+    font-weight: 700;
+    line-height: 115%;
+    margin: .3em 0;
+    text-align: center;
+    color: #64ba49;
+  }
+
+  #green-title>div>.green {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: justify;
+    font-weight: 400;
+    background-color: #64ba49;
+    color: #fff;
+    padding: 10px 20px;
+  }
+
+  #green-title>div>.border {
+    border: 2px solid #5fa349;
+    padding: 10px 10px;
+  }
+
+  #garant-border {
+    border: 2px solid #5fa349;
+    padding: 10px 10px;
+    min-height: auto;
+    display: inline-block;
+    width: 100%;
+  }
+
+  #garant-border h4 {
+    color: #64ba49;
+    font-weight: 700;
+    font-size: 26px !important;
+    text-transform: uppercase;
+  }
+
+  #garant-border img {
+    margin-top: 7px;
+  }
+
+  #garant-border p {
+    font-size: 16px !important;
+    font-weight: 700;
+    text-align: left;
+    line-height: 20px;
+    color: #3F4C6B;
+  }
+</style>
+<div id="5916">
+  <!--
+  <div style="min-height: 520px;" class="col-md-6 text-center">
+    <iframe src="https://www.youtube.com/embed/7mrpGJH2CXM" allow="autoplay; encrypted-media" allowfullscreen="" frameborder="0" width="100%" height="240"></iframe>
+    <br>
+    <iframe src="https://www.youtube.com/embed/vLpsDwYcvQg" allow="autoplay; encrypted-media" allowfullscreen="" frameborder="0" width="100%" height="240"></iframe>
+  </div>
+  -->
+  <div>
+    <div class="col-md-12">
+      <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+        <!-- Bottom Carousel Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#quote-carousel" data-slide-to="0" class=""></li>
+          <li data-target="#quote-carousel" data-slide-to="1" class=""></li>
+          <li data-target="#quote-carousel" data-slide-to="2" class=""></li>
+          <li data-target="#quote-carousel" data-slide-to="3" class=""></li>
+          <li data-target="#quote-carousel" data-slide-to="4" class="active"></li>
+        </ol>
+        <!-- Carousel Slides / Quotes -->
+        <div class="carousel-inner ">
+          <!-- Quote 1 -->
+          <div class="item">
+            <blockquote>
+              <div class="row">
+                <div class="col-sm-3 text-center">
+                  <img class="img-circle" src="../image/catalog/landing-page/1.jpg" style="width: 100px;height:100px;">
+                  <!--<img class="img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/kolage/128.jpg" style="width: 100px;height:100px;">-->
+                </div>
+                <div class="col-sm-8">
+                  <p>Oboseala și nopțile nedormite s-au făcut simțite fix în zona ochilor, lucru foarte neplăcut din punct de vedere estetic. Am fost și mi-am făcut diferite tratamente la salon, dar mi s-au părut neeficiente. Am văzut serumul anti-age instant
+                    și am hotărât să-l cumpăr, chiar dacă nu prea credeam că ceva va putea acționa împotriva ochilor mei obosiți cu brio.
+                    <br> <br> Spre marea mea surprindere, după ce l-am aplicat am simțit imediat cum pielea începe să se netezească. Când m-am uitat în oglindă am fost extrem de surprinsă că pungile și ridurile de sub ochi au dispărut ca prin minune.
+                    <br> <br> Nu aș renunța la acest ser pentru nimic! ?</p>
+                  <small>Roxana Stratuleac</small>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+          <!-- Quote 2 -->
+          <div class="item">
+            <blockquote>
+              <div class="row">
+                <div class="col-sm-3 text-center">
+                  <img class="img-circle" src="../image/catalog/landing-page/2.jpg" style="width: 100px;height:100px;">
+                </div>
+                <div class="col-sm-8">
+                  <p>Ador acest ser! A devenit indispensabil din rutina mea zilnică, îl folosesc în fiecare dimineață înainte de a aplica fondul de ten.</p>
+                  Ceea ce m-a încântat foarte mult este că acesta acționează imediat și cearcănele și ridurile se diminuează substanțial. <br><br> Îl folosesc de câteva săptămâni și sunt foarte entuziasmată că l-am descoperit. Are o textură lejeră ce
+                  intră foarte repede în piele.<br>
+                  <small>Maria Lorena Tantula</small>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+          <!-- Quote 3 -->
+          <div class="item">
+            <blockquote>
+              <div class="row">
+                <div class="col-sm-3 text-center">
+                  <img class="img-circle" src="../image/catalog/landing-page/3.jpg" style="width: 100px;height:100px;">
+                </div>
+                <div class="col-sm-8">
+                  <p>După prima utilizare a acestui produs am fost întrebată de colegele de la muncă dacă am apelat la metode invazive pentru a scăpa de minunatele pungi și de ridurile de expresie. </p>
+                  <br>Au fost foarte surprinse când au auzit că secretul stă în folosirea unui serum, care fără nici o ezitare îl recomand pentru eficacitate și calitate.
+                  <small>Ramona Chirila</small>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+          <div class="item">
+            <blockquote>
+              <div class="row">
+                <div class="col-sm-3 text-center">
+                  <img class="img-circle" src="../image/catalog/landing-page/4.jpg" style="width: 100px;height:100px;">
+                </div>
+                <div class="col-sm-8">
+                  <p>Experiența mea cu serumul Remary se datorează unei recomandări făcute de o cunoștință care insista că este extrem de încântată de rezultatele acestuia.</p>
+                  Mi l-am comandat și l-am utilizat regulat, în fiecare dimineață înainte de a pleca la serviciu. Este excelent, pielea este întinerită vizibil și ridurile dispar ca prin minune.
+                  <small>Ana Maria Farcas</small>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+          <div class="item active">
+            <blockquote>
+              <div class="row">
+                <div class="col-sm-3 text-center">
+                  <img class="img-circle" src="../image/catalog/landing-page/5.jpg" style="width: 100px;height:100px;">
+                </div>
+                <div class="col-sm-8">
+                  <p>M-am îndrăgostit de acest serum! Este absolut minunat cum un singur produs poate înlătura atât de repede și de eficient niște cearcăne, respectiv pungi de sub ochi, dobândite din cauza oboselii și a stresului. Îl utilizez cu plăcere,
+                    mai ales că mi se pare foarte interesant modul de aplicare și anume acel cap rotativ cu ajutorul căruia pot aplica fără nici o grijă, dozarea fiind suficientă pentru o aplicare. <br> Îl recomand cu mare drag și încredere!</p>
+                  <small>Oana Bucrovici</small>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+        </div>
+        <!-- Carousel Buttons Next/Prev -->
+        <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left fa-2x"></i></a>
+        <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right fa-2x"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-12 text-center beneficii">
+    <div id="back-white">
+      <h2 class="card-title1">Ritualul revolutionar anti imbatranire cu dublu efect</h2>
+      <p><b>Serum anti-age instant Remary™</b> este un <b>produs antirid de excepție</b> destinat tratării zonei oculare, cea mai expusă apariției ridurilor.<br>Complexul de principii active acționează sinergic <b>având efecte benefice asupra zonei sensibile din jurul ochilor.</b></p>
+    </div>
+    <div class="col-sm-4">
+      <img src="../image/catalog/landing-page/time.png" class="center-block image-responsive">
+    </div>
+    <div class="col-sm-4">
+      <div id="back-white" class="card text-justify">
+        <div class="card-body">
+          <h2 class="card-title2">Efect Instant:</h2>
+          <!-- <img class="card-img-top" src="..." alt="Livrare cu verificare Glemis"> -->
+          <p style="font-size:16px; font-weight:400;">1. Efect de lifting instant: filmul se întărește după <b>doar 2-4 minute</b>, în funcție de tipul de ten.</p>
+          <p style="font-size:16px; font-weight:400;">2. Efect de durată: minimizează aspectul ridurilor prin întinderea pielii, filmul fiind <b>elastic și rezistent 12 -24 de ore.</b></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div id="back-white" class="card text-justify">
+        <div class="card-body">
+          <h2 class="card-title2">Efect pe termen lung:</h2>
+          <ul class="b">
+            <li>7 zile : cearcăne vizibil reduse</li>
+            <li>14 zile : Riduri reduse cu 30%</li>
+            <li>30 zile : piele mai elastică cu 40% </li>
+            <li>Piele mai hidratată cu 42%</li>
+            <li>Tonus vizibil îmbunătățit</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr class="style-two">
+  <div id="garant-border" style="text-align:center !important;">
+    <div class="col-md-1">
+      <img src="../image/catalog/landing-page/delivery-truck.png" class="center-block image-responsive"> </div>
+    <div class="col-md-3">
+      <h4>Livrare în 24 ore de la preluarea comenzii</h4>
+    </div>
+    <div class="col-md-1">
+      <img src="../image/catalog/landing-page/shield.png" class="center-block image-responsive"> </div>
+    <div class="col-md-3">
+      <h4>100 % Garanția satisfacției!</h4>
+    </div>
+    <div class="col-md-1">
+      <img src="../image/catalog/landing-page/doctor.png" class="center-block image-responsive"> </div>
+    <div class="col-md-3">
+      <h4>Produse non-toxice, notificate EU</h4>
+    </div>
+  </div>
+  <div id="green-title">
+    <div class="col-md-6">
+      <img src="../image/cache/catalog/product/remary/eyeserum2-500x500.png" class="center-block image-responsive" width="80%">
+    </div>
+    <div id="back-white" class="col-md-6">
+      <h2 class="card-title3">Serum anti-age instant Remary™</h2>
+      <ul class="c">
+        <li>Efect imediat</li>
+        <li>Eficacitate dovedită ştiinţific</li>
+        <li>Elimină cearcănele instantaneu</li>
+        <li>Netezeşte ridurile instantaneu</li>
+        <li>Formula lichidă, uşor de utilizat</li>
+        <li>Design inovativ cu aplicator</li>
+        <li>Ingrediente anti aging cu eficacitate sporită</li>
+      </ul>
+      <div id="garant-border">
+        <div class="col-md-3">
+          <img src="../image/catalog/landing-page/chekc_icon.png" class="center-block image-responsive">
+        </div>
+        <div class="col-md-9">
+          <h4>100 % Garanția satisfacției!</h4>
+          <p>9 din 10 femei recomandă acest produs!</p>
+        </div>
+      </div>
+      <div class="col-md-12 text-center">
+        <a href="../index.php?route=quickcheckout/checkout&amp;add_to_cart=5916" id="button-order-now" class="btn btn-cart btn-lg m-bottom-30" rel="nofollow"><i class="fa fa-share"></i> Comandă acum</a>
+      </div>
+    </div>
+    <div class="col-md-12">
+      <h2>Misiunea esteticienilor Remary™</h2>
+      <p class="green border">Este aceea de a reda frumusețea naturală femeilor, dar și de a seta noi standarde în fiecare zi, ajutându-se de metetode și tehnologii inovatoare și exclusiviste.<br> Plecând de la premisa că fiecare femeie este unică, este foarte important de reținut
+        că și fiecare tip de piele este unic. <br>Remary™ vă ajută să redobândiți și să vă păstrați frumusețea naturală optând pentru cele mai bune soluții pentru îngrijirea superioară atât a tenului, cât și a corpului. Remary™ este un brand nou, născut
+        din dragoste pentru îngrijirea pielii. </p>
+    </div>
+    <div class="col-md-6">
+      <!-- <img src="../image/catalog/landing-page/crema-anticearcan1.jpg" class="img-responsive"> -->
+      <iframe src="https://www.youtube.com/embed/7mrpGJH2CXM" allow="autoplay; encrypted-media" allowfullscreen="" width="100%" height="240" frameborder="0"></iframe>
+    </div>
+    <div class="col-md-6">
+      <!--  <img src="../image/catalog/landing-page/crema-anticearcan2.png" class="img-responsive"> -->
+      <iframe src="https://www.youtube.com/embed/vLpsDwYcvQg" allow="autoplay; encrypted-media" allowfullscreen="" width="100%" height="240" frameborder="0"></iframe>
+    </div>
+    <div class="col-md-12">
+      <h2>Instrucțiuni:</h2>
+      <p class="green border">
+        Dozați o cantitate mică de produs pe zonele afectate și masați cu ajutorul capului rotativ până când se absoarbe în totalitate.<br> Formula ușoară a serumului permite aplicarea produsului înainte sau după utilizarea fondului de ten. Acest ser
+        este special conceput pentru zona ochilor, afectată de riduri sau cearcăne şi şterge orice urmă de oboseală de pe ten. Potrivit pentru uz zilnic.
+      </p>
+    </div>
+  </div>
+  <hr class="style-two">
+  <div class="col-md-12 text-center">
+    <a href="../index.php?route=quickcheckout/checkout&amp;add_to_cart=5916" id="button-order-now" class="btn btn-cart btn-lg m-bottom-30" rel="nofollow"><i class="fa fa-share"></i> Comandă acum</a>
+  </div>
+  <hr class="style-two">
+</div>
