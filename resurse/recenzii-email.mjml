@@ -1,0 +1,218 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="Ubuntu" />
+
+      <mj-class name="logo" width="150" align="center" padding="0px 0px 20px 0px" src="https://www.glemis.hu/image/catalog/newsletter-2018/logo-negru-floare.png" />
+
+      <mj-text padding-top="5px" padding-left="10px" padding-right="10px" />
+
+      <mj-class name="p-intro" font-size="20px" color "#fff" />
+
+      <mj-class name="title" align="center" color="#2f323b" font-size="13px" padding-left="25px" padding-right="25px" padding-bottom="5px" padding-top="10px" line-height="15px;" />
+
+      <mj-class name="title-info" align="center" color="#2f323b" font-size="13px" padding-left="25px" padding-right="25" padding-bottom="0px" padding-top="0px" line-height="18px;" />
+
+      <!-- Background Mod's Start -->
+      <mj-class name="section-background" background-color="#ffffff" vertical-align="top" padding-top="25px 0px" />
+      <!-- Background Mod's End -->
+
+      <!-- Footer Start -->
+      <mj-class name="footer" font-weight="normal" color="#fff" font-size="13px" align="center" line-height="22px;" padding="5px" margin="5px" letter-spacing="0pt" word-spacing="2pt" font-family="lucida sans unicode,lucida grande, sans-serif" />
+      <!-- Footer end -->
+
+
+    </mj-attributes>
+
+    <mj-style inline="inline">
+      h1{
+        text-align: center;
+        margin: 0px 0px 5px 0px;
+        padding: 0px;
+      }
+
+      h2{
+        margin: 10px 0px 10px 0px;
+        padding: 0px 0px;
+        font-weight: 400;
+      }
+      .p-intro{
+        font-size:16px;
+        margin: 5px 0px;
+        padding: 0px 20px;
+        text-align: justify;
+      }
+
+      .p-produs{
+        font-size:16px;
+        text-align: justify;
+        padding: 0px 10px 0px 0px;
+        margin: 0px 0px;
+      }
+
+
+      img{
+        float:left;
+      }
+      .link-nostyle { color: inherit; text-decoration: none }
+
+      body{
+        background-color: #2f91b6;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <!-- Title & Title Info -->
+    <mj-section padding="0px 0px" background-color="#ffffff">
+      <mj-column>
+        <mj-image src="https://www.glemis.ro/image/catalog/newsletter-2018/new/separator-1.png" width="600px" padding="0px" height="5px"></mj-image>
+        <mj-text mj-class="title">
+          Descopera, echipamentele profesionale pentru saloane.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Title & Title Info -->
+
+    <!-- Logo -->
+    <mj-section background-color="#ffff" padding="5px 0px">
+      <mj-column background-color="#ffff">
+        <mj-image mj-class="logo" href="https://www.glemis.ro/" alt="Glemis"></mj-image>
+        <mj-image src="https://www.glemis.ro/image/catalog/newsletter-2018/new/separator-1.png" width="600px" padding="0px"></mj-image>
+      </mj-column>
+    </mj-section>
+    <!-- logo End -->
+
+  <mj-section background-url="https://www.glemis.ro/image/catalog/newsletter-2018/new/lateral-bar.png" background-color="#fff"  vertical-align="middle" background-repeat="no-repeat" padding-top="25" padding-bottom="5">
+    <mj-column>
+      <mj-text>
+          <h1>Salut, John</h1>
+      </mj-text>
+      <mj-text>
+        <p class="p-intro">Enim nunc faucibus a pellentesque sit amet porttitor eget. Maecenas accumsan lacus vel facilisis. Elit at imperdiet dui accumsan. Eget duis at tellus at urna condimentum. Risus feugiat in ante metus dictum at tempor.</p>
+      </mj-text>
+
+    </mj-column>
+  </mj-section>
+
+  <mj-section background-color="#ffffff" padding="0xp 0px">
+    <mj-column width="100%">
+      <mj-image href="#" src="https://www.glemis.ro/image/catalog/newsletter-2018/new/customer-raport.png" alt="" padding="0px 0px"></mj-image>
+      <mj-image src="https://www.glemis.ro/image/catalog/newsletter-2018/new/separator-1.png" width="600px" padding="0px"></mj-image>
+    </mj-column>
+    <mj-column width="30%" padding-top="20px">
+      <mj-image href="#" src="https://placeimg.com/300/300/tech" alt="" padding="10px"></mj-image>
+    </mj-column>
+    <mj-column width="70%" padding-top="20px">
+      <mj-text>
+        <h2>Nume produs</h2>
+        <p class="p-produs">
+          Short but informative. Comprehensive but concise. Our new Review & Preview newsletter—a brand new daily newsletter from Barron’s—summarizes the day’s most important news and highlights the details that matter for tomorrow.
+        </p>
+      </mj-text>
+    </mj-column>
+
+  </mj-section>
+
+  <mj-section background-color="#ffffff" padding="10xp 0px">
+    <mj-column width="50%">
+      <mj-table  padding="8px 25px">
+        <tr>
+          <td style="padding: 0 15px;">
+            <img href="#" src="https://www.glemis.ro/image/catalog/newsletter-2018/new/star.png" width="32" />
+          </td>
+          <td style="padding: 0 15px;">
+            <img href="#" src="https://www.glemis.ro/image/catalog/newsletter-2018/new/star.png" width="32" />
+          </td>
+          <td style="padding: 0 15px;">
+            <img href="#" src="https://www.glemis.ro/image/catalog/newsletter-2018/new/star.png" width="32" />
+          </td>
+          <td style="padding: 0 15px;">
+            <img href="#" src="https://www.glemis.ro/image/catalog/newsletter-2018/new/star.png" width="32" />
+          </td>
+          <td style="padding: 0 15px;">
+            <img href="#" src="https://www.glemis.ro/image/catalog/newsletter-2018/new/star.png" width="32" />
+          </td>
+        </tr>
+      </mj-table>
+    </mj-column>
+    <mj-column width="50%">
+ <mj-button background-color="#fa8739" font-size="18px" color="#fff" padding="15px 30px" border-radius="3px" href="https://www.glemis.ro/tratament-pentru-toate-tipurile-de-par-treatment-moroccanoil-100-ml" padding-bottom="10px" padding-top="0">Scrie Recenzie</mj-button>
+    </mj-column>
+    <mj-column width="100%">
+
+      <mj-image src="https://www.glemis.ro/image/catalog/newsletter-2018/new/separator-1.png" width="600px" padding="10px 0px"></mj-image>
+      <mj-divider border-color="#fff" padding="20px"></mj-divider>
+    </mj-column>
+  </mj-section>
+
+  <mj-section background-url="https://www.glemis.ro/image/catalog/newsletter-2018/new/plic-cut.png" background-color="#fff"  vertical-align="middle" background-repeat="no-repeat" padding-top="25" padding-bottom="5">
+    <mj-column width="100%" vertical-align="middle" padding-bottom="80px">
+      <mj-text align="center" color="#e85034" font-size="25px" padding-bottom="10px" padding-top="130px">CUPON CADOU</mj-text>
+      <mj-divider border-color="#000" border-style="solid" border-width="1px" padding-left="100px" padding-right="100px" padding-bottom="5px" padding-top="5"></mj-divider>
+      <mj-text align="center" color="#227393" font-size="15px" line-height="20px" padding-bottom="25px" padding-top="30px" padding-right="30px" padding-left="30px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+      </mj-text>
+      <mj-button align="center" border="2px solid #fff" background-color="#b02125" color="#fff" border-radius="24px" font-size="11px" href="https://mjml.io" font-family="Ubuntu, Helvetica, Arial, sans-serif, Helvetica, Arial, sans-serif"
+        padding-top="10">READ MORE</mj-button>
+    </mj-column>
+  </mj-section>
+
+  <!-- footer Start -->
+  <mj-section background-color="#227393" padding-bottom="0px" padding-top="0px">
+    <mj-column>
+      <mj-image src="https://www.glemis.ro/image/catalog/newsletter-2018/new/separator-1.png" width="600px" padding="0px"></mj-image>
+      <mj-text mj-class="footer">
+        <br>
+        <b>
+        CosiBella srl, CIF: RO30133602, Reg. Com: J33/321/2012.</b><br><br> Primiti&nbsp;acest mail deoarece adresa de mail {email} este inregistrata in baza de date a magazinului
+        <a class="link-nostyle" href="https://www.glemis.ro">glemis.ro</a> pentru clientul {lastname} {name}.&nbsp;Daca nu mai doriti mailuri promotionale / informative de la glemis.ro va puteti dezabona <a href="http://www.glemis.ro/index.php?route=ne/unsubscribe&amp;t=mail&amp;uid={uid}&amp;key={key}"
+          style="text-decoration: none; color: #fff; font-weight: bold;">dand click aici.</a>
+        </p>
+      </mj-text>
+    </mj-column>
+  </mj-section>
+
+  <mj-section background-color="#227393" padding-bottom="0px" padding-top="0px">
+    <mj-column width="15%">
+    </mj-column>
+    <mj-column width="70%">
+      <mj-text font-weight="normal" align="center" color="#fff" font-size="15px" padding-left="10px" padding-right="10px" padding-bottom="0px" padding-top="0px">
+        <p class="p-footer">
+          <a class="link-nostyle" href="http://www.glemis.ro/termeni-si-conditii" style="text-decoration: none;" target="_blank">Termeni si Conditii</a>&nbsp;|
+          <a class="link-nostyle" href="http://www.glemis.ro/politica-de-confidentialitate" style="text-decoration: none;" target="_blank">Politica de confidentialitate</a>
+        </p>
+      </mj-text>
+    </mj-column>
+    <mj-column width="15%">
+    </mj-column>
+    <mj-column width="100%">
+      <mj-image src="https://www.glemis.ro/image/catalog/newsletter-2018/new/separator-1.png" width="600px" padding="0px"></mj-image>
+    </mj-column>
+  </mj-section>
+
+  <!-- Footer Start -->
+  <mj-section background-color="#fff" padding="0px 0px">
+    <mj-column>
+      <mj-social font-size="15px" icon-size="30px" mode="horizontal">
+        <mj-social-element name="facebook" href="https://www.facebook.com/GlemisRomania" background-color="#4d4d4d">
+        </mj-social-element>
+        <mj-social-element name="google" href="https://plus.google.com/+GlemisSuceava" background-color="#4d4d4d">
+        </mj-social-element>
+        <mj-social-element name="twitter" href="https://twitter.com/GlemisRomania" background-color="#4d4d4d">
+        </mj-social-element>
+        <mj-social-element name="instagram" href="https://www.instagram.com/glemisromania/" background-color="#4d4d4d">
+        </mj-social-element>
+        <mj-social-element name="pinterest" href="https://www.pinterest.com/GlemisRomania" background-color="#4d4d4d">
+        </mj-social-element>
+        <mj-social-element name="google" href="https://plus.google.com/+GlemisSuceava" background-color="#4d4d4d">
+        </mj-social-element>
+      </mj-social>
+        <mj-divider border-color="#b02125" padding="0px"></mj-divider>
+    </mj-column>
+  </mj-section>
+  <mj-section padding="10px">
+    <mj-column>
+
+    </mj-column>
+  </mj-section>
+  </mj-body>
+</mjml>
