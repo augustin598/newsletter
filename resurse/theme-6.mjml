@@ -83,9 +83,9 @@
     <!-- Email content Start -->
 
     <!-- Slide Start  -->
-    <mj-section padding-top="0px" padding-bottom="0" background-color="#454545">
+    <mj-section padding-top="0px" padding-bottom="0" background-color="#fff">
       <mj-column>
-        <mj-image mj-class="slider" href="?utm_content=banner" src="https://www.glemis.ro/image/catalog/newsletter-2018/new/newsletter-12/shutterstock_37682647.jpg" padding="0px 5px"></mj-image>
+        <mj-image mj-class="slider" href="?utm_content=banner" src="https://placeimg.com/600/450/any"></mj-image>
         <mj-image src="https://www.glemis.ro/image/catalog/newsletter-2018/new/newsletter-12/bg-2.png" width="600px" padding="0px"></mj-image>
       </mj-column>
     </mj-section>
@@ -133,7 +133,7 @@
     </mj-section>
     <!-- Product button Green End -->
 
-    <mj-section background-url="https://www.glemis.ro/image/catalog/newsletter-2018/new/newsletter-12/produse-originale.png" background-color="#7E003D"  vertical-align="middle" background-repeat="no-repeat" padding-top="0px" padding-bottom="0px">
+    <mj-section background-url="https://www.glemis.ro/image/catalog/newsletter-2018/new/newsletter-12/produse-originale.png" background-color="#7E003D"  vertical-align="middle" background-repeat="no-repeat" padding-top="0px" padding-bottom="0px" height="123px">
       <mj-column padding="10px">
         <mj-text align="center
         "color="#fff" font-size="18px">
