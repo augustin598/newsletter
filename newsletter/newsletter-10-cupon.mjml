@@ -29,16 +29,16 @@
     </mj-attributes>
 
      <mj-style inline="inline">
-.link-nostyle { color: #fff; text-decoration: none; }
-.circle {border-radius: 50%; width: 200px; height: 200px;}
+  .link-nostyle { color: #fff; text-decoration: none; }
+  .circle {border-radius: 50%; width: 200px; height: 200px;}
 
-  h2 {display: block;
-    font-size: 1.5em;
-		margin: 10px 0px;
-    font-weight: bold;
-    padding: 10px 0px;
-    overflow: hidden;
-  }
+    h2 {display: block;
+      font-size: 1.5em;
+  		margin: 10px 0px;
+      font-weight: bold;
+      padding: 10px 0px;
+      overflow: hidden;
+    }
 
     .product {
       font-weight: normal;

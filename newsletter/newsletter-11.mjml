@@ -111,7 +111,7 @@ body {
     <mj-section padding="0px 0px" background-color="#ffffff">
       <mj-column>
         <mj-text mj-class="title">
-          Descopera, echipamentele profesionale pentru saloane.
+          Produsele CHI sunt benefice oricărui tip de păr, astfel că șamponul și balsamul fac minuni pentru toate categoriile de păr.
         </mj-text>
         <mj-text mj-class="title-info">
           Daca intampinati probleme in vizualizarea acestui mail,
@@ -135,10 +135,10 @@ body {
     <mj-section padding="0 0" background-color="#000">
       <mj-column>
         <mj-navbar base-url="https://glemis.ro" hamburger="hamburger" ico-color="#ffffff">
-          <mj-navbar-link href="/joico" color="#ffffff">Joico</mj-navbar-link>
-          <mj-navbar-link href="/try-it-live" color="#ffffff">Try it live</mj-navbar-link>
-          <mj-navbar-link href="/templates" color="#ffffff">Templates</mj-navbar-link>
-          <mj-navbar-link href="/components" color="#ffffff">Components</mj-navbar-link>
+          <mj-navbar-link href="/chi-color-nurture" color="#ffffff">Color Nurture</mj-navbar-link>
+          <mj-navbar-link href="/chi-tea-tree-oil" color="#ffffff">Tea Tree Oil</mj-navbar-link>
+          <mj-navbar-link href="/chi-keratin" color="#ffffff">Keratin</mj-navbar-link>
+          <mj-navbar-link href="/chi-argan" color="#ffffff">Argan</mj-navbar-link>
         </mj-navbar>
       </mj-column>
     </mj-section>
@@ -149,7 +149,7 @@ body {
 <!-- Slide Start  -->
     <mj-section padding-top="0" padding-bottom="0">
       <mj-column>
-        <mj-image mj-class="slider" href="?utm_content=banner" src="https://www.glemis.ro/image/catalog/newsletter-2018/new/newsletter-11/chi-slider-trim.jpg" alt="Glemis"></mj-image>
+        <mj-image mj-class="slider" href="https://www.glemis.ro/chi?utm_content=banner" src="https://www.glemis.ro/image/catalog/newsletter-2018/new/newsletter-11/chi-slider-trim.jpg" alt="Glemis"></mj-image>
       </mj-column>
     </mj-section>
 
