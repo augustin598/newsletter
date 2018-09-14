@@ -39,15 +39,19 @@
   }
 
   #product{
-    .col-md-12  p {
+    .shadow-p  p {
       text-align: justify;
       color: #fff;
-      padding: 10px 10px;
+      margin-top: 20px;
+      padding: 30px 30px;
+      font-size: 18px;
       background-color: #5CB85C;
       -webkit-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.45);
       -moz-box-shadow:    0px 5px 5px 0px rgba(50, 50, 50, 0.45);
       box-shadow:         0px 5px 5px 0px rgba(50, 50, 50, 0.45);
     }
+
+    h2{text-align: center;}
 
     .custom2 p {
       text-align: center;
@@ -59,13 +63,42 @@
 
 }
 
-BEST OF - TOP 20 de sezon în ofertă!
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
 
-Top 20 produse
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 360px) {
+  #product{
+      h2{
+        text-align: center;
+        font-size: 18px;
+        padding-right: 5px;
+        padding-left: 5px;
+      }
+      .shadow-p  p {
+        padding: 15px 15px !important;
+        font-size: 16px;
+      }
+  }
+}
 
-Summer beauty - TOP 20 în ofertă
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  #benefit {
+    display: block;
+    padding: 100px 100px;}
+}
 
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  #benefit {
+    display: block;
+    padding: 100px 100px;}
+}
 
-Glemis BEST OF - TOP 20 de sezon!
-
-{name}, descopera top 20 cele mai vandute produse!
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  #benefit {
+    display: block;
+    padding: 100px 100px;}
+ }

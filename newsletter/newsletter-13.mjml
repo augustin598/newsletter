@@ -69,8 +69,8 @@
        }
        body{
          background: url(https://www.glemis.ro/image/catalog/newsletter-2018/new/newsletter-13/Gold-Background-Wallpaper-HD-14374.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+         background-repeat: no-repeat;
+         background-size: cover;
        }
        </mj-style>
   </mj-head>
