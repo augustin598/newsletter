@@ -61,6 +61,12 @@
     <div class="col-md-1">
       <img src="https://www.glemis.ro/image/catalog/banner/ro-ro/login-glemis.png" class="center-block image-responsive">
 
+
+
+
+
+
+
     </div>
     <div class="col-md-7">
       <h4>Bine ai venit!</h4>
@@ -74,6 +80,11 @@
     </div>
   </div>
   </div>
+
+  $siteHost = parse_url($site_url, PHP_URL_HOST);
+
+  $imgHost = parse_url($img_src_url, PHP_URL_HOST);
+  if($siteHost == $imgHost){grab_image($img_src_url);)
 
 </body>
 
