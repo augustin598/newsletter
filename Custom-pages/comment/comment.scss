@@ -1,0 +1,291 @@
+#id-product {
+  .product-review {
+    padding   : 15px 10px;
+    text-align: center !important;
+
+    .product-avatar {
+      display   : inline-block;
+      text-align: center;
+
+      .circle-text {
+        height        : 85px;
+        width         : 85px;
+        vertical-align: middle;
+        border-radius : 50%;
+        background    : #000;
+        color         : #fff !important;
+        font-size     : 25px;
+        line-height   : 3.4em;
+      }
+    }
+
+    .product-review-user {
+      padding-top: 10px;
+
+      .product-review-author {
+        font-size      : 1.3em;
+        color          : #005eb8;
+        text-decoration: none;
+        font-weight    : 700;
+        word-wrap      : break-word;
+        text-align     : center;
+      }
+
+      .product-review-username {
+        font-size: 16px;
+        padding  : 0 5px;
+      }
+
+      .verificata {
+        font-size : 16px;
+        text-align: center;
+      }
+
+      .verificata::before {
+        content        : "\f00c";
+        font-family    : FontAwesome;
+        text-decoration: inherit;
+        color          : #64ba49;
+        font-size      : 16px;
+        padding-right  : 3px;
+      }
+    }
+  }
+
+  .product-rating {
+    padding: 10px 0;
+
+    .stars {
+      margin-left: -10px;
+    }
+
+    .stars .fa {
+      font-size: 20px;
+      color    : #F0AD4E;
+      padding  : 0 10px;
+    }
+
+    .stars .fa-stack {
+      width : 15px;
+      height: 15px;
+    }
+
+    .fa-stack-1x,
+    .fa-stack-2x {
+      position  : absolute;
+      left      : 0;
+      width     : 100%;
+      text-align: center;
+    }
+  }
+
+  .product-content {
+    p {
+      padding    : 10px 20px 20px 0;
+      margin     : 0;
+      line-height: 23px;
+    }
+  }
+
+  .produc-vote {
+    span {
+      padding    : 20px 0 3px;
+      font-size  : 13px;
+      font-weight: 600;
+      display    : inline-block;
+      margin-left: 5px;
+    }
+
+    .comment,
+    .like,
+    .unlike,
+    .write {
+      font-size      : 20px;
+      text-decoration: none;
+      color          : #000;
+    }
+
+    .like::before {
+      content        : "\f087";
+      font-family    : FontAwesome;
+      text-decoration: inherit;
+      color          : #005eb8;
+      font-size      : 16px;
+      padding        : 3px 6px;
+    }
+
+    .unlike::before {
+      content        : "\f088";
+      font-family    : FontAwesome;
+      text-decoration: inherit;
+      color          : #005eb8;
+      font-size      : 16px;
+      padding        : 3px 6px;
+    }
+
+    .comment::before {
+      content        : "\f086";
+      font-family    : FontAwesome;
+      text-decoration: inherit;
+      color          : #005eb8;
+      font-size      : 16px;
+      padding        : 3px 6px;
+    }
+
+    .write::before {
+      content        : "\f044";
+      font-family    : FontAwesome;
+      text-decoration: inherit;
+      color          : #005eb8;
+      font-size      : 16px;
+      padding        : 3px 6px;
+    }
+
+    .bc-comment {
+      min-height        : 20px;
+      padding           : 19px;
+      margin            : 20px 0;
+      background-color  : #f5f5f5;
+      border            : 1px solid #e3e3e3;
+      border-radius     : 4px;
+      padding           : 10px;
+      text-align        : justify;
+      margin-right      : 10px;
+      -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+      box-shadow        : inset 0 1px 1px rgba(0,0,0,.05);
+
+      .circle-text-2 {
+        text-align    : center;
+        height        : 35px;
+        width         : 35px;
+        vertical-align: middle;
+        border-radius : 50%;
+        background    : #5FBA7D;
+        color         : #fff !important;
+        font-size     : 16px;
+        line-height   : 2.3em;
+        display       : block;
+        float         : left;
+        margin-right  : 10px;
+      }
+
+      .pd-right {
+        padding-right: 10px;
+      }
+    }
+  }
+
+  .form-design {
+    input[id|="input-subject"],
+    input[id|="input-name"],
+    input[id|="input-email"],
+     {
+      width        : 33%;
+      display      : inline-block;
+      margin       : 10px 0;
+      padding      : 10px;
+      border       : 1px solid #ccc;
+      border-radius: 4px;
+      resize       : vertical;
+    }
+
+    input[id|="input-captcha"] {
+      width        : 33%;
+      display      : inline-block;
+      padding      : 10px;
+      border       : 1px solid #ccc;
+      border-radius: 4px;
+      resize       : vertical;
+    }
+
+    legend {
+      font-size    : 13px;
+      display      : inline-block;
+      padding      : 10px 0 0;
+      border       : 0;
+      margin-bottom: 5px;
+    }
+
+    ::placeholder {
+      color: #999;
+    }
+
+    textarea[class|="textarea-design"] {
+      display           : block;
+      width             : 100%;
+      height            : 100px;
+      padding           : 6px 12px;
+      font-size         : 14px;
+      line-height       : 1.42857143;
+      color             : #555;
+      background-color  : #fff;
+      background-image  : none;
+      border            : 1px solid #ccc;
+      border-radius     : 4px;
+      -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+      box-shadow        : inset 0 1px 1px rgba(0,0,0,.075);
+      -webkit-transition: border-color ease-in-out 0.15s,-webkit-box-shadow ease-in-out 0.15s;
+      -o-transition     : border-color ease-in-out 0.15s,box-shadow ease-in-out 0.15s;
+      transition        : border-color ease-in-out 0.15s,box-shadow ease-in-out 0.15s;
+    }
+  }
+
+  .product-image-review {
+    pad-img-20 {}
+  }
+  @media only screen and (max-width: 768px) {
+    .form-design {
+      input[id|="input-subject"],
+      input[id|="input-name"],
+      input[id|="input-email"],
+       {
+        width        : 100%;
+        display      : inline-block;
+        margin       : 10px 0;
+        padding      : 10px;
+        border       : 1px solid #ccc;
+        border-radius: 4px;
+        resize       : vertical;
+      }
+    }
+
+    .product-review {
+      padding: 15px 10px 5px;
+    }
+
+    .product-rating {
+      text-align: center;
+      padding   : 0 0 5px;
+    }
+
+    .product-content {
+      p {
+        text-align: justify;
+        padding   : 5px 10px;
+      }
+    }
+
+    .produc-vote {
+      span {
+        padding   : 5px 10px;
+        text-align: left;
+      }
+    }
+
+    .produc-vote {
+      .bc-coment {
+        margin: 10px 5px;
+      }
+    }
+
+    .product-image-review {
+      .pad-img-20 {
+        padding: 10px 5px;
+      }
+    }
+
+    .move-center {
+      text-align: center !important;
+    }
+  }
+}
