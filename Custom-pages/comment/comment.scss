@@ -1,4 +1,73 @@
 #id-product {
+  // rating table-cell
+  .rating-layout {
+    text-align: center !important;
+    display   : inline-block;
+    width     : 100%;
+
+    .height-150 {
+      min-height: 146px;
+      padding   : 1.2em 0;
+    }
+
+    .thumbnail {
+      margin-bottom: 0 !important;
+    }
+
+    .stars {
+      margin-left: -10px;
+    }
+
+    .stars .fa {
+      font-size: 35px;
+      color    : #F0AD4E;
+      padding  : 0 10px;
+    }
+
+    .stars .fa-stack {
+      width : 30px;
+      height: 30px;
+    }
+
+    .fa-stack-1x,
+    .fa-stack-2x {
+      position  : absolute;
+      left      : -5px;
+      width     : 100%;
+      text-align: center;
+    }
+
+    .total-rating {
+      font-size: 14px;
+      padding  : 10px 0;
+      display  : inline-block;
+    }
+
+    .star-total {
+      padding-left: 10px;
+      padding-top : 10px;
+    }
+
+    .reviews-summary-bars {
+      color      : #222;
+      line-height: 15px;
+
+      .progress {
+        height: 16px;
+        margin: 0 0 10px;
+      }
+
+      .progress-bar {
+        background-color: #f9bf3b;
+      }
+
+      .no-dec {
+        text-decoration: none;
+        color          : #000;
+      }
+    }
+  }
+  // rating table-cell
   .product-review {
     padding   : 15px 10px;
     text-align: center !important;
@@ -180,7 +249,7 @@
     input[id|="input-name"],
     input[id|="input-email"],
      {
-      width        : 33%;
+      width        : 49%;
       display      : inline-block;
       margin       : 10px 0;
       padding      : 10px;
@@ -212,7 +281,7 @@
 
     textarea[class|="textarea-design"] {
       display           : block;
-      width             : 100%;
+      width             : 99%;
       height            : 100px;
       padding           : 6px 12px;
       font-size         : 14px;
@@ -229,11 +298,11 @@
       transition        : border-color ease-in-out 0.15s,box-shadow ease-in-out 0.15s;
     }
   }
-
-  .product-image-review {
-    pad-img-20 {}
-  }
   @media only screen and (max-width: 768px) {
+    .mb-top-10 {
+      margin-top: 10px;
+    }
+
     .form-design {
       input[id|="input-subject"],
       input[id|="input-name"],

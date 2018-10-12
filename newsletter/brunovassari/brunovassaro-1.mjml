@@ -1,0 +1,514 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="Ubuntu" />
+      <mj-text padding-top="5px" padding-left="10px" padding-right="10px" />
+      <mj-class name="blue" color="blue" />
+      <mj-class name="big" font-size="20px" />
+      <mj-class name="p-intro" font-size="20px" color "#fff" />
+      <mj-class name="title" align="center" color="#2f323b" font-size="13px" padding-left="25px" padding-right="25px" padding-bottom="5px" padding-top="10px" line-height="15px;" />
+      <mj-class name="title-info" align="center" color="#2f323b" font-size="13px" padding-left="25px" padding-right="25" padding-bottom="10px" padding-top="0px" line-height="18px;" />
+      <mj-class name="" />
+      <mj-class name="logo" width="150" align="center" padding="0px 0px 20px 0px" src="https://www.glemis.hu/image/catalog/newsletter-2018/logo-negru-floare.png" />
+      <mj-all font-family="Ubuntu" />
+      <mj-class name="product-image" width="300px" height="150px" align="middle" padding="1" vertical align="middle" />
+      <mj-class name="slider" align="center" border="none" width="600" padding="0px 0px" />
+
+      <!-- Buttons Start -->
+      <mj-class name="orange-button" align="center" border="2px solid #fff" background-color="#fa8739" color="#fff" border-radius="24px" font-size="13px" padding="5px 0px" />
+
+      <mj-class name="red-button" align="center" border="2px solid #fff" background-color="#df0130" color="#fff" border-radius="24px" font-size="13px" padding="5px 0px" />
+
+      <mj-class name="green-button" align="center" border="2px solid #fff" background-color="#00c853" color="#fff" border-radius="24px" font-size="13px" padding="5px 0px" />
+      <!-- Buttons End -->
+
+      <!-- Footer Start -->
+      <mj-class name="footer" font-weight="normal" color="#fff" font-size="13px" align="center" line-height="22px;" padding="5px" margin="5px" letter-spacing="0pt" word-spacing="2pt" font-family="lucida sans unicode,lucida grande, sans-serif" />
+      <!-- Footer end -->
+
+    </mj-attributes>
+  <mj-style>
+.link-nostyle { color: inherit; text-decoration: none }
+.circle {border-radius: 50%; width: 200px; height: 200px;}
+
+  h2 {display: block;
+    font-size: 1.5em;
+		margin: 10px 0px;
+    font-weight: 400;
+    height: 30px;
+    padding: 10px 0px;
+    overflow: hidden;
+  }
+
+    .product {
+      font-weight: normal;
+      color: #000000;
+      letter-spacing: 0pt;
+      word-spacing: 2pt;
+      font-size: 12px;
+      text-align: center;
+      font-family: lucida sans unicode, lucida grande, sans-serif;
+      line-height: 1;
+      margin: 5px;
+      padding: 5px;
+      height: 50px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+   .discount{
+       display: inline-block;
+       background-color: red;
+       width:100%;
+       font-size: 13px;
+       padding:5px 0px;
+       margin: 0px auto;
+       box-sizing: border-box;
+       color: #fff;
+       text-transform: uppercase;
+       }
+       
+       
+       @media only screen and (max-width: 480px){
+         
+         .b-bootom{
+           border: 2px solid #000;
+         }
+         
+         .bd-img30 {
+           padding-top:30px !important;
+          }
+          
+          .bd-img20 {
+           padding-top:20px !important;
+          }
+          
+          .bd-img15 {
+           padding-top:15px !important;
+          }
+       
+       
+          .custom-p{
+              height: 10px !important;
+           }
+       
+         .custom-p2{
+              height: 25px !important;
+           }
+           
+          
+
+        }
+  
+       </mj-style>
+  </mj-head>
+  <mj-body>
+
+    <!-- Title & Title Info -->
+    <mj-section padding="0px 0px" background-color="#ffffff">
+      <mj-column>
+        <mj-text mj-class="title">
+          Descopera cele mai vandute produse cosmetice de pe glemis.ro
+        </mj-text>
+        <mj-text mj-class="title-info">
+          Daca intampinati probleme in vizualizarea acestui mail,
+          <a href="http://www.glemis.ro/index.php?route=ne/show&amp;uid={uid}&amp;utm_content=web_version" style="text-decoration: none; color: #000000;"><strong>vedeti varianta web dand click aici</strong>
+       </a>.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Title & Title Info -->
+
+
+    <!-- Logo -->
+    <mj-section padding="5px 0px" background-color="#fff">
+      <mj-column>
+        <mj-image mj-class="logo" href="https://www.glemis.ro/" alt="Glemis"></mj-image>
+      </mj-column>
+    </mj-section>
+    <!-- logo End -->
+
+   <!-- Menu -->
+    <mj-section padding="0 0" background-color="#000">
+      <mj-column>
+        <mj-navbar base-url="https://glemis.ro" hamburger="hamburger" ico-color="#ffffff">
+          <mj-navbar-link href="/bruno-vassari" font-size="16px" color="#ffffff">Bruno Vassari</mj-navbar-link>
+          <mj-navbar-link href="/moroccanoil" font-size="16px" color="#ffffff">Moroccanoil</mj-navbar-link>
+          <mj-navbar-link href="/olaplex" font-size="16px" color="#ffffff">Olaplex</mj-navbar-link>
+            <mj-navbar-link href="/index.php?route=product/special&sort=percent&order=ASC&limit=24&page=11" color="#F6DA01" font-weight="900" font-size="16px">-20% Reducere</mj-navbar-link>
+          
+        </mj-navbar>
+      </mj-column>
+    </mj-section>
+    <!-- Menu End -->
+
+    <!-- Email content Start -->
+    
+    <!-- Slide Start  -->
+    <mj-section padding-top="0px" padding-bottom="0" background-color="#fff">
+      <mj-column>
+        <mj-image mj-class="slider" href="https://www.glemis.ro/bruno-vassari?utm_content=banner" src="https://www.glemis.ro/image/catalog/newsletter-2018/newsletter-17/bruno-vassari-top.jpg"></mj-image>
+      </mj-column>
+    </mj-section>
+    <!-- Slide End  -->
+
+
+<mj-section background-color="#000" border="2px solid #fff" padding="20px 0px;">
+  <mj-column vertical-align="middle" width="33.33333333333333%" padding="0px">
+    <mj-table>
+    <tr>
+      <td style="padding: 0px" align="center">
+        <img src="https://www.glemis.ro/image/catalog/newsletter-2018/new/logistics-delivery-truck-in-movement2.png" width="64" />
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <span style="font-size:16px; color:#fff; text-transform:uppercase;">LIVRARE GRATUITĂ</span>
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 0px" align="center">
+        <p style="margin:0px; color:#fff; text-align:center;">  La comenzi de peste 300 RON</p>
+      </td>
+    </tr>
+  </mj-table>
+  </mj-column>
+  <mj-column vertical-align="middle" width="33.33333333333333%">
+    <mj-table>
+    <tr>
+      <td style="padding: 0px" align="center">
+        <img src="https://www.glemis.ro/image/catalog/newsletter-2018/new/verification-of-delivery-list-clipboard-symbol.png" width="64" />
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <span style="font-size:14px; color:#fff; text-transform:uppercase;">Produse autentice</span>
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 0px" align="center">
+        <p style="margin:0px; color:#fff; text-align:center;">Toate produsele listate SUNT ORIGINALE</p>
+      </td>
+    </tr>
+  </mj-table>
+  </mj-column>
+  <mj-column vertical-align="middle" width="33.33333333333333%">
+    <mj-table>
+    <tr>
+      <td style="padding: 0px" align="center">
+        <img src="https://www.glemis.ro/image/catalog/newsletter-2018/new/call-center-worker-with-headset.png" width="64" />
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <span style="font-size:16px; color:#fff; text-transform:uppercase;">Suport telefonic</span>
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 0px" align="center">
+        <p style="margin:0px; color:#fff; text-align:center;">Program: Luni-Vineri: 09:-17</p>
+      </td>
+    </tr>
+  </mj-table>
+  </mj-column>
+</mj-section>
+
+  <!-- Product button Orange start -->
+    <mj-section background-color="#ffffff" vertical-align="top" padding-top="15px" padding-bottom="25px">
+      <mj-column width="100%">
+      <mj-table padding="0px 0px">
+        <tr>
+          <td style="text-align:center;">
+              <span style="font-size: 2em; display: block; padding:5px 0px; color:#000;">Bruno Vassari</span>
+          </td>
+        </tr>
+      </mj-table>
+      <mj-divider border-color="#FF7F50" border-style="solid" border-width="2px" padding-left="100px" padding-right="100px" padding-bottom="5px" padding-top="5"></mj-divider>
+      </mj-column>
+
+      <mj-column vertical-align="middle" width="33.33333333333333%">
+        <mj-image href="https://www.glemis.ro/kit-intensiv-anti-imbatranire-collagen-booster-bruno-vassari?utm_content=product_defined" src="https://www.glemis.ro/image/cache/catalog/product/bruno-vassari/collagen-booster/intensive-anti-aging-kit-collagen-booster-bruno-vassari-228x228.png" width="200px" padding="5px"></mj-image>
+        <mj-text align="center" padding-bottom="0px">
+          <h2>Bruno Vassari Collagen Booster</h2>
+          <span class="discount">Reducere -20%</span>
+        </mj-text>
+        <mj-table  padding="8px 25px">
+        <tr>
+          <td style="padding: 0px">
+          <span style="font-size:18px; float: right;">Comandă</span>
+          </td>
+          <td style="padding: 0 15px;">
+            <a href="https://www.glemis.ro/kit-intensiv-anti-imbatranire-collagen-booster-bruno-vassari?utm_content=product_defined">
+            <img src="https://www.glemis.ro/image/catalog/newsletter-2018/new/shopping-bag.png" width="32" />
+            </a>
+          </td>
+        </tr>
+      </mj-table>
+      </mj-column>
+
+      <mj-column vertical-align="middle" width="33.33333333333333%">
+        <mj-image css-class="bd-img20" href="https://www.glemis.ro/kit-intens-hidratant-pentru-ten-normal-sau-mixt-aqua-genomics-bruno-vassari?utm_content=product_defined" src="https://www.glemis.ro/image/cache/catalog/product/bruno-vassari/aqua-genomics/intensely-hydrating-kit-for-normal-skin-or-mixed-aqua-genomics-bruno-vassari-228x228.png" width="200px" padding="5px"></mj-image>
+        <mj-text align="center" padding-bottom="0px">
+          <h2>Bruno Vassari <br>Aqua Genomics</h2>
+          <span class="discount">Reducere -7%</span>
+        </mj-text>
+        <mj-table  padding="8px 25px">
+        <tr>
+          <td style="padding: 0px">
+          <span style="font-size:18px; float: right;">Comandă</span>
+          </td>
+          <td style="padding: 0 15px;">
+            <a href="https://www.glemis.ro/kit-intens-hidratant-pentru-ten-normal-sau-mixt-aqua-genomics-bruno-vassari?utm_content=product_defined">
+            <img src="https://www.glemis.ro/image/catalog/newsletter-2018/new/shopping-bag.png" width="32" />
+            </a>
+          </td>
+        </tr>
+      </mj-table>
+      </mj-column>
+
+      <mj-column vertical-align="middle" width="33.33333333333333%">
+        <mj-image  href="https://www.glemis.ro/set-intensiv-anti-rid-kianty-bruno-vassari?utm_content=product_defined" src="https://www.glemis.ro/image/cache/catalog/product/bruno-vassari/kianty/intensive-anti-wrinkle-pack-kianty-bruno-vassari-228x228.png" width="200px" padding="5px"></mj-image>
+        <mj-text align="center" padding-bottom="0px">
+          <h2>Bruno vassari <br>Kianty</h2>
+          <span class="discount">Reducere -20%</span>
+        </mj-text>
+        <mj-table  padding="8px 25px">
+        <tr>
+          <td style="padding: 0px">
+          <span style="font-size:18px; float: right;">Comandă</span>
+          </td>
+          <td style="padding: 0 15px;">
+            <a href="https://www.glemis.ro/set-intensiv-anti-rid-kianty-bruno-vassari?utm_content=product_defined">
+            <img src="https://www.glemis.ro/image/catalog/newsletter-2018/new/shopping-bag.png" width="32" />
+            </a>
+          </td>
+        </tr>
+      </mj-table>
+      </mj-column>
+
+    </mj-section>
+  <!-- Product button Orange End -->
+
+  <mj-section background-color="#fff" background-url="https://www.glemis.ro/image/catalog/newsletter-2018/new/newsletter-15/backkgorund-green.jpg" padding="15px 5px">
+    <mj-column width="100%">
+    <mj-table padding="0px 0px">
+      <tr>
+        <td style="text-align:center;">
+            <span style="font-size: 2em; display: block; padding:5px 0px; color:#fff; text-transform: uppercase;">moroccanoil</span>
+        </td>
+      </tr>
+    </mj-table>
+    <mj-divider border-color="#fff" border-style="solid" border-width="2px" padding-left="100px" padding-right="100px" padding-bottom="5px" padding-top="5"></mj-divider>
+    </mj-column>
+    <mj-column width="50%">
+      <mj-image mj-class="slider" href="https://www.glemis.ro/tratament-pentru-toate-tipurile-de-par-treatment-moroccanoil-100-ml?utm_content=banner" src="https://www.glemis.ro/image/cache/catalog/product/moroccanoil/scalp-balance/treatment-moroccanoil-100-ml-228x228.jpg" padding="10px"></mj-image>
+    </mj-column>
+    <mj-column width="50%">
+      <mj-image mj-class="slider" href="https://www.glemis.ro/tratament-pentru-toate-tipurile-de-par-treatment-moroccanoil-100-ml?utm_content=banner" src="https://www.glemis.ro/image/catalog/newsletter-2018/new/newsletter-14/moroccanoil.jpg" padding="10px"></mj-image>
+    </mj-column>
+  </mj-section>
+
+  <!-- Product button Red start -->
+  <mj-section background-color="#ffffff" vertical-align="top" padding-top="30px" padding-bottom="30px">
+    <mj-column vertical-align="middle" width="33.33333333333333%">
+      <mj-image  href="https://www.glemis.ro/kit-reparator-mic-sampon-balsam-masca-si-ulei-repair-line-moroccanoil?utm_content=product_defined" src="https://www.glemis.ro/image/cache/catalog/product/moroccanoil/repair-line/small-regenerating-kit-shampoo-conditioner-mask-and-oil-repair-line-moroccanoil-228x228.png" width="200px" padding="5px"></mj-image>
+      <mj-text align="center" padding-bottom="0px">
+        <h2>Moroccanoil<br>Repair line</h2>
+        <span class="discount">Reducere -20%</span>
+      </mj-text>
+      <mj-table padding="8px 25px">
+      <tr>
+        <td style="padding: 0px">
+        <span style="font-size:18px; float: right;">Comandă</span>
+        </td>
+        <td style="padding: 0 15px;">
+          <a href="https://www.glemis.ro/kit-reparator-mic-sampon-balsam-masca-si-ulei-repair-line-moroccanoil?utm_content=product_defined">
+          <img src="https://www.glemis.ro/image/catalog/newsletter-2018/new/shopping-bag.png" width="32" />
+          </a>
+        </td>
+      </tr>
+    </mj-table>
+    </mj-column>
+
+    <mj-column vertical-align="middle" width="33.33333333333333%">
+      <mj-image  href="https://www.glemis.ro/kit-pentru-par-degradat-sampon-si-balsam-reparator-2-x-250-ml-repair-line-moroccanoil?utm_content=product_defined" src="https://www.glemis.ro/image/cache/catalog/product/moroccanoil/repair-line/kit-for-degraded-hair-repair-shampoo-and-conditioner-2-x-250-ml-repair-line-moroccanoil-228x228.png" width="200px" padding="5px"></mj-image>
+      <mj-text align="center" padding-bottom="0px">
+        <h2>Moroccanoil<br>Repair linea</h2>
+        <span class="discount">Reducere -10%</span>
+      </mj-text>
+      <mj-table  padding="8px 25px">
+      <tr>
+        <td style="padding: 0px">
+        <span style="font-size:18px; float: right;">Comandă</span>
+        </td>
+        <td style="padding: 0 15px;">
+          <a href="https://www.glemis.ro/kit-pentru-par-degradat-sampon-si-balsam-reparator-2-x-250-ml-repair-line-moroccanoil?utm_content=product_defined">
+          <img src="https://www.glemis.ro/image/catalog/newsletter-2018/new/shopping-bag.png" width="32" />
+          </a>
+        </td>
+      </tr>
+    </mj-table>
+    </mj-column>
+
+    <mj-column vertical-align="middle" width="33.33333333333333%">
+      <mj-image  href="https://www.glemis.ro/kit-mic-pentru-hidratare-sampon-balsam-masca-tratament-hydration-moroccanoil?utm_content=product_defined" src="https://www.glemis.ro/image/cache/catalog/product/moroccanoil/hydration/small-kit-for-moisturizing-shampoo-conditioner-mask-treatment-hydration-moroccanoil-228x228.png" width="200px" padding="5px"></mj-image>
+      <mj-text align="center" padding-bottom="0px">
+        <h2>Moroccanoil <br> Hidration</h2>
+        <span class="discount">Reducere -20%</span>
+      </mj-text>
+      <mj-table  padding="8px 25px">
+      <tr>
+        <td style="padding: 0px">
+        <span style="font-size:18px; float: right;">Comandă</span>
+        </td>
+        <td style="padding: 0 15px;">
+          <a href="https://www.glemis.ro/kit-mic-pentru-hidratare-sampon-balsam-masca-tratament-hydration-moroccanoil?utm_content=product_defined">
+          <img src="https://www.glemis.ro/image/catalog/newsletter-2018/new/shopping-bag.png" width="32" />
+          </a>
+        </td>
+      </tr>
+    </mj-table>
+    </mj-column>
+
+  </mj-section>
+      <!-- Product button Red End -->
+
+      <mj-section background-color="#fff" background-url="https://www.glemis.ro/image/catalog/newsletter-2018/new/newsletter-15/backkgorund-green.jpg" padding="15px 5px">
+        <mj-column width="100%">
+        <mj-table padding="0px 0px">
+          <tr>
+            <td style="text-align:center;">
+                <span style="font-size: 2em; display: block; padding:5px 0px; color:#fff; text-transform: uppercase;">Olplex</span>
+            </td>
+          </tr>
+        </mj-table>
+        <mj-divider border-color="#fff" border-style="solid" border-width="2px" padding-left="100px" padding-right="100px" padding-bottom="5px" padding-top="5"></mj-divider>
+        </mj-column>
+        <mj-column width="50%">
+          <mj-image mj-class="slider" href="https://www.glemis.ro/4-1-tratament-perfector-hair-perfector-no-3-special-offers-olaplex?utm_content=banner" src="https://www.glemis.ro/image/catalog/newsletter-2018/new/newsletter-18/Olaplex_Sensual-Woman_logo_cmyk-500x500.jpg" padding="10px"></mj-image>
+        </mj-column>
+        <mj-column width="50%">
+          <mj-image mj-class="slider" href="https://www.glemis.ro/olaplex?utm_content=banner" src="https://www.glemis.ro/image/catalog/newsletter-2018/new/newsletter-18/olaplex-blonde.png" padding="10px"></mj-image>
+        </mj-column>
+      </mj-section>
+
+      <!-- Product button Green start -->
+      <mj-section background-color="#ffffff" vertical-align="top" padding-top="30px" padding-bottom="30px">
+        <mj-column vertical-align="middle" width="33.33333333333333%">
+          <mj-image  href="https://www.glemis.ro/tratament-perfector-hair-perfector-no-3-olaplex-100-ml?utm_content=product_defined" src="https://www.glemis.ro/image/cache/catalog/product/olaplex/products/hair-perfector-no-3-olaplex-100-ml-228x228.jpg" width="200px" padding="5px"></mj-image>
+          <mj-text align="center" padding-bottom="0px">
+            <h2>Olaplex <br> No.3</h2>
+            <span class="discount">Reducere -25%</span>
+          </mj-text>
+          <mj-table  padding="8px 25px">
+          <tr>
+            <td style="padding: 0px">
+            <span style="font-size:18px; float: right;">Comandă</span>
+            </td>
+            <td style="padding: 0 15px;">
+              <a href="https://www.glemis.ro/tratament-perfector-hair-perfector-no-3-olaplex-100-ml?utm_content=product_defined">
+              <img src="https://www.glemis.ro/image/catalog/newsletter-2018/new/shopping-bag.png" width="32" />
+              </a>
+            </td>
+          </tr>
+        </mj-table>
+        </mj-column>
+
+        <mj-column vertical-align="middle" width="33.33333333333333%">
+          <mj-image  href="https://www.glemis.ro/kit-mic-traveling-stylist-kit-olaplex-15-aplicari?utm_content=product_defined" src="https://www.glemis.ro/image/cache/catalog/product/olaplex/products/traveling-stylist-kit-olaplex-228x228.jpg" width="200px" padding="5px"></mj-image>
+          <mj-text align="center" padding-bottom="0px">
+            <h2>Olaplex (15) <br> Traveling Stylist Kit </h2>
+            <span class="discount">Reducere -25%</span>
+          </mj-text>
+          <mj-table  padding="8px 25px">
+          <tr>
+            <td style="padding: 0px">
+            <span style="font-size:18px; float: right;">Comandă</span>
+            </td>
+            <td style="padding: 0 15px;">
+              <a href="https://www.glemis.ro/kit-mic-traveling-stylist-kit-olaplex-15-aplicari?utm_content=product_defined">
+              <img src="https://www.glemis.ro/image/catalog/newsletter-2018/new/shopping-bag.png" width="32" />
+              </a>
+            </td>
+          </tr>
+        </mj-table>
+        </mj-column>
+
+        <mj-column vertical-align="middle" width="33.33333333333333%">
+          <mj-image  href="https://www.glemis.ro/kit-mare-salon-intro-kit-olaplex-70-aplicari?utm_content=product_defined" src="https://www.glemis.ro/image/cache/catalog/product/olaplex/products/salon-intro-kit-olaplex-228x228.jpg" width="200px" padding="5px"></mj-image>
+          <mj-text align="center" padding-bottom="0px">
+            <h2>Olaplex (70) <br> Salon Intro Kit  </h2>
+            <span class="discount">Reducere -30%</span>
+          </mj-text>
+          <mj-table  padding="8px 25px">
+          <tr>
+            <td style="padding: 0px">
+            <span style="font-size:18px; float: right;">Comandă</span>
+            </td>
+            <td style="padding: 0 15px;">
+              <a href="https://www.glemis.ro/kit-mare-salon-intro-kit-olaplex-70-aplicari?utm_content=product_defined">
+              <img src="https://www.glemis.ro/image/catalog/newsletter-2018/new/shopping-bag.png" width="32" />
+              </a>
+            </td>
+          </tr>
+        </mj-table>
+        </mj-column>
+
+      </mj-section>
+        <!-- Product button Green End -->
+        
+        <mj-section padding-top="0px" padding-bottom="0" background-color="#000">
+            <mj-column>
+              <mj-button align="center" border="2px solid #fff" background-color="F#6DA01" color="#fff" font-size="20px" href="https://www.glemis.ro/ingrijire-par" font-family="Ubuntu, Helvetica, Arial, sans-serif, Helvetica, Arial, sans-serif" padding-bottom="15px"
+        padding-top="15px">Produse profesionale pentru îngrijirea părului</mj-button>
+            </mj-column>
+          </mj-section>
+
+    <!-- Email content End -->
+
+    <!-- footer Start -->
+    <mj-section background-color="#000" padding-bottom="0px" padding-top="0px">
+      <mj-column>
+        <mj-text mj-class="footer">
+          <br>
+          <b>
+          Primiti&nbsp;acest mail deoarece adresa de mail {email} este inregistrata in baza de date a magazinului
+          <a class="link-nostyle" href="https://www.glemis.ro">glemis.ro</a> pentru clientul {lastname} {name}.&nbsp;Daca nu mai doriti mailuri promotionale / informative de la glemis.ro va puteti dezabona <a href="http://www.glemis.ro/index.php?route=ne/unsubscribe&amp;t=mail&amp;uid={uid}&amp;key={key}"
+            style="text-decoration: none; color: #fff; font-weight: bold;">dand click aici.</a>
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#000" padding-bottom="0px" padding-top="0px">
+      <mj-column width="15%">
+      </mj-column>
+      <mj-column width="70%">
+        <mj-text font-weight="normal" align="center" color="#fff" font-size="15px" padding-left="10px" padding-right="10px" padding-bottom="0px" padding-top="0px">
+          <p class="p-footer">
+            <a class="link-nostyle" href="http://www.glemis.ro/termeni-si-conditii" style="text-decoration: none;" target="_blank">Termeni si Conditii</a>&nbsp;|
+            <a class="link-nostyle" href="http://www.glemis.ro/politica-de-confidentialitate" style="text-decoration: none;" target="_blank">Politica de confidentialitate</a>
+          </p>
+        </mj-text>
+      </mj-column>
+      <mj-column width="15%">
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer Start -->
+    <mj-section background-color="#000" padding="0px 0px">
+      <mj-column>
+        <mj-social font-size="15px" icon-size="30px" mode="horizontal">
+          <mj-social-element name="facebook" href="https://www.facebook.com/GlemisRomania" background-color="#4d4d4d">
+          </mj-social-element>
+          <mj-social-element name="google" href="https://plus.google.com/+GlemisSuceava" background-color="#4d4d4d">
+          </mj-social-element>
+          <mj-social-element name="twitter" href="https://twitter.com/GlemisRomania" background-color="#4d4d4d">
+          </mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+    <!-- footer End -->
+
+
+  </mj-body>
+</mjml>
