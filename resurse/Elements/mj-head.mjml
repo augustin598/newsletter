@@ -1,0 +1,274 @@
+<!-- Title & web_version & Logo Start -->
+<mj-class name="title" align="center" color="#2f323b" font-size="13px" padding="10px 25px 10px 25px" line-height="20px;" />
+<mj-class name="logo" width="150" align="center" padding="0px 0px 10px 0px" src="https://www.glemis.ro/image/catalog/newsletter-2018/logo-negru-floare.png" />
+<mj-class name="web-version" align="center" color="#2f323b" font-size="13px" padding="0px 25px 10px 25px" line-height="18px;" />
+<mj-class name="sec-padd-0" padding="0px" background-color="#ffffff" />
+<!-- Mj Title & web_version & Logo Start -->
+   
+<!-- Menu  -->
+<mj-class name="sec-padd-menu" padding="0px" background-color="#000000" />
+<mj-class name="menu_links" color="#ffffff" font-weight="400" font-size="16px" />
+<mj-class name="menu_links_offer" color="#F6DA01" font-weight="900" font-size="18px" />
+<!-- Menu  -->
+
+<!-- Buttons Start -->
+<mj-class name="orange-button" align="center" border="2px solid #fff" background-color="#FABA00" color="#fff" border-radius="24px" font-size="13px" padding="5px 0px" />
+<mj-class name="red-button" align="center" border="2px solid #fff" background-color="#df0130" color="#fff" border-radius="24px" font-size="13px" padding="5px 0px" />
+<mj-class name="green-button" align="center" border="2px solid #fff" background-color="#00c853" color="#fff" border-radius="24px" font-size="13px" padding="5px 0px" />
+<!-- Buttons End -->
+
+<!-- Image Start  -->
+<mj-class name="sec-padd-slider" padding="0px"/>
+<mj-class name="slider" align="center" border="none" width="600px" padding="0px" />
+<!-- Image End  -->
+
+<!-- Image Product Start  -->
+<mj-class name="sec-padd-product" vertical-align="top" padding="10px 0px" background-color="#ffff" />
+<!-- Image Product End  -->
+
+<!-- Group 2 image  -->
+<mj-class name="sec-padd-two-img" padding="10px 5px" background-color="#FF7F50" />
+<mj-class name="sec-padd-header-product-title" padding="10px 5px" background-color="#fff" />
+<!-- Group 2 image  -->
+
+<!-- Border Diver -->
+<mj-class name="border-1" border-color="#fff" border-style="solid" border-width="2px" padding="5px 100px 5px 100px"/>
+<mj-class name="header-boder-product" border-color="#FABA00" border-style="solid" border-width="2px" padding="5px 100px 5px 100px"/>
+<!-- Border Diver -->
+
+
+<!-- Call to action button  -->
+<mj-class name="call-action-green" align="center" border="2px solid #fff" background-color="" color="#fff" font-size="20px" font-family="Ubuntu, Helvetica, Arial, sans-serif, Helvetica, Arial, sans-serif" padding-bottom="15px" padding-top="15px"/>
+<!-- Call to action button  -->
+
+<!-- Colums Mod's Start  -->
+<mj-class name="col-33" vertical-align="middle" width="33.33333333333333%" />
+<mj-class name="col-50" vertical-align="middle" width="50.00000000000000%" />
+<mj-class name="col-100" vertical-align="middle" width="100.00000000000000%" />
+<!-- Colums Mod's End  -->
+
+<!-- Footer Start -->
+<mj-class name="sec-padd-footer" padding="10px 0px" background-color="#000" />
+
+<mj-class name="plitic-terms" font-weight="normal" align="center" color="#fff" font-size="15px" padding="0 10px 0 10px"/>
+
+<mj-class name="footer" font-weight="normal" color="#fff" font-size="13px" align="center" line-height="26px;" padding="0px" letter-spacing="0pt" word-spacing="2pt" font-family="lucida sans unicode,lucida grande, sans-serif" />
+<!-- Footer end -->
+
+======================================================================= <!-- Title & web_version & Logo --> ================================================================================
+
+<mj-section mj-class="sec-padd-0">
+  <mj-column>
+    <mj-text mj-class="title">
+      Descopera cele mai vandute produse cosmetice de pe glemis.ro
+    </mj-text>
+    <mj-image mj-class="logo" href="https://www.glemis.ro/" alt="Glemis"></mj-image>
+    <mj-text mj-class="web-version">
+      <a class="web_version" href="http://www.glemis.ro/index.php?route=ne/show&amp;uid={uid}&amp;utm_content=web_version"><strong>Vezi varianta web.</strong>
+      </a>
+    </mj-text>
+  </mj-column>
+</mj-section>
+
+======================================================================= <!-- Title & web_version & Logo --> ================================================================================
+
+<!-- Menu -->
+ <mj-section mj-class="sec-padd-menu">
+   <mj-column>
+     <mj-navbar base-url="https://glemis.ro" hamburger="hamburger" ico-color="#ffffff">
+       <mj-navbar-link mj-class="menu_links" href="/">Bruno Vassari</mj-navbar-link>
+       <mj-navbar-link mj-class="menu_links" href="/">Moroccanoil</mj-navbar-link>
+       <mj-navbar-link mj-class="menu_links" href="/">Olaplex</mj-navbar-link>
+       <mj-navbar-link mj-class="menu_links_offer" href="/">-20% Reducere</mj-navbar-link>
+     </mj-navbar>
+   </mj-column>
+ </mj-section>
+ <!-- Menu End -->
+ 
+ <mj-style>
+   .link-nostyle {
+color: inherit !important;
+text-decoration: none !important;
+}
+
+.discount {
+display: inline-block;
+background-color: red;
+width: 100%;
+font-size: 13px;
+padding: 5px 0px;
+margin: 0px auto;
+box-sizing: border-box;
+color: #fff;
+text-transform: uppercase;
+}
+
+@media only screen and (max-width: 480px) {
+.b-bootom {
+  border: 2px solid #000;
+}
+
+.top30 {
+  padding-top: 30px !important;
+}
+
+.top20 {
+  padding-top: 20px !important;
+}
+
+.top15 {
+  padding-top: 15px !important;
+}
+
+.custom-p {
+  height: 10px !important;
+}
+
+.custom-p2 {
+  height: 25px !important;
+}
+}
+
+.web_version {
+text-decoration: none;
+color: #000000;
+}
+
+.product_title{
+padding: 0px 0px 5px 0px;
+font-size: 16px;
+display: inline-block;
+line-height: 16px;
+font-weight: 400;
+overflow: hidden;
+height:60px;
+text-align:center;
+word-break: break-all;
+}
+ </mj-style>
+ 
+===========================================================================================================================================================================================
+
+<!-- Slide Start  -->
+<mj-section padding-top="0" padding-bottom="0">
+  <mj-column>
+  <mj-image mj-class="slider" href="?utm_content=banner" src="https://dummyimage.com/600x300/baa252/ffffff"></mj-image>
+  </mj-column>
+</mj-section>
+<!-- Slide End  -->
+
+===========================================================================================================================================================================================
+
+<!-- Product 4 Start -->
+<mj-section mj-class="sec-padd-product">
+  <mj-group>
+    <mj-column vertical-align="middle">
+    <mj-image css-class="top30" href="?utm_content=product_defined" src="https://dummyimage.com/200x200/000/fff" width="200px" padding="5px"></mj-image>
+      <mj-text align="center" padding="0px 0px">
+         <span class="product_title">Easy and quick</span>
+      </mj-text>
+    <mj-button mj-class="orange-button" href="?utm_content=product_buy">CUMPĂRĂ</mj-button>
+    </mj-column>
+      
+    <mj-column vertical-align="middle">
+    <mj-image css-class="top30" href="?utm_content=product_defined" src="https://dummyimage.com/200x200/000/fff" width="200px" padding="5px"></mj-image>
+      <mj-text align="center" padding="0px 0px">
+       <span class="product_title">Easy and quick</span>
+      </mj-text>
+    <mj-button mj-class="orange-button" href="?utm_content=product_buy">CUMPĂRĂ</mj-button>
+    </mj-column>
+  </mj-group>  
+  
+  <mj-group>
+   <mj-column vertical-align="middle">
+   <mj-image css-class="top30" href="?utm_content=product_defined" src="https://dummyimage.com/200x200/000/fff" width="200px" padding="5px"></mj-image>
+     <mj-text align="center" padding="0px 0px">
+       <span class="product_title">Easy and quick</span>
+     </mj-text>
+   <mj-button mj-class="orange-button" href="?utm_content=product_buy">CUMPĂRĂ</mj-button>
+   </mj-column>
+      
+   <mj-column vertical-align="middle">
+   <mj-image css-class="top30" href="?utm_content=product_defined" src="https://dummyimage.com/200x200/000/fff" width="200px" padding="5px"></mj-image>
+     <mj-text align="center" padding="0px 0px">
+        <span class="product_title">Easy and quick</span>
+     </mj-text>
+   <mj-button mj-class="orange-button" href="?utm_content=product_buy">CUMPĂRĂ</mj-button>
+   </mj-column>
+  </mj-group>  
+  </mj-section>
+<!-- Product 4 End --> 
+
+<!-- Call to action Small  -->
+<mj-section padding="0px 0px" background-color="#fff">
+  <mj-column>
+    <mj-button href="https://www.glemis.ro/alfaparf-milano-semi-di-lino-sublime-all-hair-types?utm_content=call_action" mj-class="call-action-green">
+    Descopera Semi di Lino Sublime
+    </mj-button>
+  </mj-column>
+</mj-section>
+<!-- Call to action Small  -->
+
+
+<!-- 2 Group Image Elements Start -->
+<mj-section mj-class="sec-padd-two-img">
+  <mj-column mj-class="col-100">
+   <mj-table padding="0px">
+    <tr>
+      <td style="text-align:center;">
+          <span class="two_img_header">moroccanoil</span>
+      </td>
+    </tr>
+   </mj-table>
+  <mj-divider mj-class="border-1"></mj-divider>
+  </mj-column>
+  
+  <mj-column mj-class="col-50">
+    <mj-image href="?utm_content=banner" src="https://dummyimage.com/300x300/000/fff" padding="10px"></mj-image>
+  </mj-column>
+  
+  <mj-column mj-class="col-50">
+    <mj-image href="?utm_content=banner" src="https://dummyimage.com/300x300/000/fff" padding="10px"></mj-image>
+  </mj-column>
+  
+ <mj-column mj-class="col-100">
+   <mj-button href="https://www.glemis.ro/alfaparf-milano-semi-di-lino-sublime-all-hair-types?utm_content=call_action" mj-class="call-action-green">
+   Call to action
+   </mj-button>
+ </mj-column>
+</mj-section>
+<!-- 2 Group Image Elements Start -->
+
+<!-- Header title Product  + logo   -->
+<mj-section mj-class="sec-padd-header-product-title">
+<mj-column mj-class="col-100">
+  <mj-image width="240px" padding="0px" href="https://www.glemis.ro/babor?utm_content=banner" src="https://dummyimage.com/240x100/000/fff">
+  </mj-image>
+  <mj-table padding="0px 0px">
+    <tr>
+    <td style="text-align:center;">
+      <span style="font-size: 1.8em; display: block; padding:5px 10px; color:#000;">Rezultate vizibile cu Babor</span>
+      <span style="font-size: 1.3em; display: block; padding:5px 10px; color:#000;">Dacă apar primele semne ale îmbătrânirii pielii, colecția Doctor Babor Skin conține produse care ajută pielea să se păstreze mult mai tânără, redând astfel încrederea de sine. </span>
+      </td>
+    </tr>
+  </mj-table>
+   <mj-divider mj-class="header-boder-product"></mj-divider>
+</mj-column>
+</mj-section>
+<!-- Header title Product  + logo   -->
+
+<!-- 2 grup image + Text -->
+<mj-section padding="0px" background-color="#FF7F50">
+<mj-column vertical-align="middle">
+  <mj-image href="https://www.glemis.ro/sampon-cu-bio-sulfura-pentru-par-gras-derma-regulate-shampoo-keune-300-ml" src="https://www.glemis.ro/image/cache/catalog/product/keune/derma-care/derma-regulate-shampoo-keune-300-ml-500x500.jpg" width="300px" padding="0px"></mj-image>
+</mj-column>
+<mj-column vertical-align="middle">
+  <mj-spacer height="50px"></mj-spacer>
+  <mj-text font-size="18px" align="center" color="#ffffff" font-weight="100" font-style="italic" letter-spacing="1px" padding-bottom="2px" font-family="Arial" line-height="1"><b>Sampon cu bio-sulfură pentru păr gras</b></mj-text>
+  <mj-divider border-color="#fff" border-style="solid" border-width="1px" padding-left="30px" padding-right="30px" padding-bottom="5px" padding-top="5"></mj-divider>
+  <mj-text font-size="14px" align="center" color="#ffffff" font-weight="100" padding-bottom="0px" font-family="Arial" line-height="1.3">Acest șampon curăță în profunzime grație complexului Derma Control și este perfect pentru persoanele cu păr și scalp cu tendință de îngrășare. Mineralele Esentiale, Bio–Sulf și Betaina calmează scalpul, reglează sebumul și încetinește totodată procesul de producere al acestuia.</mj-text>
+  <mj-spacer height="15px"></mj-spacer>
+  <mj-button font-size="16px" href="https://www.glemis.ro/sampon-cu-bio-sulfura-pentru-par-gras-derma-regulate-shampoo-keune-300-ml" font-family="arial" background-color="#fff" color="#ff7f50" inner-padding="15px 35px" border-radius="15px"><i>DESCOPERA</i></mj-button>
+  <mj-spacer height="50px"></mj-spacer>
+</mj-column>
+</mj-section>

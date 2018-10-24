@@ -1,0 +1,28 @@
+<!-- 2 Group Image Elements Start -->
+<mj-section mj-class="sec-padd-two-img">
+  <mj-column mj-class="col-100">
+   <mj-table padding="0px">
+    <tr>
+      <td style="text-align:center;">
+          <span class="two_img_header">moroccanoil</span>
+      </td>
+    </tr>
+   </mj-table>
+  <mj-divider mj-class="border-1"></mj-divider>
+  </mj-column>
+  
+  <mj-column mj-class="col-50">
+    <mj-image href="?utm_content=banner" src="https://dummyimage.com/300x300/000/fff" padding="10px"></mj-image>
+  </mj-column>
+  
+  <mj-column mj-class="col-50">
+    <mj-image href="?utm_content=banner" src="https://dummyimage.com/300x300/000/fff" padding="10px"></mj-image>
+  </mj-column>
+  
+ <mj-column mj-class="col-100">
+   <mj-button href="https://www.glemis.ro/alfaparf-milano-semi-di-lino-sublime-all-hair-types?utm_content=call_action" mj-class="call-action-green">
+   Call to action
+   </mj-button>
+ </mj-column>
+</mj-section>
+<!-- 2 Group Image Elements Start -->

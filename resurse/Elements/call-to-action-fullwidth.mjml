@@ -1,0 +1,7 @@
+<mj-section background-color="#fa8739" padding-bottom="0" padding-top="0">
+    <mj-column>
+        <mj-text align="center" color="#fff" font-size="13" padding-left="25" padding-right="25" padding-bottom="10" padding-top="10">
+            <a style="font-size:20;" href="https://www.glemis.ro/babor?utm_content=call_action" class="link-nostyle">CUMPĂRĂ BABOR	</a>
+        </mj-text>
+    </mj-column>
+</mj-section>

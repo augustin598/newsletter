@@ -71,7 +71,7 @@
       /* === PRODUCT DESCRIPTION === */
        </mj-style>
   </mj-head>
-  <mj-body background-color="#5C5C5C" width="800px">
+  <mj-body background-color="#5C5C5C" width="600px">
 
     <!-- Title & Title Info -->
     <mj-section padding="0px 0px" background-color="#ffffff">

@@ -1,0 +1,8 @@
+<!-- Slide Start  -->
+<mj-section padding-top="0" padding-bottom="0">
+  <mj-column>
+    <mj-image mj-class="slider" href="?utm_content=banner" src="https://www.glemis.ro/image/catalog/newsletter-2018/newsletter-1/faq-program-hairstylist.jpg" alt="Glemis">
+    </mj-image>
+  </mj-column>
+</mj-section>
+<!-- Slide End  -->

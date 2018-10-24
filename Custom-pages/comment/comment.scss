@@ -6,7 +6,7 @@
     width     : 100%;
 
     .height-150 {
-      min-height: 146px;
+      min-height: 150px;
       padding   : 1.2em 0;
     }
 
@@ -44,8 +44,9 @@
     }
 
     .star-total {
-      padding-left: 10px;
-      padding-top : 10px;
+      padding-left  : 10px;
+      padding-top   : 10px;
+      padding-bottom: 0;
     }
 
     .reviews-summary-bars {
@@ -66,57 +67,73 @@
         color          : #000;
       }
     }
-  }
-  // rating table-cell
-  .product-review {
-    padding   : 15px 10px;
-    text-align: center !important;
 
-    .product-avatar {
-      display   : inline-block;
-      text-align: center;
-
-      .circle-text {
-        height        : 85px;
-        width         : 85px;
-        vertical-align: middle;
-        border-radius : 50%;
-        background    : #000;
-        color         : #fff !important;
-        font-size     : 25px;
-        line-height   : 3.4em;
-      }
+    .review-write {
+      background-color: #E1E2E3;
+      padding         : 10px;
     }
 
-    .product-review-user {
-      padding-top: 10px;
+    .opinion-rating {
+      font-size: 14px;
+      padding  : 5px 0;
+      display  : inline-block;
+    }
+  }
 
-      .product-review-author {
-        font-size      : 1.3em;
-        color          : #005eb8;
-        text-decoration: none;
-        font-weight    : 700;
-        word-wrap      : break-word;
-        text-align     : center;
-      }
+  .product-review-layout {
+    display: inline-block;
+    width  : 100%;
 
-      .product-review-username {
-        font-size: 16px;
-        padding  : 0 5px;
-      }
+    .product-review {
+      padding   : 15px 10px;
+      text-align: center !important;
 
-      .verificata {
-        font-size : 16px;
+      .product-avatar {
+        display   : inline-block;
         text-align: center;
+
+        .circle-text {
+          height        : 85px;
+          width         : 85px;
+          vertical-align: middle;
+          border-radius : 50%;
+          background    : #000;
+          color         : #fff !important;
+          font-size     : 25px;
+          line-height   : 3.4em;
+        }
       }
 
-      .verificata::before {
-        content        : "\f00c";
-        font-family    : FontAwesome;
-        text-decoration: inherit;
-        color          : #64ba49;
-        font-size      : 16px;
-        padding-right  : 3px;
+      .product-review-user {
+        padding-top: 10px;
+
+        .product-review-author {
+          font-size      : 1.3em;
+          color          : #005eb8;
+          text-decoration: none;
+          font-weight    : 700;
+          word-wrap      : break-word;
+          text-align     : center;
+        }
+
+        .product-review-username {
+          font-size: 16px;
+          padding  : 0 5px;
+        }
+
+        .verificata {
+          font-size : 16px;
+          text-align: center;
+        }
+
+        .verificata::before {
+          content        : "\f00c";
+          font-family    : FontAwesome;
+          text-decoration: inherit;
+          color          : #64ba49;
+          font-size      : 16px;
+          padding-right  : 3px;
+        }
       }
     }
   }
@@ -242,6 +259,39 @@
         padding-right: 10px;
       }
     }
+
+    .bc-comment2 {
+      min-height        : 20px;
+      padding           : 19px;
+      margin            : 20px 0;
+      background-color  : #fff;
+      border            : 1px solid #e3e3e3;
+      border-radius     : 4px;
+      padding           : 10px;
+      text-align        : justify;
+      margin-right      : 10px;
+      -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+      box-shadow        : inset 0 1px 1px rgba(0,0,0,.05);
+    }
+
+    .circle-text-2 {
+      text-align    : center;
+      height        : 35px;
+      width         : 35px;
+      vertical-align: middle;
+      border-radius : 50%;
+      background    : #F15321;
+      color         : #fff !important;
+      font-size     : 16px;
+      line-height   : 2.3em;
+      display       : block;
+      float         : left;
+      margin-right  : 10px;
+    }
+
+    .pd-right {
+      padding-right: 10px;
+    }
   }
 
   .form-design {
@@ -265,6 +315,7 @@
       border       : 1px solid #ccc;
       border-radius: 4px;
       resize       : vertical;
+      float        : none !important;
     }
 
     legend {
@@ -300,7 +351,7 @@
   }
   @media only screen and (max-width: 768px) {
     .mb-top-10 {
-      margin-top: 10px;
+      margin-top: 10px !important;
     }
 
     .form-design {
@@ -316,6 +367,12 @@
         border-radius: 4px;
         resize       : vertical;
       }
+    }
+
+    input[id|="input-captcha"] {
+      width        : 70% !important;
+      margin-bottom: 10px;
+      margin-right : 0;
     }
 
     .product-review {

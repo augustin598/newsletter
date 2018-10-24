@@ -1,0 +1,17 @@
+<!-- Header content -->
+<mj-section background-color="#fff">
+  <mj-column>
+    <mj-image width="200px" padding="0px" href="https://www.glemis.ro/babor?utm_content=banner" src="https://www.glemis.ro/image/cache/catalog/manufacturer/babor-240x100.jpg">
+    </mj-image>
+    <mj-table padding="0px 0px">
+      <tr>
+      <td style="text-align:center;">
+        <span style="font-size: 1.8em; display: block; padding:5px 10px; color:#000;">Rezultate vizibile cu Babor</span>
+        <span style="font-size: 1.3em; display: block; padding:5px 10px; color:#000;">Dacă apar primele semne ale îmbătrânirii pielii, colecția Doctor Babor Skin conține produse care ajută pielea să se păstreze mult mai tânără, redând astfel încrederea de sine. </span>
+        </td>
+      </tr>
+    </mj-table>
+  <mj-divider border-color="#FABA00" border-style="solid" border-width="2px" padding-left="100px" padding-right="100px" padding-bottom="5px" padding-top="5px"></mj-divider>
+  </mj-column>
+</mj-section>
+<!-- header content end  -->

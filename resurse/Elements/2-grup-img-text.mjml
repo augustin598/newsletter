@@ -1,0 +1,22 @@
+<!-- 2 grup image + Text Start -->
+<mj-section mj-class="sec-padd-two-img-text">
+ <mj-column vertical-align="middle">
+     <mj-image href="https://www.glemis.ro/sampon-cu-bio-sulfura-pentru-par-gras-derma-regulate-shampoo-keune-300-ml" src="https://dummyimage.com/300x300/000/fff" width="300px" padding="0px">
+     </mj-image>
+ </mj-column>
+ <mj-column vertical-align="middle">
+   <mj-spacer height="45px"></mj-spacer>
+   <mj-text>
+     <span style="font-size: 1.6em; display: block; padding:5px 10px; color:#000; text-align:center;">Rezultate vizibile cu Babor</span>
+   </mj-text>
+   <mj-divider mj-class="border-2"></mj-divider>
+   <mj-text>
+     <span class="custom_text_1">
+     Acest șampon curăță în profunzime grație complexului Derma Control și este perfect pentru persoanele cu păr și scalp cu tendință de îngrășare. Mineralele Esentiale, Bio–Sulf și Betaina calmează scalpul,
+     <span>
+   </mj-text>
+   <mj-button mj-class="call-action-round" href=""><i>DESCOPERA</i></mj-button>
+   <mj-spacer height="50px"></mj-spacer>
+ </mj-column>
+</mj-section>
+<!-- 2 grup image + Text Start -->

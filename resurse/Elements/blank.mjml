@@ -1,0 +1,39 @@
+<!-- Product 4 Start -->
+ <mj-section mj-class="sec-padd-product">
+   <mj-group>
+     <mj-column vertical-align="middle">
+     <mj-image css-class="top30" href="?utm_content=product_defined" src="https://www.glemis.ro/image/cache/catalog/product/moroccanoil/scalp-balance/treatment-moroccanoil-100-ml-228x228.jpg" width="200px" padding="5px"></mj-image>
+       <mj-text align="center" padding="0px 0px">
+          <span class="product_title">Tratament pentru toate tipurile de par<br>Moroccanoil</span>
+       </mj-text>
+     <mj-button mj-class="orange-button" href="?utm_content=product_buy">CUMPĂRĂ</mj-button>
+     </mj-column>
+       
+     <mj-column vertical-align="middle">
+     <mj-image css-class="top30" href="?utm_content=product_defined" src="https://dummyimage.com/200x200/000/fff" width="200px" padding="5px"></mj-image>
+       <mj-text align="center" padding="0px 0px">
+        <span class="product_title">Easy and quick</span>
+       </mj-text>
+     <mj-button mj-class="orange-button" href="?utm_content=product_buy">CUMPĂRĂ</mj-button>
+     </mj-column>
+   </mj-group>  
+   
+   <mj-group>
+    <mj-column vertical-align="middle">
+    <mj-image css-class="top30" href="?utm_content=product_defined" src="https://dummyimage.com/200x200/000/fff" width="200px" padding="5px"></mj-image>
+      <mj-text align="center" padding="0px 0px">
+        <span class="product_title">Easy and quick</span>
+      </mj-text>
+    <mj-button mj-class="orange-button" href="?utm_content=product_buy">CUMPĂRĂ</mj-button>
+    </mj-column>
+       
+    <mj-column vertical-align="middle">
+    <mj-image css-class="top30" href="?utm_content=product_defined" src="https://dummyimage.com/200x200/000/fff" width="200px" padding="5px"></mj-image>
+      <mj-text align="center" padding="0px 0px">
+         <span class="product_title">Easy and quick</span>
+      </mj-text>
+    <mj-button mj-class="orange-button" href="?utm_content=product_buy">CUMPĂRĂ</mj-button>
+    </mj-column>
+   </mj-group>  
+   </mj-section>
+ <!-- Product 4 End --> 
