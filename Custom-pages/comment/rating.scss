@@ -1,0 +1,19 @@
+#id-product {
+  .rating-layout {
+    .height-150 {
+      min-height: 150px;
+      padding   : 1.2em 0;
+    }
+
+    .reviews-summary-bars {
+      color      : #222;
+      line-height: 15px;
+    }
+
+    .star-total {
+      padding-left  : 10px;
+      padding-top   : 10px;
+      padding-bottom: 0;
+    }
+  }
+}

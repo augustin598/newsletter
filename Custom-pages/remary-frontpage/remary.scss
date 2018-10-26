@@ -1,104 +1,257 @@
-.content-main{
+$font-main: Open Sans;
+$main-color: #64ba49;
+$bg-padding: 60px 0;
+$h2-font-size: 42px;
+$all-with: 80%;
 
-  // cusotm
-  hr.style-two {
-      border: 0;
-      height: 1px;
-      background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+#frontend-remary {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h5 {
+    color      : #7c8188;
+    font-family: $font-main;
   }
 
-  #slider{
-    padding-left: 0px;
-    padding-right: 0px;
+  p {
+    color      : #7c8188;
+    font-family: $font-main;
+  }
 
-    .col-md-12{
-    padding-right: 0px;
-    padding-left: 0px;
+  .backgorund-1 {
+    background: url("https://www.sensilab.ro/media/wysiwyg/SLOVENIA/slimjoy/slimjoy-bg.jpg") center center;
+    padding   : $bg-padding;
+  }
+
+  .backgorund-2 {
+    background: $main-color;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #8fce42, #56ab2f);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #8fce42, #56ab2f);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding   : $bg-padding;
+  }
+
+  .backgorund-3 {
+    background: url("https://www.glemis.ro/image/catalog/remary-frontstore/bj-papper-3.jpg") center center;
+    padding   : $bg-padding;
+  }
+
+  #row-1 {
+    h2 {
+      color         : #7c8188;
+      font-size     : $h2-font-size;
+      line-height   : 120%;
+      font-weight   : 300;
+      text-align    : center;
+      text-transform: uppercase;
+      width         : $all-with;
+      margin        : 0 auto 0.7em;
     }
 
-    img{
-      padding-left: 0px;
-      padding-right: 0px;
+    .block-benefit {
+      width : $all-with;
+      margin: 0 auto 0.7em;
+
+      h4 {
+        color        : #fff;
+        font-size    : 35px;
+        line-height  : 120%;
+        font-weight  : 700;
+        margin-bottom: 0.1em;
+      }
+
+      p {
+        color        : #fff;
+        font-size    : 25px;
+        line-height  : 120%;
+        font-weight  : 300;
+        margin-bottom: 0.8em;
+      }
+
+      .backgound-3-box {
+        background-color: $main-color;
+        box-sizing      : border-box;
+        padding         : 35px 15px 25px;
+        text-align      : center;
+        margin-bottom   : 40px;
+      }
+    }
+
+    .checklist-box {
+      width : $all-with;
+      margin: 40px auto 2.7em;
+      border: 1px solid #ccc;
+
+      h3 {
+        text-align    : center;
+        font-size     : 40px;
+        line-height   : 120%;
+        font-weight   : normal;
+        text-transform: uppercase;
+        margin        : 0 auto 0.7em;
+      }
+
+      .h-title-bg-1 {
+        margin-top      : -33px;
+        background-color: #fff;
+        width           : 55%;
+        border          : 1px solid #ccc;
+        padding         : 10px;
+        box-sizing      : border-box;
+      }
+
+      .h-title-green {
+        color    : $main-color;
+        font-size: 30px;
+      }
+
+      .h-title-grey {
+        color    : #7c8188;
+        font-size: 20px;
+      }
+
+      .checklist ul {
+        list-style: none;
+        margin    : 0 auto 40px;
+        padding   : 0;
+        width     : $all-with;
+      }
+
+      .checklist li {
+        margin     : 0;
+        padding    : 6px 0 6px 40px;
+        background : url("https://www.sensilab.ro/media/wysiwyg/SLOVENIA/slimjoy/slimjoy-li.png") center left no-repeat;
+        min-height : 21px;
+        font-size  : 20px;
+        color      : #7c8188;
+        line-height: 120%;
+      }
     }
   }
 
-  #benefit {
-      #custom1>.fa {
-      font-size: 95px;
-      padding: 20px 10px;
-      display: block;
-      text-align: center;
-      color: #000;
-      margin: 14px 0px;
-   }
+  #row-2 {
+    h2 {
+      color         : #fff;
+      font-size     : $h2-font-size;
+      line-height   : 120%;
+      font-weight   : 300;
+      text-align    : center;
+      text-transform: uppercase;
+      width         : $all-with;
+      margin        : 0 auto 0.7em;
+    }
 
-   #custom1 p{
-     text-align: center;
-   }
+    .subtitul-1 {
+      color      : #fff;
+      font-size  : 22px;
+      line-height: 120%;
+      font-weight: 200;
+      text-align : center;
+      width      : $all-with;
+      margin     : 0 auto 0.7em;
+    }
 
-  }
+    .customer-choice-box {
+      width   : $all-with;
+      margin  : 40px auto 0.7em;
+      position: relative;
+      display : block;
+      clear   : both;
+    }
 
-  #product{
-    .shadow-p  p {
+    .front-end-gallery {
+      width : $all-with;
+      margin: 0 auto 0.7em;
+
+      img {
+        width: 100%;
+      }
+
+      img:hover {
+        opacity: 0.9;
+        filter: alpha(opacity=50);
+      }
+
+      .boottom20 {
+        margin-bottom: 30px;
+      }
+    }
+
+    .paragraph-bg-1 {
+      color     : #000;
       text-align: justify;
-      color: #fff;
-      margin-top: 20px;
-      padding: 30px 30px;
-      font-size: 18px;
-      background-color: #5CB85C;
-      -webkit-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.45);
-      -moz-box-shadow:    0px 5px 5px 0px rgba(50, 50, 50, 0.45);
-      box-shadow:         0px 5px 5px 0px rgba(50, 50, 50, 0.45);
-    }
-
-    h2{text-align: center;}
-
-    .custom2 p {
-      text-align: center;
-      color: #000 !important;
-      background-color: #fff;
-
+      background: #fff;
+      padding   : 20px;
+      margin-top: 30px;
     }
   }
 
-}
+  #row-3 {
+    h2 {
+      color         : $main-color;
+      font-size     : $h2-font-size;
+      line-height   : 120%;
+      font-weight   : 300;
+      text-align    : center;
+      text-transform: uppercase;
+      width         : $all-with;
+      margin        : 0 auto 0.7em;
+    }
 
-// Extra small devices (portrait phones, less than 576px)
-// No media query for `xs` since this is the default in Bootstrap
+    .subtitul-2 {
+      color      : #000;
+      font-size  : 22px;
+      line-height: 120%;
+      font-weight: 600;
+      text-align : center;
+      width      : $all-with;
+      margin     : -20px auto 0.7em;
+    }
 
-// Small devices (landscape phones, 576px and up)
-@media (max-width: 360px) {
-  #product{
-      h2{
+    .subtitul-2:after {
+      content         : "";
+      display         : block;
+      width           : 150px;
+      height          : 1px;
+      margin          : 0 auto;
+      background-color: rgba(0, 0, 0, 0.85);
+      margin-top      : 25px;
+    }
+
+    .questions-remary {
+      width   : $all-with;
+      margin  : 40px auto 0.7em;
+      position: relative;
+      display : block;
+      clear   : both;
+
+      h5 {
+        font-weight  : 400;
+        font-size    : 19px;
+        text-align   : left;
+        margin-bottom: 1.5em;
+      }
+
+      .h-title-green-2 {
+        color    : $main-color;
+        font-size: 30px;
+      }
+    }
+
+    .brand-guarantee {
+      width   : $all-with;
+      margin  : 10px auto 0.7em;
+      position: relative;
+      display : block;
+      clear   : both;
+
+      h4 {
         text-align: center;
-        font-size: 18px;
-        padding-right: 5px;
-        padding-left: 5px;
       }
-      .shadow-p  p {
-        padding: 15px 15px !important;
-        font-size: 16px;
-      }
+    }
   }
 }
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
-  #benefit {
-    display: block;
-    padding: 100px 100px;}
-}
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) {
-  #benefit {
-    display: block;
-    padding: 100px 100px;}
-}
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
-  #benefit {
-    display: block;
-    padding: 100px 100px;}
- }

@@ -25,7 +25,7 @@
       <mj-column width="100%">
         <mj-image href="https://glemis.ro" src="https://www.glemis.hu/image/catalog/newsletter-2018/logo-negru-floare.png" alt="Racoon logo" align="center" width="170px" padding="10px"></mj-image>
         <mj-text align="center">
-         Descopera si tu gamă completă de produse profesionale Paese
+      Titlu
         </mj-text>
       </mj-column>
     </mj-section>
