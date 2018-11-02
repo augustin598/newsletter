@@ -1,8 +1,80 @@
 $font-main: Open Sans;
 $main-color: #64ba49;
 $bg-padding: 60px 0;
+$bg-padding-mob: 30px 0 !important;
 $h2-font-size: 42px;
 $all-with: 80%;
+$margin-all: 0 auto 0.7em;
+$second-color: #7c8188; // @mixin All Start //
+@mixin one {
+  width : $all-with;
+  margin: $margin-all;
+}
+// h2 mixin 
+@mixin two {
+  font-size     : $h2-font-size;
+  line-height   : 120%;
+  font-weight   : 300;
+  text-align    : center;
+  text-transform: uppercase;
+  width         : $all-with;
+  margin        : $margin-all;
+}
+@mixin border-radius($radius) {
+  border-radius        : $radius;
+  -webkit-border-radius: $radius;
+  -moz-border-radius   : $radius;
+}
+// @mixin All end //
+@media (min-width: 320px) and (max-width: 576px) {
+  h1,
+  h2,
+  h3 {
+    color      : #7c8188;
+    font-family: $font-main;
+    font-size  : 25px !important;
+  }
+
+  #row-3 {
+    .questions-remary {
+      h5 {
+        font-weight  : 400;
+        font-size    : 19px;
+        text-align   : center !important;
+        margin-bottom: 1.2em !important;
+        line-height  : 1.5em !important;
+      }
+
+      .h-title-green-2 {
+        text-align: center !important;
+      }
+    }
+  }
+
+  .backgorund-1,
+  .backgorund-2,
+  .backgorund-3,
+  .backgorund-4,
+  .backgorund-5 {
+    padding: $bg-padding-mob;
+  }
+
+  .backgorund-5 {
+    height:: 700px !important;
+  }
+
+  #row-1 {
+    .checklist-box {
+      h3 {
+        font-size: 25px !important;
+      }
+
+      .h-title-bg-1 {
+        width: 95% !important;
+      }
+    }
+  }
+}
 
 #frontend-remary {
   h1,
@@ -18,6 +90,29 @@ $all-with: 80%;
   p {
     color      : #7c8188;
     font-family: $font-main;
+  }
+
+  #slider {
+    width: 100%;
+
+    .carousel {
+      background: $main-color;
+      margin-top: 10px;
+    }
+
+    .carousel .item {
+      min-height: 600px;
+      /* Prevent carousel from being distorted if for some reason image doesn't load */
+    }
+
+    .carousel .item img {
+      margin: 0 auto;
+      /* Align slide image horizontally center */
+    }
+
+    .slider-full {
+      margin: 0;
+    }
   }
 
   .backgorund-1 {
@@ -40,21 +135,30 @@ $all-with: 80%;
     padding   : $bg-padding;
   }
 
+  .backgorund-4 {
+    background: #fff;
+    padding   : $bg-padding;
+  }
+
+  .backgorund-5 {
+    background-image     : url("https://www.glemis.ro/image/catalog/remary-frontstore/grass-bg-2.jpg");
+    padding              : $bg-padding;
+    height               : 500px;
+    background-attachment: fixed;
+    background-position  : center;
+    background-repeat    : no-repeat;
+    background-size      : cover;
+  }
+
   #row-1 {
     h2 {
-      color         : #7c8188;
-      font-size     : $h2-font-size;
-      line-height   : 120%;
-      font-weight   : 300;
-      text-align    : center;
-      text-transform: uppercase;
-      width         : $all-with;
-      margin        : 0 auto 0.7em;
+      @include two;
+      margin: 25px auto 0.7em !important;
+      color : $second-color;
     }
 
     .block-benefit {
-      width : $all-with;
-      margin: 0 auto 0.7em;
+      @include one;
 
       h4 {
         color        : #fff;
@@ -69,6 +173,7 @@ $all-with: 80%;
         font-size    : 25px;
         line-height  : 120%;
         font-weight  : 300;
+        text-align   : center;
         margin-bottom: 0.8em;
       }
 
@@ -92,7 +197,7 @@ $all-with: 80%;
         line-height   : 120%;
         font-weight   : normal;
         text-transform: uppercase;
-        margin        : 0 auto 0.7em;
+        margin        : $margin-all;
       }
 
       .h-title-bg-1 {
@@ -135,14 +240,8 @@ $all-with: 80%;
 
   #row-2 {
     h2 {
-      color         : #fff;
-      font-size     : $h2-font-size;
-      line-height   : 120%;
-      font-weight   : 300;
-      text-align    : center;
-      text-transform: uppercase;
-      width         : $all-with;
-      margin        : 0 auto 0.7em;
+      @include two;
+      color: #fff;
     }
 
     .subtitul-1 {
@@ -152,7 +251,7 @@ $all-with: 80%;
       font-weight: 200;
       text-align : center;
       width      : $all-with;
-      margin     : 0 auto 0.7em;
+      margin     : $margin-all;
     }
 
     .customer-choice-box {
@@ -165,15 +264,10 @@ $all-with: 80%;
 
     .front-end-gallery {
       width : $all-with;
-      margin: 0 auto 0.7em;
+      margin: $margin-all;
 
       img {
         width: 100%;
-      }
-
-      img:hover {
-        opacity: 0.9;
-        filter: alpha(opacity=50);
       }
 
       .boottom20 {
@@ -192,14 +286,8 @@ $all-with: 80%;
 
   #row-3 {
     h2 {
-      color         : $main-color;
-      font-size     : $h2-font-size;
-      line-height   : 120%;
-      font-weight   : 300;
-      text-align    : center;
-      text-transform: uppercase;
-      width         : $all-with;
-      margin        : 0 auto 0.7em;
+      @include two;
+      color: $main-color;
     }
 
     .subtitul-2 {
@@ -252,6 +340,80 @@ $all-with: 80%;
       h4 {
         text-align: center;
       }
+    }
+  }
+
+  #row-4 {
+    h2 {
+      color: $main-color;
+      @include two;
+    }
+
+    .subtitul-2 {
+      color      : #000;
+      font-size  : 22px;
+      line-height: 120%;
+      font-weight: 300;
+      text-align : center;
+      width      : $all-with;
+      margin     : -20px auto 0.7em;
+    }
+
+    .subtitul-2:after {
+      content         : "";
+      display         : block;
+      width           : 150px;
+      height          : 1px;
+      margin          : 0 auto;
+      background-color: rgba(0, 0, 0, 0.85);
+      margin-top      : 25px;
+    }
+
+    .business-lab {
+      width   : $all-with;
+      margin  : 10px auto 0.7em;
+      position: relative;
+      display : block;
+      clear   : both;
+
+      img {
+        display: block;
+        margin : 0 auto 15px;
+      }
+
+      p {
+        line-height  : 1.3;
+        text-align   : center;
+        font-weight  : 300;
+        margin-bottom: 1em;
+      }
+    }
+  }
+
+  #row-5 {
+    h2 {
+      color: $second-color;
+      @include two;
+    }
+
+    .subtitul-2 {
+      color      : $second-color;
+      font-size  : 22px;
+      line-height: 120%;
+      font-weight: 200;
+      text-align : center;
+      width      : $all-with;
+      margin     : $margin-all;
+    }
+
+    .subtitul-2:after {
+      content         : "";
+      display         : block;
+      width           : 150px;
+      height          : 1px;
+      margin          : 0 auto;
+      background-color: rgba(0, 0, 0, 0.85);
+      margin-top      : 25px;
     }
   }
 }

@@ -1,0 +1,887 @@
+<style>
+  /* carousel */
+  #quote-carousel {
+    padding: 0 0 30px 0px;
+    margin-top: 30px;
+    text-align: justify;
+  }
+
+  /* Control buttons  */
+  #quote-carousel .carousel-control {
+    background: none;
+    color: #222;
+    /* font-size: 2.3em; */
+    text-shadow: none;
+    margin-top: 30px;
+  }
+
+  /* Previous button  */
+  #quote-carousel .carousel-control.left {
+    left: -12px;
+  }
+
+  /* Next button  */
+  #quote-carousel .carousel-control.right {
+    right: -12px !important;
+  }
+
+  /* Changes the position of the indicators */
+  #quote-carousel .carousel-indicators {
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-bottom: 20px;
+    margin-right: -19px;
+  }
+
+  /* Changes the color of the indicators */
+  #quote-carousel .carousel-indicators li {
+    background: #c0c0c0;
+  }
+
+  #quote-carousel .carousel-indicators .active {
+    background: #333333;
+  }
+
+  #quote-carousel img {
+    width: 250px;
+    height: 100px
+  }
+
+  /* End carousel */
+  .item blockquote {
+    border-left: none;
+    margin: 0;
+  }
+
+  .item blockquote img {
+    margin-bottom: 10px;
+  }
+
+  .item blockquote p:before {
+    content: "\f10d";
+    font-family: Fontawesome;
+    float: left;
+    margin-right: 10px;
+    padding-right: 10px;
+  }
+
+  /**
+  MEDIA QUERIES
+*/
+  /* Small devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+    #quote-carousel {
+      margin-bottom: 0;
+      padding: 0 40px 30px 40px;
+    }
+  }
+
+  /* Small devices (tablets, up to 768px) */
+  @media (max-width: 768px) {
+
+    /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
+    #quote-carousel .carousel-indicators {
+      bottom: -41px !important;
+      position: absolute;
+    }
+
+    #quote-carousel .carousel-indicators li {
+      display: inline-block;
+      margin: 0px 5px;
+      width: 15px;
+      height: 15px;
+    }
+
+    #quote-carousel .carousel-indicators li.active {
+      margin: 0px 5px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+
+  #align {
+    text-align: justify;
+  }
+
+  .shadow {
+    -webkit-box-shadow: 0px 3px 20px 2px rgba(0, 0, 0, 0.41);
+    -moz-box-shadow: 0px 3px 20px 2px rgba(0, 0, 0, 0.41);
+    box-shadow: 0px 3px 20px 2px rgba(0, 0, 0, 0.41);
+  }
+
+  .m-bottom-30 {
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+
+  ul.b {
+    padding-left: 20px;
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+
+  ul.b li::before {
+    content: "\f005";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    /*--adjust as necessary--*/
+    color: #FF0000;
+    font-size: 18px;
+    padding-right: 0.5em;
+    top: 10px;
+    left: 0;
+  }
+
+  ul.c {
+    padding-left: 1px;
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 37px;
+  }
+
+  ul.c li::before {
+    content: "\f00c";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    /*--adjust as necessary--*/
+    color: #64ba49;
+    font-size: 18px;
+    padding-right: 0.5em;
+    top: 10px;
+    left: 0;
+  }
+
+  .a-ul {
+    padding-left: 20px;
+    font-weight: 600;
+    font-size: 15px;
+    padding-top: 10px;
+  }
+
+  .beneficii {
+    padding: 20px 0px;
+  }
+
+  #back-white {
+    background-color: #fff;
+    /* padding: 20px; */
+    display: block;
+  }
+
+  #back-white .card-title1 {
+    font-size: 38px !important;
+    font-weight: 700;
+    line-height: 115%;
+    margin: .3em 0;
+    text-align: center;
+    color: #64ba49;
+  }
+
+  #back-white>p {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: justify;
+    font-weight: 400;
+    padding: 20px 20px;
+    border: 1px solid #3F4C6B;
+  }
+
+  #back-white .card-title2 {
+    font-size: 25px !important;
+    font-weight: 700;
+    line-height: 38px;
+    color: #3F4C6B;
+  }
+
+  #back-white .card-title3 {
+    font-size: 32px !important;
+    font-weight: 700;
+    text-align: left;
+    line-height: 38px;
+    color: #3F4C6B;
+    margin: 20px 0px;
+  }
+
+  #custom1>.fa {
+    font-size: 95px;
+    padding: 20px 10px;
+    display: block;
+    text-align: center;
+    color: #64ba49;
+    margin: 14px 0px;
+  }
+
+  #custom1>p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+
+  #green-title>div>h2 {
+    font-size: 38px !important;
+    font-weight: 700;
+    line-height: 115%;
+    margin: .3em 0;
+    text-align: center;
+    color: #64ba49;
+  }
+
+  #green-title>div>.green {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: justify;
+    font-weight: 400;
+    background-color: #64ba49;
+    color: #fff;
+    padding: 10px 20px;
+  }
+
+  #green-title>div>.border {
+    border: 2px solid #5fa349;
+    padding: 10px 10px;
+  }
+
+  #garant-border {
+    border: 2px solid #5fa349;
+    padding: 10px 10px;
+    min-height: auto;
+    display: inline-block;
+    width: 100%;
+  }
+
+  #garant-border h4 {
+    color: #64ba49;
+    font-weight: 700;
+    font-size: 26px !important;
+    text-transform: uppercase;
+  }
+
+  #garant-border img {
+    margin-top: 7px;
+  }
+
+  #garant-border p {
+    font-size: 16px !important;
+    font-weight: 700;
+    text-align: left;
+    line-height: 20px;
+    color: #3F4C6B;
+  }
+
+  #back-white .card-body iframe {
+    margin: 30px 0px 0px 0px;
+  }
+
+  #green-content {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: justify;
+    font-weight: 400;
+    background-color: #64ba49;
+    display: inline-block;
+    color: #fff;
+    weight: 100%;
+    padding: 0px 0px 10px 0px;
+  }
+
+  #green-content h2 {
+    font-size: 38px !important;
+    font-weight: 700;
+    line-height: 115%;
+    margin: .3em 0;
+    text-align: center;
+    color: #fff;
+  }
+
+  #green-content h4 {
+    font-size: 25px !important;
+    font-weight: 700;
+    line-height: 115%;
+    margin: .3em 0;
+    text-align: center;
+    color: #fff;
+  }
+
+  #red-content {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: justify;
+    font-weight: 400;
+    background-color: #DC6783;
+    display: inline-block;
+    color: #fff;
+    weight: 100%;
+    padding: 0px 0px 10px 0px;
+  }
+
+  #red-content h2 {
+    font-size: 38px !important;
+    font-weight: 700;
+    line-height: 115%;
+    margin: .3em 0;
+    text-align: center;
+    color: #fff;
+  }
+
+  #red-content h4 {
+    font-size: 25px !important;
+    font-weight: 700;
+    line-height: 115%;
+    margin: .3em 0;
+    color: #000;
+  }
+
+  #red-content p {
+    color: #000 !important;
+  }
+
+  .testimonials blockquote {
+    background: #f8f8f8 none repeat scroll 0 0;
+    border: medium none;
+    color: #666;
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 15px;
+    position: relative;
+    margin-top: 30px;
+  }
+
+  .testimonials blockquote::before {
+    width: 0;
+    height: 0;
+    right: 0;
+    bottom: 0;
+    content: " ";
+    display: block;
+    position: absolute;
+    border-bottom: 20px solid #fff;
+    border-right: 0 solid transparent;
+    border-left: 15px solid transparent;
+    border-left-style: inset;
+    /*FF fixes*/
+    border-bottom-style: inset;
+    /*FF fixes*/
+  }
+
+  .testimonials blockquote::after {
+    width: 0;
+    height: 0;
+    right: 0;
+    bottom: 0;
+    content: " ";
+    display: block;
+    position: absolute;
+    border-style: solid;
+    border-width: 20px 20px 0 0;
+    border-color: #e63f0c transparent transparent transparent;
+  }
+
+  .testimonials .carousel-info img {
+    border: 1px solid #f5f5f5;
+    border-radius: 150px !important;
+    height: 75px;
+    padding: 3px;
+    width: 75px;
+  }
+
+  .testimonials .carousel-info {
+    overflow: hidden;
+  }
+
+  .testimonials .carousel-info img {
+    margin-right: 15px;
+  }
+
+  .testimonials .carousel-info span {
+    display: block;
+  }
+
+  .testimonials span.testimonials-name {
+    color: #e6400c;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 23px 0 7px;
+  }
+
+  .testimonials span.testimonials-post {
+    color: #656565;
+    font-size: 12px;
+  }
+
+</style>
+<div id="5915">
+  <!--
+  <div style="min-height: 520px;" class="col-md-6 text-center">
+    <iframe src="https://www.youtube.com/embed/7mrpGJH2CXM" allow="autoplay; encrypted-media" allowfullscreen="" frameborder="0" width="100%" height="240"></iframe>
+    <br>
+    <iframe src="https://www.youtube.com/embed/vLpsDwYcvQg" allow="autoplay; encrypted-media" allowfullscreen="" frameborder="0" width="100%" height="240"></iframe>
+  </div>
+  -->
+  <div>
+    <div class="col-md-12">
+      <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+        <!-- Bottom Carousel Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#quote-carousel" data-slide-to="0" class=""></li>
+          <li data-target="#quote-carousel" data-slide-to="1" class=""></li>
+          <li data-target="#quote-carousel" data-slide-to="2" class=""></li>
+          <li data-target="#quote-carousel" data-slide-to="3" class=""></li>
+          <li data-target="#quote-carousel" data-slide-to="4" class="active"></li>
+          <li data-target="#quote-carousel" data-slide-to="5" class=""></li>
+          <li data-target="#quote-carousel" data-slide-to="6" class=""></li>
+          <li data-target="#quote-carousel" data-slide-to="7" class=""></li>
+          <li data-target="#quote-carousel" data-slide-to="8" class=""></li>
+          <li data-target="#quote-carousel" data-slide-to="9" class=""></li>
+        </ol>
+        <!-- Carousel Slides / Quotes -->
+        <div class="carousel-inner ">
+          <div class="item">
+            <blockquote>
+              <div class="row">
+                <div class="col-sm-3 text-center">
+                  <img class="img-circle" src="../image/catalog/landing-page/face-cream/1.jpg" style="width: 100px;height:100px;">
+                  <!--<img class="img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/kolage/128.jpg" style="width: 100px;height:100px;">-->
+                </div>
+                <div class="col-sm-8">
+                  <p>Mă lupt cu celulita de foarte mult timp, soluțiile pe care le-am încercat au fost scumpe și fără succes. Am văzut această cremă termo-activă și am zis să-i acord o șansă. Am folosit-o o lună consecutiv, cu aplicare în principal
+                    seara.
+                    Efectul? WOW. Sunt extrem de mulțumită, pielea este netedă și mult mai fermă. <br><br> M-am și măsurat și pe coapse am dat -7cm. Mie mi se pare absolut fascinant că un asemenea produs m-a ajutat să-mi recapăt fermitatea și
+                    încrederea
+                    în mine.
+                  </p>
+                  <small>Andrada Lucescu</small>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+          <div class="item">
+            <blockquote>
+              <div class="row">
+                <div class="col-sm-3 text-center">
+                  <img class="img-circle" src="../image/catalog/landing-page/face-cream/2.jpg" style="width: 100px;height:100px;">
+                </div>
+                <div class="col-sm-8">
+                  <p>De când am născut am rămas cu o celulită de toată frumusețea. În combinație cu retenția de apă, m-am trezit cu picioarele și coapsele bombardate de celulită. Am achiziționat acest produs la recomandarea unei prietene ce susținea
+                    cu ardoare
+                    că pe ea a ajutat-o să scape de această problemă des-întâlnită la femei. Zis și făcut. Am comandat-o, am primit-o și am aplicat-o.<br><br>După câteva minute pielea a început să se încălzească și simțeam cum lucrează. Am lăsat-o
+                    să
+                    intre în piele și dimineața când m-am trezit am observat cu mare bucurie cum pielea mea era deja mai fermă și mai netedă.<br><br>O utilizez de mai bine de două luni și pe zi ce trece observ cum își face efectul. Mă bucur enorm că
+                    am
+                    descoperit-o și că pot să beneficiez de beneficiile ei surprinzătoare!
+                    <small>Sorana Liliana Tipa</small>
+                  </p>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+          <div class="item">
+            <blockquote>
+              <div class="row">
+                <div class="col-sm-3 text-center">
+                  <img class="img-circle" src="../image/catalog/landing-page/face-cream/3.jpg" style="width: 100px;height:100px;">
+                </div>
+                <div class="col-sm-8">
+                  <p>
+                    Celulita a rămas o amintire neplăcută datorită cremei termoactive de la Remary. Și spun asta pentru că am reușit să scap de ea în scurt timp după ce am început s-o folosesc. O utilizez în continuare pe zonele cu grăsime, o aplic
+                    inclusiv pe abdomen, unde
+                    am reușit să scap de 3 cm până acum.<br><br> Topește celulita văzând cu ochii, dacă nu aș fi testat-o pe propria-mi piele nici că nu aș fi crezut că este posibil. O dată pe săptămână îmi fac împachetări cu ea, cred
+                    că și acest lucru a contribuit la diminuarea grăsimii și celulitei.<br><br> Fără nici un fel de reținere o încadrez în topul produselor mele de îngrijire preferate.
+                  </p>
+                  <small>Andreea Moțolea</small>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+          <div class="item">
+            <blockquote>
+              <div class="row">
+                <div class="col-sm-3 text-center">
+                  <img class="img-circle" src="../image/catalog/landing-page/face-cream/4.jpg" style="width: 100px;height:100px;">
+                </div>
+                <div class="col-sm-8">
+                  <p>
+                    Experiența mea cu crema termo a început în momentul în care căutam cu disperare o soluție să scap de celulită. Am făcut destul de multe cercetări vis-a-vis de cremele de acest gen și am ajuns la concluzia că cea mai potrivită
+                    pentru mine este crema termoactivă
+                    de la Remary. <br><br>După ce am utilizat-o pot să afirm fără nici o reținere că a fost cea mai inspirată alegere. <br><br>Calitatea acestei creme este cu mult peste ceea ce mă așteptam să fie, să nu mai zic de
+                    rezultate. Foarte eficientă și practică, o pui pe piele și îți iei de grijă!
+                  </p>
+                  <small>Iulia Ana-Maria Opincă</small>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+          <div class="item active">
+            <blockquote>
+              <div class="row">
+                <div class="col-sm-3 text-center">
+                  <img class="img-circle" src="../image/catalog/landing-page/face-cream/5.jpg" style="width: 100px;height:100px;">
+                </div>
+                <div class="col-sm-8">
+                  <p>M-am îndrăgostit de această cremă! Este absolut minunat cum un singur produs poate înlătura atât de repede și de eficient o celulită foarte încăpățînată. O aveam din plin: pe coapse, picioare, brațe, abdomen, mai pe scurt peste
+                    tot.<br><br> O utilizez cu plăcere mai ales că mi se pare foarte interesant modul ei de acționare: pielea se încălzește și înroșește iar celulita începe să se topească. Am observat cu mare uimire că anumiți pantaloni îmi sunt
+                    largi, ceea ce clar
+                    denotă că am dat și câțiva centimetri jos.<br><br> O recomand cu cel mai mare drag!
+                  </p>
+                  <small>Bianca Sandulea</small>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+          <div class="item">
+            <blockquote>
+              <div class="row">
+                <div class="col-sm-3 text-center">
+                  <img class="img-circle" src="../image/catalog/landing-page/face-cream/6.jpg" style="width: 100px;height:100px;">
+                </div>
+                <div class="col-sm-8">
+                  <p>Un produs indinspensabil oricărei femei. De când o utilizez nu mai am nici o rușine să îmi expun picioarele sau brațele și asta pentru că pielea e foarte netedă și fermă. Eu o utilizez de 2 ori pe zi, iar în zilele când nu îmi
+                    permite
+                    timpul o aplic măcar seara, înainte de a mă pune la somn.Un alt plus al acestei creme este cantitatea care este suficientă pentru o perioadă mai lungă de timp. Per-total mă declar foarte încâtată de acestă achiziție.
+                  </p>
+                  <small>Mihaela Anca Postolea</small>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+          <div class="item">
+            <blockquote>
+              <div class="row">
+                <div class="col-sm-3 text-center">
+                  <img class="img-circle" src="../image/catalog/landing-page/face-cream/7.jpg" style="width: 100px;height:100px;">
+                </div>
+                <div class="col-sm-8">
+                  <p>Efectul este excelent și se simte de la prima aplicare cum își face efectul. Îmi place și consistența și mirosul cremei termoactive Remary, mi se pare foarte specială, mai ales pentru că își și face treaba. O folosesc de puțin
+                    timp,
+                    dar nu aș mai renunța la ea!
+                  </p>
+                  <small>Sonia Mitruță</small>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+          <div class="item">
+            <blockquote>
+              <div class="row">
+                <div class="col-sm-3 text-center">
+                  <img class="img-circle" src="../image/catalog/landing-page/face-cream/8.jpg" style="width: 100px;height:100px;">
+                </div>
+                <div class="col-sm-8">
+                  <p>Un super produs pe care-l folosesc cu mare drag. De când l-am cumpărat îl folosesc zi de zi și efectele sunt din ce în ce mai bune. Pot spune că am scapat și de celulită și de câțiva centimetri din zonele cu probleme (în mod
+                    special
+                    abdomen). Faptul că pielea se înroșește și se încălzește înseamnă ce aceasta își face efectul, fiind termoactivă. O ador, foarte bun produs!
+                  </p>
+                  <small>Ștefana P.</small>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+          <div class="item">
+            <blockquote>
+              <div class="row">
+                <div class="col-sm-3 text-center">
+                  <img class="img-circle" src="../image/catalog/landing-page/face-cream/9.jpg" style="width: 100px;height:100px;">
+                </div>
+                <div class="col-sm-8">
+                  <p>De mult timp căutam un produs așa calitativ și eficient. Pe lângă faptul că livrarea a avut loc foarte repede, a doua zi am și primit-o, când am aplicat-o am rămas plăcut impresionată de efectul de încălzire, care îmi place
+                    foarte tare.<br><br>Super
+                    crema de la Remary!!
+                  </p>
+                  <small>Ingrid T.</small>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+          <div class="item">
+            <blockquote>
+              <div class="row">
+                <div class="col-sm-3 text-center">
+                  <img class="img-circle" src="../image/catalog/landing-page/face-cream/10.jpg" style="width: 100px;height:100px;">
+                </div>
+                <div class="col-sm-8">
+                  <p>Mi-am cumpărat-o recent și mă declar extrem de încântată de ea. Am ținut în paralel și o dietă lejeră, am consumat apă și efectele sunt absolut incredibile.<br><br></p>
+                  <small>Raluca M.</small>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+        </div>
+        <!-- Carousel Buttons Next/Prev -->
+        <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left fa-2x"></i></a>
+        <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right fa-2x"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-12 text-center beneficii">
+    <div id="back-white">
+      <h2 class="card-title1">De ce crema termoactivă anti celulitică Remary?</h2>
+      <p>Bazat pe eficiență imediată și precizie, acest <b style="color:red;">tratament prețios de remodelare corporală</b> și fermitate conține ingrediente de ultimă generație, ce îmbină textura inovatoare cu cele mai bune rezultate din știință și
+        natură.
+        Cea mai recentă inovație exclusivă, complexul Pro Active Remary, este alcătuit dintr-un <b style="color:red;">cocktail extrem de concentrat</b>, ce are la bază cele mai eficiente plante cu rezultate dovedite împotriva celulitei. Complexul
+        Pro
+        Active Remary mărește permeabilitatea datorită efectului termoactiv, permițând astfel ingredientelor active să ajungă la stratul vizat în piele. </p>
+    </div>
+    <div class="col-md-6" style="padding:0 0 0 0;">
+      <div id="back-white" class="card text-justify">
+        <div class="card-body">
+          <!-- <iframe src="https://www.youtube.com/embed/sY12Ow__i-w" allow="autoplay; encrypted-media" allowfullscreen="" width="100%" height="381" frameborder="0"></iframe> -->
+          <img src="https://www.glemis.ro/image/cache/catalog/product/remary/professional-thermoactive-anti-cellulite-cream-remary-500-ml-10-500x500.png" class="center-block image-responsive">
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div id="back-white" class="card text-justify">
+        <div class="card-body">
+          <h2 class="card-title2">Clienţii aleg produsele noastre pentru ca:</h2>
+          <ul class="b">
+            <li><b>Folosim ingrediente atent selecţionate</b>
+              <p>Din dragoste pentru natura extragem cele mai preţioase ingrediente pentru crearea produselor noastre.</p>
+            </li>
+            <li><b>Tehnologiile folosite sunt inovative</b>
+              <p>Avem grijă ca pielea ta să aibă parte de cele mai noi inovaţii din domeniu.</p>
+            </li>
+            <li><b>Ne adaptăm nevoilor fiecărui client</b>
+              <p>Produsele noastre sunt special realizate pentru a putea fi folosite pe toate tipurile de ten</p>
+            </li>
+            <li><b>Misiunea Remary</b>
+              <p>Este aceea de a reda frumuseţea naturală a femeilor, dar şi de a seta noi standarde în fiecare zi.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-12 text-center"> <a href="https://www.glemis.ro/index.php?route=quickcheckout/checkout&amp;add_to_cart=5915" id="button-order-now" class="btn btn-cart btn-lg m-bottom-30 visible-xs visible-sm" rel="nofollow"><i class="fa fa-share"></i>
+      Comandă acum</a> </div>
+  <div id="garant-border" style="text-align:center !important;">
+    <div class="col-md-1">
+      <img src="https://www.glemis.ro/image/catalog/landing-page/delivery-truck.png" class="center-block image-responsive">
+    </div>
+    <div class="col-md-3">
+      <h4>Livrare în 24 ore de la preluarea comenzi</h4>
+    </div>
+    <div class="col-md-1">
+      <img src="https://www.glemis.ro/image/catalog/landing-page/shield.png" class="center-block image-responsive"> </div>
+    <div class="col-md-3">
+      <h4>100 % Garanția satisfacției!</h4>
+    </div>
+    <div class="col-md-1">
+      <img src="https://www.glemis.ro/image/catalog/landing-page/doctor.png" class="center-block image-responsive"> </div>
+    <div class="col-md-3">
+      <h4>Produse non-toxice, notificate EU</h4>
+    </div>
+  </div>
+  <!--  Red content -->
+  <div id="red-content">
+    <div class="col-md-6">
+      <h2>Ingrediente active:</h2>
+      <div class="panel-group" id="accordion">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title"><i class="fa fa-plus-circle"> </i>&nbsp;&nbsp;<a href="#collapse1" data-parent="#accordion" data-toggle="collapse" class="accordion-toggle" aria-expanded="true">
+                Alga marină brună</a></h4>
+          </div>
+          <div class="panel-collapse collapse in" id="collapse1" aria-expanded="true" style="">
+            <div class="panel-body">
+              <p>Contribuie la remodelarea corporală și crește fermitatea pielii. Algele ajută la refacerea țesuturilor, stimulând regenerarea celulelor sănătoase și la îmbunătățirea circulației locale, redau tinerețea și fermitatea pielii flasce și
+                devitalizate.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title"><i class="fa fa-plus-circle">
+            </i>&nbsp;&nbsp;<a href="#collapse2" data-parent="#accordion" data-toggle="collapse" class="accordion-toggle collapsed" aria-expanded="false">
+              Algele marine de stâncă
+            </a>
+          </h4>
+        </div>
+        <div class="panel-collapse collapse" id="collapse2" aria-expanded="false" style="height: 0px;">
+          <div class="panel-body">
+            <p>Au ca principali constituenți iodul, sărurile minerale (sodiu, potasiu, calciu, siliciu, magneziu), numeroase oligoelemente, glucide, mucilagii, vitaminele A, B, C, D, E, clorofilă. Proprietățile tonifiante, remineralizante,
+              normalizatoare
+              ale circulației sangvine le recomandă în tratamentul rapid și eficient al celulitei.</p>
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title"><i class="fa fa-plus-circle">
+            </i>&nbsp;&nbsp;<a href="#collapse3" data-parent="#accordion" data-toggle="collapse" class="accordion-toggle collapsed" aria-expanded="false">
+              Iedera
+            </a>
+          </h4>
+        </div>
+        <div class="panel-collapse collapse" id="collapse3" aria-expanded="false" style="height: 0px;">
+          <div class="panel-body">
+            <p>Are proprietatea de a destinde tegumentul și de a reda suplețea pielii, are efect anti-inflamator, îmbunătăţeşte drenajul limfatic, stimulează circulația sângelui și întărește pereții capilarelor.</p>
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title"><i class="fa fa-plus-circle">
+            </i>&nbsp;&nbsp;<a href="#collapse4" data-parent="#accordion" data-toggle="collapse" class="accordion-toggle collapsed" aria-expanded="false">
+              Coada calului
+            </a>
+          </h4>
+        </div>
+        <div class="panel-collapse collapse" id="collapse4" aria-expanded="false" style="height: 0px;">
+          <div class="panel-body">
+            <p>Conţine o cantitate mare de siliciu, care contribuie la formarea colagenului, asigurând astfel un aspect sănătos pielii, foarte util pentru sănătatea vaselor de sânge şi îmbunătăţirea circulaţiei sangvine, stimulează eliminarea apei
+              din țesuturi.</p>
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title"><i class="fa fa-plus-circle">
+            </i>&nbsp;&nbsp;<a href="#collapse5" data-parent="#accordion" data-toggle="collapse" class="accordion-toggle collapsed" aria-expanded="false">
+              Sunătoarea
+            </a>
+          </h4>
+        </div>
+        <div class="panel-collapse collapse" id="collapse5" aria-expanded="false" style="height: 0px;">
+          <div class="panel-body">
+            <p>Este o adevărată farmacie cu peste 15 compuși, printre care acidul valerianic, saponinele, colina, rutina, galactoza, hiperina, hipericina, uleiul volatil, fiind cunoscută pentru efectul său puternic cicatrizant, regenerator și
+              fortifiant.</p>
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title"><i class="fa fa-plus-circle">
+            </i>&nbsp;&nbsp;<a href="#collapse6" data-parent="#accordion" data-toggle="collapse" class="accordion-toggle collapsed" aria-expanded="false">
+              Extractul din frunză de viță de vie
+            </a>
+          </h4>
+        </div>
+        <div class="panel-collapse collapse" id="collapse6" aria-expanded="false" style="height: 0px;">
+          <div class="panel-body">
+            <p>Este un aliat ideal pentru slăbit, reduce aspectul pielii de "coajă de portocală", topește grăsimea de sub piele, susține o siluetă mai fermă și mai rafinată, are efect de drenaj, promovează eliminarea substanțelor toxice și a
+              depozitelor
+              de grăsime.</p>
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title"><i class="fa fa-plus-circle">
+            </i>&nbsp;&nbsp;<a href="#collapse8" data-parent="#accordion" data-toggle="collapse" class="accordion-toggle collapsed" aria-expanded="false">
+              Păpădia
+            </a>
+          </h4>
+        </div>
+        <div class="panel-collapse collapse" id="collapse8" aria-expanded="false" style="height: 0px;">
+          <div class="panel-body">
+            <p>Are un puternic efect detoxifiant, prin conținutul bogat în vitamine (A, B, C, si D), proteine, glucide, dar și tanin si acid cafeic. Păpădia joacă, de asemenea, un rol esențial în eliminarea toxinelor din organism și luptă eficient
+              și rapid
+              împotriva retenției de apă.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <h2>Ce trebuie să știi:</h2>
+      <div class="panel-group" id="accordion">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title"><i class="fa fa-plus-circle"> </i>&nbsp;&nbsp;<a href="#collapse1" data-parent="#accordion" data-toggle="collapse" class="accordion-toggle" aria-expanded="true">
+                1. Prima etapă presupune</a></h4>
+          </div>
+          <div class="panel-collapse collapse in" id="collapse10" aria-expanded="true" style="">
+            <div class="panel-body">
+              <p>O acțiune mai agresivă, cu ajutorul tehnologiei Thermo Slim, care încălzește pielea și asigură transportul substanțelor active în straturile interne ale pielii, fenomen ce intensifică arderea celulelor grase și determină remodelarea
+                drastică
+                a formei coapselor, taliei, feselor, șoldurilor și a zonelor unde aceasta este aplicată.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel-group" id="accordion">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title"><i class="fa fa-plus-circle"> </i>&nbsp;&nbsp;<a href="#collapse1" data-parent="#accordion" data-toggle="collapse" class="accordion-toggle" aria-expanded="true">
+                2. A doua etapă este cea de drenaj</a></h4>
+          </div>
+          <div class="panel-collapse collapse in" id="collapse11" aria-expanded="true" style="">
+            <div class="panel-body">
+              <p>A doua etapă este cea de drenaj, ce permite eliminarea toxinelor și a apei din organism, reducerea edemelor, atenuarea umflăturilor din țesuturile adipoase și îmbunătățirea microcirculației în țesuturile afectate.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel-group" id="accordion">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title"><i class="fa fa-plus-circle"> </i>&nbsp;&nbsp;<a href="#collapse1" data-parent="#accordion" data-toggle="collapse" class="accordion-toggle" aria-expanded="true">
+                3. Al treilea pas previne formarea de celule de grăsime noi</a></h4>
+          </div>
+          <div class="panel-collapse collapse in" id="collapse12" aria-expanded="true" style="">
+            <div class="panel-body">
+              <p>pregătește celulele sănătoase pentru a primi nutrienți esențiali importanți, prin aportul de substanțe puternic energizante, revitalizante și cicatrizante, care îi redau pielii suplețea și elasticitatea. Efectul acestui tratament,
+                comparat
+                cu cel al unei proceduri de liposucție, este simplu: nodulii de sub piele și implicit denivelările de orice tip ce apar la suprafața acesteia, sunt vizibil estompați.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--  Red content End -->
+  <div id="green-title">
+    <div class="col-md-6">
+      <img style="margin-top: 30px;" src="../image/cache/catalog/product/remary/professional-thermoactive-anti-cellulite-cream-remary-500-ml-500x500.png" class="center-block image-responsive" width="70%">
+    </div>
+    <div id="back-white" class="col-md-6">
+      <h2 class="card-title3">Cremă termoactivă anti celulitică profesională</h2>
+      <ul class="c">
+        <li>Estompează aspectul celulitei insistente</li>
+        <li>Menține fermitatea pielii</li>
+        <li>Stimulează circulația sangvină</li>
+        <li>Elimină toxinele și depozitele grase</li>
+        <li>Reduce retenția de lichid</li>
+        <li>Menține elasticitatea pielii</li>
+      </ul>
+      <div id="garant-border">
+        <div class="col-md-3">
+          <img src="https://www.sensilab.si/media/wysiwyg/slimcut/chekc_slimjoyicon.png" class="center-block image-responsive">
+        </div>
+        <div class="col-md-9">
+          <h4>100 % Garanția satisfacției!</h4>
+          <p>9 din 10 femei recomandă acest produs!</p>
+        </div>
+      </div>
+      <div class="col-md-12 text-center">
+        <a href="https://www.glemis.ro/index.php?route=quickcheckout/checkout&amp;add_to_cart=5915" id="button-order-now" class="btn btn-cart btn-lg m-bottom-30" rel="nofollow"><i class="fa fa-share"></i> Comandă acum</a>
+      </div>
+    </div>
+    <div id="green-content">
+      <div class="col-md-12">
+        <h2>Ce este celulita?</h2>
+        <p>Celulita este o problemă a pielii ce afectează tot mai multe femei, indiferent de vârstă și greutate. Celulita apare mai ales pe șolduri, fese și membrele inferioare (coapse). Pentru aspectul de "coajă de portocală" atât de inestetic,
+          specialiștii
+          Remary au găsit o rezolvare,dezvoltând o formulă inovatoare, exclusivistă, bazată pe ingrediente naturale, ce reușește să învingă definitiv celulita și să remodeleze pielea în profunzime.</p>
+        <img class="img-responsive center-block visible-xs visible-sm" src="../image/catalog/remary-frontstore/crema-termoactiva-anticelulitica-foarte-puternica-remary.png" alt="crema-anticelulitica-profesionala-remary" title="Crema anticelulitica profesionala remary">
+      </div>
+      <div class="col-md-4">
+        <h4>Elimină toxinele și excesul de grăsime</h4> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      </div>
+      <div class="col-md-4">
+        <h4>Dispare aspectul de „coajă de portocală”</h4>
+      </div>
+      <div class="col-md-4">
+        <h4>Reduce dimensiunile șoldurilor și ale taliei</h4>
+      </div>
+    </div>
+  </div>
+</div>

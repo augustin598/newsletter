@@ -20,15 +20,13 @@
 
     </mj-attributes>
     <mj-style inline="inline">
-      .link-nostyle { color: inherit; text-decoration: none } 
+      
+    .link-nostyle { color: inherit; text-decoration: none } 
       /* === PRODUCT HEADING === */
-      h3{font-family: Ubuntu, Helvetica, Arial, sans-serif; line-height: 1; font-size: 16px; text-align: center; padding: 10px 0px; margin: 0px; color: #000; font-weight:500; height: 40px; overflow: hidden;}
-       /* === PRODUCT HEADING === */ 
+    h3{font-family: Ubuntu, Helvetica, Arial, sans-serif; line-height: 1; font-size: 16px; text-align: center; padding: 10px 0px; margin: 0px; color: #000; font-weight:500; height: 40px; overflow: hidden;}
+      /* === PRODUCT HEADING === */ 
        
-      /* === BACKGROUND BODY START === */ 
-      body{
-       background-image: url("https://images.all-free-download.com/images/graphiclarge/red_yellow_and_blue_small_flowers_vector_background_152120.jpg"); } 
-       /* === BACKGROUND BODY End === */
+  /* === BACKGROUND BODY START === */ body { background-image: url("https://www.glemis.ro/image/catalog/newsletter-2018/newsletter-42/cute_cartoon_decorative_pattern_background_vector_519720.jpg"); } /* === BACKGROUND BODY End === */
     </mj-style>
   </mj-head>
 

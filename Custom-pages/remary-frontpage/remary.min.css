@@ -1,1 +1,346 @@
-#frontend-remary h1,#frontend-remary h2,#frontend-remary h3,#frontend-remary h4,#frontend-remary h5,#frontend-remary h5{color:#7c8188;font-family:Open Sans}#frontend-remary p{color:#7c8188;font-family:Open Sans}#frontend-remary .backgorund-1{background:url("https://www.sensilab.ro/media/wysiwyg/SLOVENIA/slimjoy/slimjoy-bg.jpg") center center;padding:60px 0}#frontend-remary .backgorund-2{background:#64ba49;background:-webkit-linear-gradient(to bottom, #8fce42, #56ab2f);background:linear-gradient(to bottom, #8fce42, #56ab2f);padding:60px 0}#frontend-remary .backgorund-3{background:url("https://www.glemis.ro/image/catalog/remary-frontstore/bj-papper-3.jpg") center center;padding:60px 0}#frontend-remary #row-1 h2{color:#7c8188;font-size:42px;line-height:120%;font-weight:300;text-align:center;text-transform:uppercase;width:80%;margin:0 auto 0.7em}#frontend-remary #row-1 .block-benefit{width:80%;margin:0 auto 0.7em}#frontend-remary #row-1 .block-benefit h4{color:#fff;font-size:35px;line-height:120%;font-weight:700;margin-bottom:0.1em}#frontend-remary #row-1 .block-benefit p{color:#fff;font-size:25px;line-height:120%;font-weight:300;margin-bottom:0.8em}#frontend-remary #row-1 .block-benefit .backgound-3-box{background-color:#64ba49;box-sizing:border-box;padding:35px 15px 25px;text-align:center;margin-bottom:40px}#frontend-remary #row-1 .checklist-box{width:80%;margin:40px auto 2.7em;border:1px solid #ccc}#frontend-remary #row-1 .checklist-box h3{text-align:center;font-size:40px;line-height:120%;font-weight:normal;text-transform:uppercase;margin:0 auto 0.7em}#frontend-remary #row-1 .checklist-box .h-title-bg-1{margin-top:-33px;background-color:#fff;width:55%;border:1px solid #ccc;padding:10px;box-sizing:border-box}#frontend-remary #row-1 .checklist-box .h-title-green{color:#64ba49;font-size:30px}#frontend-remary #row-1 .checklist-box .h-title-grey{color:#7c8188;font-size:20px}#frontend-remary #row-1 .checklist-box .checklist ul{list-style:none;margin:0 auto 40px;padding:0;width:80%}#frontend-remary #row-1 .checklist-box .checklist li{margin:0;padding:6px 0 6px 40px;background:url("https://www.sensilab.ro/media/wysiwyg/SLOVENIA/slimjoy/slimjoy-li.png") center left no-repeat;min-height:21px;font-size:20px;color:#7c8188;line-height:120%}#frontend-remary #row-2 h2{color:#fff;font-size:42px;line-height:120%;font-weight:300;text-align:center;text-transform:uppercase;width:80%;margin:0 auto 0.7em}#frontend-remary #row-2 .subtitul-1{color:#fff;font-size:22px;line-height:120%;font-weight:200;text-align:center;width:80%;margin:0 auto 0.7em}#frontend-remary #row-2 .customer-choice-box{width:80%;margin:40px auto 0.7em;position:relative;display:block;clear:both}#frontend-remary #row-2 .front-end-gallery{width:80%;margin:0 auto 0.7em}#frontend-remary #row-2 .front-end-gallery img{width:100%}#frontend-remary #row-2 .front-end-gallery img:hover{opacity:0.9;filter:alpha(opacity=50)}#frontend-remary #row-2 .front-end-gallery .boottom20{margin-bottom:30px}#frontend-remary #row-2 .paragraph-bg-1{color:#000;text-align:justify;background:#fff;padding:20px;margin-top:30px}#frontend-remary #row-3 h2{color:#64ba49;font-size:42px;line-height:120%;font-weight:300;text-align:center;text-transform:uppercase;width:80%;margin:0 auto 0.7em}#frontend-remary #row-3 .subtitul-2{color:#000;font-size:22px;line-height:120%;font-weight:600;text-align:center;width:80%;margin:-20px auto 0.7em}#frontend-remary #row-3 .subtitul-2:after{content:"";display:block;width:150px;height:1px;margin:0 auto;background-color:rgba(0,0,0,0.85);margin-top:25px}#frontend-remary #row-3 .questions-remary{width:80%;margin:40px auto 0.7em;position:relative;display:block;clear:both}#frontend-remary #row-3 .questions-remary h5{font-weight:400;font-size:19px;text-align:left;margin-bottom:1.5em}#frontend-remary #row-3 .questions-remary .h-title-green-2{color:#64ba49;font-size:30px}#frontend-remary #row-3 .brand-guarantee{width:80%;margin:10px auto 0.7em;position:relative;display:block;clear:both}#frontend-remary #row-3 .brand-guarantee h4{text-align:center}
+@media (min-width: 320px) and (max-width: 576px) {
+  h1,
+  h2,
+  h3 {
+    color: #7c8188;
+    font-family: Open Sans;
+    font-size: 25px !important;
+  }
+  #row-3 .questions-remary h5 {
+    font-weight: 400;
+    font-size: 19px;
+    text-align: center !important;
+    margin-bottom: 1.2em !important;
+    line-height: 1.5em !important;
+  }
+  #row-3 .questions-remary .h-title-green-2 {
+    text-align: center !important;
+  }
+  .backgorund-1,
+  .backgorund-2,
+  .backgorund-3,
+  .backgorund-4,
+  .backgorund-5 {
+    padding: 30px 0 !important;
+  }
+  .backgorund-5 {
+    height: 700px !important;
+  }
+  #row-1 .checklist-box h3 {
+    font-size: 25px !important;
+  }
+  #row-1 .checklist-box .h-title-bg-1 {
+    width: 95% !important;
+  }
+}
+#frontend-remary h1,
+#frontend-remary h2,
+#frontend-remary h3,
+#frontend-remary h4,
+#frontend-remary h5,
+#frontend-remary h5 {
+  color: #7c8188;
+  font-family: Open Sans;
+}
+#frontend-remary p {
+  color: #7c8188;
+  font-family: Open Sans;
+}
+#frontend-remary #slider {
+  width: 100%;
+}
+#frontend-remary #slider .carousel {
+  background: #64ba49;
+  margin-top: 10px;
+}
+#frontend-remary #slider .carousel .item {
+  min-height: 600px;
+}
+#frontend-remary #slider .carousel .item img {
+  margin: 0 auto;
+}
+#frontend-remary #slider .slider-full {
+  margin: 0;
+}
+#frontend-remary .backgorund-1 {
+  background: url("https://www.sensilab.ro/media/wysiwyg/SLOVENIA/slimjoy/slimjoy-bg.jpg")
+    center center;
+  padding: 60px 0;
+}
+#frontend-remary .backgorund-2 {
+  background: #64ba49;
+  background: -webkit-linear-gradient(to bottom, #8fce42, #56ab2f);
+  background: linear-gradient(to bottom, #8fce42, #56ab2f);
+  padding: 60px 0;
+}
+#frontend-remary .backgorund-3 {
+  background: url("https://www.glemis.ro/image/catalog/remary-frontstore/bj-papper-3.jpg")
+    center center;
+  padding: 60px 0;
+}
+#frontend-remary .backgorund-4 {
+  background: #fff;
+  padding: 60px 0;
+}
+#frontend-remary .backgorund-5 {
+  background-image: url("https://www.glemis.ro/image/catalog/remary-frontstore/grass-bg-2.jpg");
+  padding: 60px 0;
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#frontend-remary #row-1 h2 {
+  font-size: 42px;
+  line-height: 120%;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+  width: 80%;
+  margin: 0 auto 0.7em;
+  margin: 25px auto 0.7em !important;
+  color: #7c8188;
+}
+#frontend-remary #row-1 .block-benefit {
+  width: 80%;
+  margin: 0 auto 0.7em;
+}
+#frontend-remary #row-1 .block-benefit h4 {
+  color: #fff;
+  font-size: 35px;
+  line-height: 120%;
+  font-weight: 700;
+  margin-bottom: 0.1em;
+}
+#frontend-remary #row-1 .block-benefit p {
+  color: #fff;
+  font-size: 25px;
+  line-height: 120%;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 0.8em;
+}
+#frontend-remary #row-1 .block-benefit .backgound-3-box {
+  background-color: #64ba49;
+  box-sizing: border-box;
+  padding: 35px 15px 25px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+#frontend-remary #row-1 .checklist-box {
+  width: 80%;
+  margin: 40px auto 2.7em;
+  border: 1px solid #ccc;
+}
+#frontend-remary #row-1 .checklist-box h3 {
+  text-align: center;
+  font-size: 40px;
+  line-height: 120%;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin: 0 auto 0.7em;
+}
+#frontend-remary #row-1 .checklist-box .h-title-bg-1 {
+  margin-top: -33px;
+  background-color: #fff;
+  width: 55%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-sizing: border-box;
+}
+#frontend-remary #row-1 .checklist-box .h-title-green {
+  color: #64ba49;
+  font-size: 30px;
+}
+#frontend-remary #row-1 .checklist-box .h-title-grey {
+  color: #7c8188;
+  font-size: 20px;
+}
+#frontend-remary #row-1 .checklist-box .checklist ul {
+  list-style: none;
+  margin: 0 auto 40px;
+  padding: 0;
+  width: 80%;
+}
+#frontend-remary #row-1 .checklist-box .checklist li {
+  margin: 0;
+  padding: 6px 0 6px 40px;
+  background: url("https://www.sensilab.ro/media/wysiwyg/SLOVENIA/slimjoy/slimjoy-li.png")
+    center left no-repeat;
+  min-height: 21px;
+  font-size: 20px;
+  color: #7c8188;
+  line-height: 120%;
+}
+#frontend-remary #row-2 h2 {
+  font-size: 42px;
+  line-height: 120%;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+  width: 80%;
+  margin: 0 auto 0.7em;
+  color: #fff;
+}
+#frontend-remary #row-2 .subtitul-1 {
+  color: #fff;
+  font-size: 22px;
+  line-height: 120%;
+  font-weight: 200;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto 0.7em;
+}
+#frontend-remary #row-2 .customer-choice-box {
+  width: 80%;
+  margin: 40px auto 0.7em;
+  position: relative;
+  display: block;
+  clear: both;
+}
+#frontend-remary #row-2 .front-end-gallery {
+  width: 80%;
+  margin: 0 auto 0.7em;
+}
+#frontend-remary #row-2 .front-end-gallery img {
+  width: 100%;
+}
+#frontend-remary #row-2 .front-end-gallery .boottom20 {
+  margin-bottom: 30px;
+}
+#frontend-remary #row-2 .paragraph-bg-1 {
+  color: #000;
+  text-align: justify;
+  background: #fff;
+  padding: 20px;
+  margin-top: 30px;
+}
+#frontend-remary #row-3 h2 {
+  font-size: 42px;
+  line-height: 120%;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+  width: 80%;
+  margin: 0 auto 0.7em;
+  color: #64ba49;
+}
+#frontend-remary #row-3 .subtitul-2 {
+  color: #000;
+  font-size: 22px;
+  line-height: 120%;
+  font-weight: 600;
+  text-align: center;
+  width: 80%;
+  margin: -20px auto 0.7em;
+}
+#frontend-remary #row-3 .subtitul-2:after {
+  content: "";
+  display: block;
+  width: 150px;
+  height: 1px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.85);
+  margin-top: 25px;
+}
+#frontend-remary #row-3 .questions-remary {
+  width: 80%;
+  margin: 40px auto 0.7em;
+  position: relative;
+  display: block;
+  clear: both;
+}
+#frontend-remary #row-3 .questions-remary h5 {
+  font-weight: 400;
+  font-size: 19px;
+  text-align: left;
+  margin-bottom: 1.5em;
+}
+#frontend-remary #row-3 .questions-remary .h-title-green-2 {
+  color: #64ba49;
+  font-size: 30px;
+}
+#frontend-remary #row-3 .brand-guarantee {
+  width: 80%;
+  margin: 10px auto 0.7em;
+  position: relative;
+  display: block;
+  clear: both;
+}
+#frontend-remary #row-3 .brand-guarantee h4 {
+  text-align: center;
+}
+#frontend-remary #row-4 h2 {
+  color: #64ba49;
+  font-size: 42px;
+  line-height: 120%;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+  width: 80%;
+  margin: 0 auto 0.7em;
+}
+#frontend-remary #row-4 .subtitul-2 {
+  color: #000;
+  font-size: 22px;
+  line-height: 120%;
+  font-weight: 300;
+  text-align: center;
+  width: 80%;
+  margin: -20px auto 0.7em;
+}
+#frontend-remary #row-4 .subtitul-2:after {
+  content: "";
+  display: block;
+  width: 150px;
+  height: 1px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.85);
+  margin-top: 25px;
+}
+#frontend-remary #row-4 .business-lab {
+  width: 80%;
+  margin: 10px auto 0.7em;
+  position: relative;
+  display: block;
+  clear: both;
+}
+#frontend-remary #row-4 .business-lab img {
+  display: block;
+  margin: 0 auto 15px;
+}
+#frontend-remary #row-4 .business-lab p {
+  line-height: 1.3;
+  text-align: center;
+  font-weight: 300;
+  margin-bottom: 1em;
+}
+#frontend-remary #row-5 h2 {
+  color: #7c8188;
+  font-size: 42px;
+  line-height: 120%;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+  width: 80%;
+  margin: 0 auto 0.7em;
+}
+#frontend-remary #row-5 .subtitul-2 {
+  color: #7c8188;
+  font-size: 22px;
+  line-height: 120%;
+  font-weight: 200;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto 0.7em;
+}
+#frontend-remary #row-5 .subtitul-2:after {
+  content: "";
+  display: block;
+  width: 150px;
+  height: 1px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.85);
+  margin-top: 25px;
+}

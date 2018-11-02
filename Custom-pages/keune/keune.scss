@@ -245,6 +245,16 @@
         width   : 96%;
         height  : 168px;
       }
+
+      h2 {
+        bottom: -100px;
+      }
+    }
+
+    .row-2 {
+      h2 {
+        bottom: -81px;
+      }
     }
   }
   @media only screen and (max-width: 425px) {
