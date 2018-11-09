@@ -156,7 +156,7 @@
   <mj-section mj-class="sec-padd-0">
     <mj-column>
       <mj-text mj-class="title">
-        Descopera cele mai vandute produse cosmetice de pe glemis.ro
+        Escape Set - Calvin Klein - 100 ml + 200 ml Set apa de parfum + lotiune de corp pentru femei
       </mj-text>
       <mj-image mj-class="logo" href="https://www.glemis.ro/" alt="Glemis"></mj-image>
       <mj-text mj-class="web-version">
@@ -171,10 +171,7 @@
    <mj-section mj-class="sec-padd-menu">
      <mj-column>
        <mj-navbar base-url="https://glemis.ro" hamburger="hamburger" ico-color="#ffffff">
-         <mj-navbar-link mj-class="menu_links" href="/">Bruno Vassari</mj-navbar-link>
-         <mj-navbar-link mj-class="menu_links" href="/">Moroccanoil</mj-navbar-link>
-         <mj-navbar-link mj-class="menu_links" href="/">Olaplex</mj-navbar-link>
-         <mj-navbar-link mj-class="menu_links_offer" href="/">-20% Reducere</mj-navbar-link>
+         <mj-navbar-link mj-class="menu_links" href="/set-apa-de-parfum-lotiune-de-corp-pentru-femei-escape-calvin-klein-100-ml-200-ml">Escape Calvin Klein</mj-navbar-link>
        </mj-navbar>
      </mj-column>
    </mj-section>
@@ -183,7 +180,7 @@
    <!-- Slide Start  -->
    <mj-section padding-top="0" padding-bottom="0">
      <mj-column>
-     <mj-image mj-class="slider" href="?utm_content=banner" src="https://dummyimage.com/600x300/baa252/ffffff"></mj-image>
+     <mj-image mj-class="slider" href="https://www.glemis.ro/set-apa-de-parfum-lotiune-de-corp-pentru-femei-escape-calvin-klein-100-ml-200-ml?utm_content=banner" src="https://www.glemis.ro/image/catalog/newsletter-2018/newsletter-21/Calvin-Klein-Escape-Set-Women-Gift-Set-Best-Price-Fragrance-Parfume-FragranceOutlet.com-Main_8001_large.jpg"></mj-image>
      </mj-column>
    </mj-section>
    <!-- Slide End  -->
@@ -191,112 +188,34 @@
    <!-- Header title Product  + logo   -->
    <mj-section mj-class="sec-padd-header-product-title">
    <mj-column mj-class="col-100">
-     <mj-image width="240px" padding="0px" href="https://www.glemis.ro/babor?utm_content=banner" src="https://dummyimage.com/240x100/000/fff">
+     <mj-image width="240px" padding="0px" href="https://www.glemis.ro/set-apa-de-parfum-lotiune-de-corp-pentru-femei-escape-calvin-klein-100-ml-200-ml?utm_content=banner" src="https://www.glemis.ro/image/catalog/newsletter-2018/newsletter-21/calvin-klein.jpg">
      </mj-image>
      <mj-table padding="0px 0px">
        <tr>
        <td style="text-align:center;">
-         <span style="font-size: 1.8em; display: block; padding:5px 10px; color:#000;">Rezultate vizibile cu Babor</span>
-         <span class="subtitle">Dacă apar primele semne ale îmbătrânirii pielii, colecția Doctor Babor Skin conține produse care ajută pielea să se păstreze mult mai tânără, redând astfel încrederea de sine. </span>
+         <span style="font-size: 1.8em; display: block; padding:5px 10px; color:#000;">Escape</span>
+         <span class="subtitle">Parfumul Calvin Klein Escape este un parfum de damă floral-acvatic, perfect pentru utilizare zilnică.</span>
          </td>
        </tr>
      </mj-table>
       <mj-divider mj-class="header-boder-product"></mj-divider>
+      <mj-text align="center">
+          <span style="font-size: 1.8em; display: block; padding:5px 10px; color:#000;">Apa de parfum 100ml + Lotiune de corp 200ml </span>
+          <span style="font-size: 1.8em; display: block; padding:5px 10px; color:red;">Reducere -25%</span>
+      </mj-text>
+      <mj-divider mj-class="header-boder-product"></mj-divider>
    </mj-column>
    </mj-section>
    <!-- Header title Product  + logo   -->
-  
- <!-- Product 4 Start -->
- <mj-section mj-class="sec-padd-product">
-   <mj-group>
-     <mj-column vertical-align="middle">
-     <mj-image css-class="top30" href="?utm_content=product_defined" src="https://dummyimage.com/200x200/000/fff" width="200px" padding="5px"></mj-image>
-       <mj-text align="center" padding="0px 0px">
-          <span class="product_title">Easy and quick</span>
-       </mj-text>
-     <mj-button mj-class="orange-button" href="?utm_content=product_buy">CUMPĂRĂ</mj-button>
-     </mj-column>
-       
-     <mj-column vertical-align="middle">
-     <mj-image css-class="top30" href="?utm_content=product_defined" src="https://dummyimage.com/200x200/000/fff" width="200px" padding="5px"></mj-image>
-       <mj-text align="center" padding="0px 0px">
-        <span class="product_title">Easy and quick</span>
-       </mj-text>
-     <mj-button mj-class="orange-button" href="?utm_content=product_buy">CUMPĂRĂ</mj-button>
-     </mj-column>
-   </mj-group>  
    
-   <mj-group>
-    <mj-column vertical-align="middle">
-    <mj-image css-class="top30" href="?utm_content=product_defined" src="https://dummyimage.com/200x200/000/fff" width="200px" padding="5px"></mj-image>
-      <mj-text align="center" padding="0px 0px">
-        <span class="product_title">Easy and quick</span>
-      </mj-text>
-    <mj-button mj-class="orange-button" href="?utm_content=product_buy">CUMPĂRĂ</mj-button>
-    </mj-column>
-       
-    <mj-column vertical-align="middle">
-    <mj-image css-class="top30" href="?utm_content=product_defined" src="https://dummyimage.com/200x200/000/fff" width="200px" padding="5px"></mj-image>
-      <mj-text align="center" padding="0px 0px">
-         <span class="product_title">Easy and quick</span>
-      </mj-text>
-    <mj-button mj-class="orange-button" href="?utm_content=product_buy">CUMPĂRĂ</mj-button>
-    </mj-column>
-   </mj-group>  
-   </mj-section>
- <!-- Product 4 End --> 
- 
- <!-- 2 Group Image Elements Start -->
- <mj-section mj-class="sec-padd-two-img">
-   <mj-column mj-class="col-100">
-    <mj-table padding="0px">
-     <tr>
-       <td style="text-align:center;">
-           <span class="two_img_header">moroccanoil</span>
-       </td>
-     </tr>
-    </mj-table>
-   <mj-divider mj-class="border-1"></mj-divider>
-   </mj-column>
-   
-   <mj-column mj-class="col-50">
-     <mj-image href="?utm_content=banner" src="https://dummyimage.com/300x300/000/fff" padding="10px"></mj-image>
-   </mj-column>
-   
-   <mj-column mj-class="col-50">
-     <mj-image href="?utm_content=banner" src="https://dummyimage.com/300x300/000/fff" padding="10px"></mj-image>
-   </mj-column>
-   
-  <mj-column mj-class="col-100">
-    <mj-button href="https://www.glemis.ro/alfaparf-milano-semi-di-lino-sublime-all-hair-types?utm_content=call_action" mj-class="call-action-small">
-    Call to action
-    </mj-button>
-  </mj-column>
- </mj-section>
- <!-- 2 Group Image Elements Start -->
- 
- <!-- 2 grup image + Text Start -->
-<mj-section mj-class="sec-padd-two-img-text">
-  <mj-column vertical-align="middle">
-      <mj-image href="https://www.glemis.ro/sampon-cu-bio-sulfura-pentru-par-gras-derma-regulate-shampoo-keune-300-ml" src="https://dummyimage.com/300x300/000/fff" width="300px" padding="0px">
-      </mj-image>
-  </mj-column>
-  <mj-column vertical-align="middle">
-    <mj-spacer height="45px"></mj-spacer>
-    <mj-text>
-      <span style="font-size: 1.6em; display: block; padding:5px 10px; color:#000; text-align:center;">Rezultate vizibile cu Babor</span>
-    </mj-text>
-    <mj-divider mj-class="border-2"></mj-divider>
-    <mj-text>
-      <span class="custom_text_1">
-      Acest șampon curăță în profunzime grație complexului Derma Control și este perfect pentru persoanele cu păr și scalp cu tendință de îngrășare. Mineralele Esentiale, Bio–Sulf și Betaina calmează scalpul,
-      <span>
-    </mj-text>
-    <mj-button mj-class="call-action-round" href=""><i>DESCOPERA</i></mj-button>
-    <mj-spacer height="50px"></mj-spacer>
-  </mj-column>
-</mj-section>
-<!-- 2 grup image + Text Start -->
+   <!-- Slide Start  -->
+       <mj-section background-color="#fff" padding-top="0" padding-bottom="30px">
+         <mj-column>
+           <mj-button background-color="#fa8739" font-size="18px" color="#fff" padding="15px 30px" border-radius="3px" href="https://www.glemis.ro/set-apa-de-parfum-lotiune-de-corp-pentru-femei-escape-calvin-klein-100-ml-200-ml?utm_content=call_action" padding-bottom="10px" padding-top="0"> Comandă acum</mj-button>
+         </mj-column>
+       </mj-section>
+     <!-- Slide End  -->
+     
  
  <!-- footer Start -->
  <mj-section mj-class="sec-padd-footer">

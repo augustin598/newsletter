@@ -1,0 +1,142 @@
+#remary-cream {
+  $main-color  : #64ba49;
+  $second-color: #7c8188;
+  // custom h css 
+  .panel-heading {
+    cursor          : pointer;
+    color           : #333;
+    background-color: #f5f5f5;
+    border-color    : #ddd;
+  }
+  /* CSS Method for adding Font Awesome Chevron Icons */
+  .accordion-toggle:after {
+    /* symbol for "opening" panels */
+    font-family: 'FontAwesome';
+    content    : "\f077";
+    float      : right;
+    color      : inherit;
+  }
+
+  .panel-group .panel {
+    margin-bottom: 15px;
+  }
+
+  .panel-heading.collapsed .accordion-toggle:after {
+    /* symbol for "collapsed" panels */
+    content: "\f078";
+  }
+
+  .fa-plus-circle:before {
+    content     : "\f055";
+    margin-right: 10px;
+    color       : $main-color;
+    font-size   : 16px;
+  }
+
+  .card-title1 {
+    font-size  : 38px !important;
+    font-weight: 400;
+    line-height: 115%;
+    margin     : 0.3em 0;
+    text-align : center;
+    color      : #64ba49;
+  }
+
+  .card-title2 {
+    font-size  : 25px !important;
+    font-weight: 700;
+    line-height: 38px;
+    color      : #3F4C6B;
+  }
+
+  .border-black {
+    font-size  : 16px;
+    line-height: 26px;
+    text-align : justify;
+    font-weight: 300;
+    padding    : 10px;
+    border     : 1px solid #3F4C6B;
+  }
+
+  .border-green {
+    border       : 2px solid #5fa349;
+    padding      : 10px;
+    min-height   : auto;
+    display      : inline-block;
+    width        : 100%;
+    margin-bottom: 10px;
+
+    h4 {
+      color         : #64ba49;
+      font-weight   : 400;
+      text-align    : center;
+      font-size     : 26px !important;
+      text-transform: uppercase;
+    }
+
+    p {
+      font-size  : 16px !important;
+      font-weight: 400;
+      text-align : left;
+      line-height: 20px;
+      text-align : center;
+      color      : #3F4C6B;
+    }
+  }
+  // End
+  .star-benefit {
+    .star-list {
+      padding-left   : 20px;
+      list-style-type: none;
+      font-size      : 16px;
+      font-weight    : 400;
+      line-height    : 30px;
+    }
+
+    & li::before {
+      content        : "\f005";
+      font-family    : FontAwesome;
+      font-style     : normal;
+      font-weight    : normal;
+      text-decoration: inherit;
+      color          : #FF0000;
+      font-size      : 18px;
+      padding-right  : 0.5em;
+      top            : 10px;
+      left           : 0;
+    }
+  }
+
+  .satisfaction {
+    h4 {
+      color         : $main-color;
+      font-weight   : 400;
+      font-size     : 23px !important;
+      text-transform: uppercase;
+      text-align    : center;
+    }
+  }
+
+  .benefit-check {
+    .check {
+      padding-left   : 1px;
+      list-style-type: none;
+      font-size      : 20px;
+      font-weight    : 400;
+      line-height    : 37px;
+
+      & li::before {
+        content        : "\f00c";
+        font-family    : FontAwesome;
+        font-style     : normal;
+        font-weight    : normal;
+        text-decoration: inherit;
+        color          : $main-color;
+        font-size      : 18px;
+        padding-right  : 0.5em;
+        top            : 10px;
+        left           : 0;
+      }
+    }
+  }
+}

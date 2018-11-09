@@ -1,0 +1,114 @@
+#remary-cream .panel-heading {
+  cursor: pointer;
+  color: #333;
+  background-color: #f5f5f5;
+  border-color: #ddd;
+}
+#remary-cream .accordion-toggle:after {
+  font-family: "FontAwesome";
+  content: "\f077";
+  float: right;
+  color: inherit;
+}
+#remary-cream .panel-group .panel {
+  margin-bottom: 15px;
+}
+#remary-cream .panel-heading.collapsed .accordion-toggle:after {
+  content: "\f078";
+}
+#remary-cream .fa-plus-circle:before {
+  content: "\f055";
+  margin-right: 10px;
+  color: #64ba49;
+  font-size: 16px;
+}
+#remary-cream .card-title1 {
+  font-size: 38px !important;
+  font-weight: 400;
+  line-height: 115%;
+  margin: 0.3em 0;
+  text-align: center;
+  color: #64ba49;
+}
+#remary-cream .card-title2 {
+  font-size: 25px !important;
+  font-weight: 700;
+  line-height: 38px;
+  color: #3f4c6b;
+}
+#remary-cream .border-black {
+  font-size: 16px;
+  line-height: 26px;
+  text-align: justify;
+  font-weight: 300;
+  padding: 10px;
+  border: 1px solid #3f4c6b;
+}
+#remary-cream .border-green {
+  border: 2px solid #5fa349;
+  padding: 10px;
+  min-height: auto;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+#remary-cream .border-green h4 {
+  color: #64ba49;
+  font-weight: 400;
+  text-align: center;
+  font-size: 26px !important;
+  text-transform: uppercase;
+}
+#remary-cream .border-green p {
+  font-size: 16px !important;
+  font-weight: 400;
+  text-align: left;
+  line-height: 20px;
+  text-align: center;
+  color: #3f4c6b;
+}
+#remary-cream .star-benefit .star-list {
+  padding-left: 20px;
+  list-style-type: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+}
+#remary-cream .star-benefit li::before {
+  content: "\f005";
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  color: #ff0000;
+  font-size: 18px;
+  padding-right: 0.5em;
+  top: 10px;
+  left: 0;
+}
+#remary-cream .satisfaction h4 {
+  color: #64ba49;
+  font-weight: 400;
+  font-size: 23px !important;
+  text-transform: uppercase;
+  text-align: center;
+}
+#remary-cream .benefit-check .check {
+  padding-left: 1px;
+  list-style-type: none;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 37px;
+}
+#remary-cream .benefit-check .check li::before {
+  content: "\f00c";
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  color: #64ba49;
+  font-size: 18px;
+  padding-right: 0.5em;
+  top: 10px;
+  left: 0;
+}

@@ -29,7 +29,7 @@
     <!-- Image End  -->
     
     <!-- Image Product Start  -->
-    <mj-class name="sec-padd-product" vertical-align="top" padding="10px 0px" background-color="#ffff" />
+    <mj-class name="sec-padd-product" vertical-align="top" padding="10px 0px" background-color="#ffffff" />
     <!-- Image Product End  -->
     
     <!-- Group 2 image  -->

@@ -33,7 +33,7 @@
     <!-- Image Product End  -->
     
     <!-- Group 2 image  -->
-  <mj-class name="sec-padd-two-img" padding="10px 5px" background-color="" />
+  <mj-class name="sec-padd-two-img" padding="10px 5px" background-color="#FF7F50" />
   <mj-class name="sec-padd-two-img-text" padding="10px 5px" background-color="#fff" />
   <mj-class name="sec-padd-header-product-title" padding="10px 5px" background-color="#fff" />
   <!-- Group 2 image  -->
@@ -146,12 +146,13 @@
 
 </mj-style>
 <mj-style inline="inline">
-  body  {   
- background-image: url("https://www.glemis.ro/image/catalog/newsletter-2018/newsletter-21/Floral-Background-Pattern.jpg");
-}
+  body {
+    background: url(https://www.glemis.ro/image/catalog/newsletter/newsletter-42/wood.jpg);
+  }
 </mj-style>
 </mj-head>
 <mj-body>
+  
   <!-- Title & web_version & Logo -->
   <mj-section mj-class="sec-padd-0">
     <mj-column>
@@ -171,10 +172,9 @@
    <mj-section mj-class="sec-padd-menu">
      <mj-column>
        <mj-navbar base-url="https://glemis.ro" hamburger="hamburger" ico-color="#ffffff">
-         <mj-navbar-link mj-class="menu_links" href="/">Bruno Vassari</mj-navbar-link>
-         <mj-navbar-link mj-class="menu_links" href="/">Moroccanoil</mj-navbar-link>
-         <mj-navbar-link mj-class="menu_links" href="/">Olaplex</mj-navbar-link>
-         <mj-navbar-link mj-class="menu_links_offer" href="/">-20% Reducere</mj-navbar-link>
+         <mj-navbar-link mj-class="menu_links" href="/kit-mare-salon-intro-kit-olaplex-70-aplicari?utm_content=menu">Salon Intro Kit </mj-navbar-link>
+         <mj-navbar-link mj-class="menu_links" href="/kit-mic-traveling-stylist-kit-olaplex-15-aplicari?utm_content=menu">Traveling Stylist Kit </mj-navbar-link>
+         <mj-navbar-link mj-class="menu_links" href="/tratament-perfector-hair-perfector-no-3-olaplex-100-ml">Tratament Perfector No.3 </mj-navbar-link>
        </mj-navbar>
      </mj-column>
    </mj-section>
@@ -183,7 +183,7 @@
    <!-- Slide Start  -->
    <mj-section padding-top="0" padding-bottom="0">
      <mj-column>
-     <mj-image mj-class="slider" href="?utm_content=banner" src="https://dummyimage.com/600x300/baa252/ffffff"></mj-image>
+     <mj-image mj-class="slider" href="https://www.glemis.ro/olaplex?utm_content=banner" src="https://www.glemis.ro/image/catalog/newsletter/news-letter-olaplex.jpg"></mj-image>
      </mj-column>
    </mj-section>
    <!-- Slide End  -->
@@ -191,13 +191,13 @@
    <!-- Header title Product  + logo   -->
    <mj-section mj-class="sec-padd-header-product-title">
    <mj-column mj-class="col-100">
-     <mj-image width="240px" padding="0px" href="https://www.glemis.ro/babor?utm_content=banner" src="https://dummyimage.com/240x100/000/fff">
+     <mj-image width="240px" padding="0px" href="https://www.glemis.ro/olaplex?utm_content=banner" src="https://www.glemis.ro/image/cache/catalog/manufacturer/olaplex-240x100.png">
      </mj-image>
      <mj-table padding="0px 0px">
        <tr>
        <td style="text-align:center;">
-         <span style="font-size: 1.8em; display: block; padding:5px 10px; color:#000;">Rezultate vizibile cu Babor</span>
-         <span class="subtitle">Dacă apar primele semne ale îmbătrânirii pielii, colecția Doctor Babor Skin conține produse care ajută pielea să se păstreze mult mai tânără, redând astfel încrederea de sine. </span>
+         <span style="font-size: 1.8em; display: block; padding:5px 10px; color:#000;"> Cum funcționează Olaplex?</span>
+         <span class="subtitle">Acesta se aplică pe păr pentru colorare și simultan își face treaba în ceea ce privește repararea.  Cu alte cuvinte, acționează, îmbunătățește și regenerează permanent structura părului, astfel că în timpul procesului nu poate apărea niciun potențial de degradare. Tratamentul care se face în trei etape poate fi aplicat ca o simplă mască.</span>
          </td>
        </tr>
      </mj-table>
@@ -210,37 +210,37 @@
  <mj-section mj-class="sec-padd-product">
    <mj-group>
      <mj-column vertical-align="middle">
-     <mj-image css-class="top30" href="?utm_content=product_defined" src="https://dummyimage.com/200x200/000/fff" width="200px" padding="5px"></mj-image>
+     <mj-image css-class="top30" href="https://www.glemis.ro/kit-mare-salon-intro-kit-olaplex-70-aplicari?utm_content=product_defined" src="https://www.glemis.ro/image/cache/catalog/product/olaplex/products/salon-intro-kit-olaplex-228x228.jpg" width="200px" padding="5px"></mj-image>
        <mj-text align="center" padding="0px 0px">
-          <span class="product_title">Easy and quick</span>
+          <span class="product_title">Salon Intro Kit Olaplex<br> (70 aplicari)</span>
        </mj-text>
-     <mj-button mj-class="orange-button" href="?utm_content=product_buy">CUMPĂRĂ</mj-button>
+     <mj-button mj-class="orange-button" href="https://www.glemis.ro/kit-mare-salon-intro-kit-olaplex-70-aplicari?utm_content=product_buy">CUMPĂRĂ</mj-button>
      </mj-column>
        
      <mj-column vertical-align="middle">
-     <mj-image css-class="top30" href="?utm_content=product_defined" src="https://dummyimage.com/200x200/000/fff" width="200px" padding="5px"></mj-image>
+     <mj-image css-class="top30" href="https://www.glemis.ro/kit-mic-traveling-stylist-kit-olaplex-15-aplicari?utm_content=product_defined" src="https://www.glemis.ro/image/cache/catalog/product/olaplex/products/traveling-stylist-kit-olaplex-228x228.jpg" width="200px" padding="5px"></mj-image>
        <mj-text align="center" padding="0px 0px">
-        <span class="product_title">Easy and quick</span>
+        <span class="product_title">Traveling Stylist Kit Olaplex<br> (15 aplicari)</span>
        </mj-text>
-     <mj-button mj-class="orange-button" href="?utm_content=product_buy">CUMPĂRĂ</mj-button>
+     <mj-button mj-class="orange-button" href="https://www.glemis.ro/kit-mic-traveling-stylist-kit-olaplex-15-aplicari?utm_content=product_buy">CUMPĂRĂ</mj-button>
      </mj-column>
    </mj-group>  
    
    <mj-group>
     <mj-column vertical-align="middle">
-    <mj-image css-class="top30" href="?utm_content=product_defined" src="https://dummyimage.com/200x200/000/fff" width="200px" padding="5px"></mj-image>
+    <mj-image css-class="top30" href="https://www.glemis.ro/perfector-de-legaturi-bond-perfector-no-2-olaplex-2000-ml?utm_content=product_defined" src="https://www.glemis.ro/image/cache/catalog/product/olaplex/products/bond-perfector-no-2-olaplex-2000-ml-228x228.jpg" width="200px" padding="5px"></mj-image>
       <mj-text align="center" padding="0px 0px">
-        <span class="product_title">Easy and quick</span>
+        <span class="product_title">Bond Perfector No.2 - Olaplex <br> (2000ml)</span>
       </mj-text>
-    <mj-button mj-class="orange-button" href="?utm_content=product_buy">CUMPĂRĂ</mj-button>
+    <mj-button mj-class="orange-button" href="https://www.glemis.ro/perfector-de-legaturi-bond-perfector-no-2-olaplex-2000-ml?utm_content=product_buy">CUMPĂRĂ</mj-button>
     </mj-column>
        
     <mj-column vertical-align="middle">
-    <mj-image css-class="top30" href="?utm_content=product_defined" src="https://dummyimage.com/200x200/000/fff" width="200px" padding="5px"></mj-image>
+    <mj-image css-class="top30" href="https://www.glemis.ro/tratament-perfector-hair-perfector-no-3-olaplex-100-ml?utm_content=product_defined" src="https://www.glemis.ro/image/cache/catalog/product/olaplex/products/hair-perfector-no-3-olaplex-100-ml-228x228.jpg" width="200px" padding="5px"></mj-image>
       <mj-text align="center" padding="0px 0px">
-         <span class="product_title">Easy and quick</span>
+         <span class="product_title">Hair Perfector No.3 Olaplex <br> (100 ml)</span>
       </mj-text>
-    <mj-button mj-class="orange-button" href="?utm_content=product_buy">CUMPĂRĂ</mj-button>
+    <mj-button mj-class="orange-button" href="https://www.glemis.ro/tratament-perfector-hair-perfector-no-3-olaplex-100-ml?utm_content=product_buy">CUMPĂRĂ</mj-button>
     </mj-column>
    </mj-group>  
    </mj-section>
@@ -252,24 +252,37 @@
     <mj-table padding="0px">
      <tr>
        <td style="text-align:center;">
-           <span class="two_img_header">moroccanoil</span>
+           <span class="two_img_header">Vedete care folosesc Olaplex</span>
        </td>
      </tr>
     </mj-table>
    <mj-divider mj-class="border-1"></mj-divider>
    </mj-column>
    
-   <mj-column mj-class="col-50">
-     <mj-image href="?utm_content=banner" src="https://dummyimage.com/300x300/000/fff" padding="10px"></mj-image>
+   <mj-column mj-class="col-33">
+     <mj-image src="https://www.glemis.ro/image/catalog/landing-page/ambasadori/kim.jpg" padding="10px"></mj-image>
+     <mj-text align="center" padding="0px 0px">
+        <span style="color: #fff;">KIM KARDASHIAN</span>
+     </mj-text>
    </mj-column>
    
-   <mj-column mj-class="col-50">
-     <mj-image href="?utm_content=banner" src="https://dummyimage.com/300x300/000/fff" padding="10px"></mj-image>
+   <mj-column mj-class="col-33">
+     <mj-image src="https://www.glemis.ro/image/catalog/landing-page/ambasadori/jlo.jpg" padding="10px"></mj-image>
+     <mj-text align="center" padding="0px 0px">
+        <span style="color: #fff;">JENNIFER LOPEZ</span>
+     </mj-text>
+   </mj-column>
+   
+   <mj-column mj-class="col-33">
+     <mj-image src="https://www.glemis.ro/image/catalog/landing-page/ambasadori/khloe.jpg" padding="10px"></mj-image>
+     <mj-text align="center" padding="0px 0px">
+        <span style="color: #fff;">KHLOE KARDASHIAN</span>
+     </mj-text>
    </mj-column>
    
   <mj-column mj-class="col-100">
-    <mj-button href="https://www.glemis.ro/alfaparf-milano-semi-di-lino-sublime-all-hair-types?utm_content=call_action" mj-class="call-action-small">
-    Call to action
+    <mj-button mj-class="call-action-small" href="https://www.glemis.ro/tratament-perfector-hair-perfector-no-3-olaplex-100-ml?utm_content=call_action">
+  Vezi mai mult
     </mj-button>
   </mj-column>
  </mj-section>
@@ -278,25 +291,67 @@
  <!-- 2 grup image + Text Start -->
 <mj-section mj-class="sec-padd-two-img-text">
   <mj-column vertical-align="middle">
-      <mj-image href="https://www.glemis.ro/sampon-cu-bio-sulfura-pentru-par-gras-derma-regulate-shampoo-keune-300-ml" src="https://dummyimage.com/300x300/000/fff" width="300px" padding="0px">
+      <mj-image href="https://www.glemis.ro/tratament-perfector-hair-perfector-no-3-olaplex-100-ml" src="https://www.glemis.ro/image/cache/catalog/product/olaplex/products/hair-perfector-no-3-olaplex-100-ml-500x500.jpg" width="300px" padding="0px">
       </mj-image>
   </mj-column>
   <mj-column vertical-align="middle">
     <mj-spacer height="45px"></mj-spacer>
     <mj-text>
-      <span style="font-size: 1.6em; display: block; padding:5px 10px; color:#000; text-align:center;">Rezultate vizibile cu Babor</span>
+      <span style="font-size: 1.6em; display: block; padding:5px 10px; color:#000; text-align:center;">Hair Perfector No.3 - Olaplex</span>
     </mj-text>
     <mj-divider mj-class="border-2"></mj-divider>
     <mj-text>
       <span class="custom_text_1">
-      Acest șampon curăță în profunzime grație complexului Derma Control și este perfect pentru persoanele cu păr și scalp cu tendință de îngrășare. Mineralele Esentiale, Bio–Sulf și Betaina calmează scalpul,
+      Sa depasesti barierele blondului clasic fara a pune in pericol integritatea firului de par, nu mai este imposibil!
       <span>
     </mj-text>
-    <mj-button mj-class="call-action-round" href=""><i>DESCOPERA</i></mj-button>
+    <mj-button mj-class="call-action-round" href="https://glemis.ro/tratament-perfector-hair-perfector-no-3-olaplex-100-ml"><i>DESCOPERA</i></mj-button>
     <mj-spacer height="50px"></mj-spacer>
   </mj-column>
 </mj-section>
 <!-- 2 grup image + Text Start -->
+
+<!-- 2 Group Image Elements Start -->
+<mj-section mj-class="sec-padd-two-img">
+  <mj-column mj-class="col-100">
+   <mj-table padding="0px">
+    <tr>
+      <td style="text-align:center;">
+          <span class="two_img_header">Faceți cunoștință cu ambasadorii<br> Olaplex</span>
+      </td>
+    </tr>
+   </mj-table>
+  <mj-divider mj-class="border-1"></mj-divider>
+  </mj-column>
+  
+  <mj-column mj-class="col-33">
+    <mj-image src="https://www.glemis.ro/image/catalog/landing-page/ambasadori/nikki.jpg" padding="10px"></mj-image>
+    <mj-text align="center" padding="0px 0px">
+       <span style="color: #fff;">NIKI LEE</span>
+    </mj-text>
+  </mj-column>
+  
+  <mj-column mj-class="col-33">
+    <mj-image src="https://www.glemis.ro/image/catalog/landing-page/ambasadori/riwanna.jpg" padding="10px"></mj-image>
+    <mj-text align="center" padding="0px 0px">
+       <span style="color: #fff;">JRIAWNA CAPRI</span>
+    </mj-text>
+  </mj-column>
+  
+  <mj-column mj-class="col-33">
+    <mj-image src="https://www.glemis.ro/image/catalog/landing-page/ambasadori/bianca.jpg" padding="10px"></mj-image>
+    <mj-text align="center" padding="0px 0px">
+       <span style="color: #fff;">BIANCA HILIER</span>
+    </mj-text>
+  </mj-column>
+  
+ <mj-column mj-class="col-100">
+   <mj-button mj-class="call-action-small" href="https://www.glemis.ro/tratament-perfector-hair-perfector-no-3-olaplex-100-ml?utm_content=call_action">
+ Vezi mai mult
+   </mj-button>
+ </mj-column>
+</mj-section>
+<!-- 2 Group Image Elements Start -->
  
  <!-- footer Start -->
  <mj-section mj-class="sec-padd-footer">
